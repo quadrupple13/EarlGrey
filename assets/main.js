@@ -76,16 +76,21 @@
     var hero = document.querySelectorAll('.hero-layer');
     var walk = document.querySelectorAll('.walk-layer');
     var stage = document.getElementById('stage');
-    var walkEl = document.getElementById('walk');
     function clamp(v) { return Math.max(0, Math.min(1, v)); }
+    var heroEl = document.querySelector('.hero'), heroStick = document.querySelector('.hero-stick');
+    var slots = document.querySelectorAll('.slot');
     function onScroll() {
-      var vh = window.innerHeight || 800;
-      var p = Math.max(0, Math.min(hero.length - 1, window.scrollY / vh));
+      // Opening: based on the real height of the opening block (works in every browser)
+      var seg = Math.max(1, (heroEl.offsetHeight - heroStick.offsetHeight) / (hero.length - 1));
+      var p = Math.max(0, Math.min(hero.length - 1, window.scrollY / seg));
       for (var i = 1; i < hero.length; i++) hero[i].style.opacity = clamp(p - (i - 1));
       stage.textContent = d.hero_images[Math.min(hero.length - 1, Math.round(p))].stage;
-      var top = walkEl.getBoundingClientRect().top + window.scrollY;
-      var q = (window.scrollY - top) / vh;
-      for (var j = 1; j < walk.length; j++) walk[j].style.opacity = clamp((q - j) * 1.6 + 1);
+      // Walk: each painting follows the real position of its own card
+      for (var j = 1; j < walk.length && j < slots.length; j++) {
+        var r = slots[j].getBoundingClientRect();
+        var prog = 1 - r.top / Math.max(1, r.height);
+        walk[j].style.opacity = clamp(prog * 1.6 - 0.6);
+      }
     }
     window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('resize', onScroll);
