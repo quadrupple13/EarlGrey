@@ -1,0 +1,61 @@
+{
+  "theme": "tattoo",
+  "label": "N.º 08 · Arte",
+  "title": "El arte del… Tatuaje",
+  "subtitle": "Solo bajo petición",
+  "image": "images/tattoo-studio.jpg",
+  "image_alt": "Pintura de un estudio de tatuaje limpio y luminoso con vistas a los olivos",
+  "intro": "Ahora mismo estamos en nuestro aprendizaje de tatuaje. Pero pronto añadiremos esta forma de arte tan bella a nuestra lista, que no deja de crecer.",
+  "more": "",
+  "steps_heading": "Cómo funciona",
+  "steps": [
+    {
+      "title": "Bajo petición",
+      "text": "Nuestro servicio de tatuaje es solo bajo petición. Envíanos un mensaje."
+    },
+    {
+      "title": "Tu diseño",
+      "text": "[To confirm with the client: how a design is made]"
+    },
+    {
+      "title": "Limpio y seguro",
+      "text": "[To confirm with the client: hygiene and certification]"
+    },
+    {
+      "title": "Cuidados posteriores",
+      "text": "[To confirm with the client: appointments and aftercare]"
+    }
+  ],
+  "gallery_heading": "Diseños",
+  "photos": [
+    {
+      "image": "",
+      "caption": "diseño de tatuaje"
+    },
+    {
+      "image": "",
+      "caption": "diseño de tatuaje"
+    },
+    {
+      "image": "",
+      "caption": "tatuaje curado"
+    },
+    {
+      "image": "",
+      "caption": "el estudio"
+    }
+  ],
+  "prices_heading": "Precio",
+  "prices": [
+    {
+      "name": "Tatuaje",
+      "detail": "solo bajo petición",
+      "price": "120 € por hora"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Pregunta por un tatuaje",
+  "cta_text": "Cuéntanos tu idea. Te diremos qué es posible.",
+  "cta_button": "Envía tu solicitud",
+  "email_subject": "Tatuaje"
+}

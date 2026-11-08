@@ -1,0 +1,76 @@
+{
+  "theme": "rustic",
+  "label": "N.º 04 · Artesanía",
+  "title": "El arte del… Trabajo en cuero",
+  "subtitle": "Sombreros vaqueros, a la antigua usanza",
+  "image": "images/leather-workshop.jpg",
+  "image_alt": "Óleo del taller de cuero en el granero de piedra, un joven vaquero dando forma a un sombrero de cuero",
+  "intro": "Cada sombrero empieza con una conversación. Hacemos sombreros vaqueros de fieltro y paja a mano, a medida: no hay dos iguales. Antes de empezar, nos sentamos contigo en una entrevista para encontrar el estilo que de verdad es tuyo.",
+  "more": "Además de sombreros, el taller hace zahones, cinturones, carteras, fundas y otros trabajos de cuero vaquero. Consúltanos las posibilidades.",
+  "steps_heading": "Así se hace tu sombrero",
+  "steps": [
+    {
+      "title": "La entrevista",
+      "text": "Cada pedido empieza bajo petición con una conversación, para definir el estilo de tu sombrero."
+    },
+    {
+      "title": "Fieltro o paja",
+      "text": "Juntos elegimos el material, la forma de la copa, el ala y los acabados."
+    },
+    {
+      "title": "Hecho a mano",
+      "text": "Moldeado y acabado en nuestro taller, a la antigua usanza. La artesanía requiere paciencia."
+    },
+    {
+      "title": "Tu sombrero",
+      "text": "[DELIVERY: how and how long — to confirm with the client]"
+    }
+  ],
+  "gallery_heading": "De nuestro taller",
+  "photos": [
+    {
+      "image": "",
+      "caption": "sombrero de fieltro"
+    },
+    {
+      "image": "",
+      "caption": "sombrero de paja"
+    },
+    {
+      "image": "",
+      "caption": "zahones o cinturón"
+    },
+    {
+      "image": "",
+      "caption": "en el taller"
+    }
+  ],
+  "prices_heading": "Lo que hacemos",
+  "prices": [
+    {
+      "name": "Sombreros vaqueros",
+      "detail": "fieltro o paja, a medida",
+      "price": "350 € – 800 €"
+    },
+    {
+      "name": "Zahones",
+      "detail": "",
+      "price": "bajo petición"
+    },
+    {
+      "name": "Cinturones y carteras",
+      "detail": "",
+      "price": "bajo petición"
+    },
+    {
+      "name": "Fundas y otros trabajos de cuero vaquero",
+      "detail": "",
+      "price": "bajo petición"
+    }
+  ],
+  "note": "Los precios del trabajo en cuero van de 350 € a 800 €, según la pieza. [Client: confirm which price belongs to what.]",
+  "cta_heading": "Hablemos de tu sombrero",
+  "cta_text": "Cuéntanos lo que tienes en mente. Organizamos la entrevista y seguimos desde ahí, paso a paso.",
+  "cta_button": "Reserva tu entrevista",
+  "email_subject": "Entrevista sombrero vaquero"
+}

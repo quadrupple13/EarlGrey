@@ -1,0 +1,71 @@
+{
+  "theme": "rustic",
+  "label": "Nr. 05 · 06 · 07 · Handwerk",
+  "title": "Die Kunst der… Bücher, von Hand",
+  "subtitle": "Zum Aufbewahren, und für Generationen",
+  "image": "images/book-workshop.jpg",
+  "image_alt": "Ölgemälde der Buchbinderwerkstatt mit einer alten Bibel, einem Tagebuch und einem Hochzeitsbuch",
+  "intro": "Alte Bücher, die du gerne bewahren möchtest? Alte Bibeln, Kochbücher, Geschichtsbücher oder einfach alte Bücher, die dir am Herzen liegen – reif für einen neuen Einband? Wir reparieren sie.",
+  "more": "Und für alle, die gerne eines besitzen, fertigen wir Tagebücher und Hochzeitsbücher mit den Elementen der Natur. Nicht einfach ein Buch: ein Ausdruck von Kunst, zum Aufbewahren und für die Ewigkeit.",
+  "steps_heading": "So funktioniert's",
+  "steps": [
+    {
+      "title": "Schick deine Anfrage",
+      "text": "Teile deine Ideen – oder Fotos und ein Video des Buches, das repariert werden muss."
+    },
+    {
+      "title": "Wir schauen es uns an",
+      "text": "Anhand der Fotos oder des Videos entscheiden wir, ob wir dir helfen können."
+    },
+    {
+      "title": "Gib uns etwas Zeit",
+      "text": "Es ist ein Handwerk. Handwerk braucht Geduld."
+    },
+    {
+      "title": "Zurück zu dir",
+      "text": "Dein Buch kommt per Express zurück, mit Sendungsverfolgung."
+    }
+  ],
+  "gallery_heading": "Von der Werkbank",
+  "photos": [
+    {
+      "image": "",
+      "caption": "restaurierte Bibel"
+    },
+    {
+      "image": "",
+      "caption": "Naturtagebuch"
+    },
+    {
+      "image": "",
+      "caption": "Hochzeitsbuch"
+    },
+    {
+      "image": "",
+      "caption": "an der Werkbank"
+    }
+  ],
+  "prices_heading": "Was wir machen",
+  "prices": [
+    {
+      "name": "Buchbinden & Reparatur",
+      "detail": "",
+      "price": "80 € pro Stunde"
+    },
+    {
+      "name": "Handgemachtes Tagebuch",
+      "detail": "mit den Elementen der Natur",
+      "price": "100 € – 300 €"
+    },
+    {
+      "name": "Handgemachtes Hochzeitsbuch",
+      "detail": "mit deinen Fotos",
+      "price": "700 € – 1.300 €"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Teile deine Buchidee",
+  "cta_text": "Gib uns die Chance, etwas zu schaffen, das Generationen überdauert.",
+  "cta_button": "Starte dein Buch",
+  "email_subject": "Bücher von Hand"
+}

@@ -1,0 +1,225 @@
+{
+  "brand": "QUADRUPPLE",
+  "slogan": [
+    {
+      "big": "UNE",
+      "rest": "marque"
+    },
+    {
+      "big": "QUATRE",
+      "rest": "âmes"
+    },
+    {
+      "big": "TREIZE",
+      "rest": "expressions de l'ART"
+    }
+  ],
+  "hero_images": [
+    {
+      "image": "images/hero-1-photo.jpg",
+      "stage": "La vie réelle"
+    },
+    {
+      "image": "images/hero-2-charcoal.jpg",
+      "stage": "Fusain"
+    },
+    {
+      "image": "images/hero-3-watercolor.jpg",
+      "stage": "Aquarelle"
+    },
+    {
+      "image": "images/hero-4-oil.jpg",
+      "stage": "Peinture à l'huile"
+    }
+  ],
+  "song": "images/quadrupple-family-farm.mp3",
+  "song_button": "Écouter notre chanson",
+  "song_button_off": "Couper la musique",
+  "welcome": {
+    "label": "Bienvenue à la Quadrupple Family Farm",
+    "heading": "Quatre âmes qui vivent ensemble en pleine nature",
+    "text": "Entourés d'animaux, de faune sauvage et de montagnes. Pas de richesses, juste l'essentiel. Avec le monde qui nous entoure comme toile, comme inspiration et comme source… d'Art.",
+    "question": "Curieux de savoir ce que nous faisons ?"
+  },
+  "walk": [
+    {
+      "image": "images/leather-workshop.jpg",
+      "label": "N° 04 · Artisanat",
+      "title": "L'art du… travail du cuir",
+      "subtitle": "À l'ancienne",
+      "text": "Chapeaux de cowboy faits main en feutre et en paille, sur mesure après un court entretien pour trouver votre style. Aussi des chaps, ceintures, portefeuilles, holsters et autres travaux en cuir western.",
+      "rows": [],
+      "price": "De 350 € à 800 €",
+      "button": "Demander",
+      "email_subject": "Travail du cuir",
+      "page": "leather",
+      "page_link": "Entrez dans l'atelier de chapeaux",
+      "dark": false
+    },
+    {
+      "image": "images/charcoal-studio.jpg",
+      "label": "N° 03 · Art",
+      "title": "L'art du… dessin au fusain",
+      "subtitle": "À l'ancienne",
+      "text": "Portraits, natures mortes, animaux et montagnes en noir, blanc et gris. Envoyez-nous votre photo et nous créons l'œuvre, au fusain. Format A3 par défaut, A4 et autres formats sur demande. Nous en parlons toujours d'abord par téléphone, WhatsApp ou appel vidéo.",
+      "rows": [],
+      "price": "À partir de 200 € de l'heure",
+      "button": "Demander",
+      "email_subject": "Dessin au fusain",
+      "page": "charcoal",
+      "page_link": "Entrez dans l'atelier",
+      "dark": false
+    },
+    {
+      "image": "images/kitchen.jpg",
+      "label": "N° 02 · Art",
+      "title": "L'art de… la cuisine",
+      "subtitle": "Des recettes issues de 30 ans aux fourneaux",
+      "text": "30 ans de cuisinier et d'entrepreneur : il est temps de partager toutes ces recettes. Indonésienne, néerlandaise, française, belge, italienne et méditerranéenne, surinamienne et thaïlandaise. Toujours avec photos, liste d'ingrédients et préparation. Tutoriel vidéo sur demande.",
+      "rows": [],
+      "price": "De 99 € à 333 €",
+      "button": "Commander",
+      "email_subject": "Recettes",
+      "page": "cooking",
+      "page_link": "Entrez dans la cuisine",
+      "dark": false
+    },
+    {
+      "image": "images/book-workshop.jpg",
+      "label": "N° 05 · 06 · 07 · Artisanat",
+      "title": "L'art des… livres, faits main",
+      "subtitle": "Faits avec les éléments de la nature, pour garder et pour durer",
+      "text": "",
+      "rows": [
+        {
+          "name": "Reliure et restauration",
+          "detail": "vieilles Bibles, livres de recettes, livres d'histoire. Renvoyés en express avec suivi.",
+          "price": "80 € / heure"
+        },
+        {
+          "name": "Journaux faits main",
+          "detail": "sur mesure, un journal à transmettre de génération en génération.",
+          "price": "100 € – 300 €"
+        },
+        {
+          "name": "Livres de mariage faits main",
+          "detail": "partagez vos idées et vos photos.",
+          "price": "700 € – 1 300 €"
+        }
+      ],
+      "price": "",
+      "button": "Demander",
+      "email_subject": "Livres faits main",
+      "page": "books",
+      "page_link": "Entrez dans l'atelier de reliure",
+      "dark": false
+    },
+    {
+      "image": "images/tattoo-studio.jpg",
+      "label": "N° 08 · Art",
+      "title": "L'art du… tatouage",
+      "subtitle": "Uniquement sur demande",
+      "text": "Nous sommes actuellement en apprentissage du tatouage. Bientôt, cette forme d'art magnifique rejoindra notre liste toujours plus longue.",
+      "rows": [],
+      "price": "120 € de l'heure",
+      "button": "Demander",
+      "email_subject": "Tatouage",
+      "page": "tattoo",
+      "page_link": "Entrez dans le studio de tatouage",
+      "dark": false
+    },
+    {
+      "image": "images/office.jpg",
+      "label": "N° 01 · Conseil et accompagnement",
+      "title": "L'art de… rédiger et cocréer des business plans",
+      "subtitle": "Plus de 20 ans d'expérience : création de concepts, gastronomie, agriculture et plus",
+      "text": "Complet : partie générale, marketing, finances, étude de marché, pitch deck et synthèse. Livré sur papier, en PDF et en fichier de travail, avec les droits de propriété. En ligne par téléphone et vidéo. 4 à 12 semaines. Pressé ? Complet en 1 semaine, sur demande : 9 990 €.",
+      "rows": [],
+      "price": "7 790 €",
+      "button": "Demander",
+      "email_subject": "Business plan",
+      "page": "business-plan",
+      "page_link": "Entrez dans le bureau",
+      "dark": false
+    },
+    {
+      "image": "images/meeting.jpg",
+      "label": "N° 10 · 11 · 12 · Conseil et accompagnement",
+      "title": "L'art du… conseil et du coaching de start-up",
+      "subtitle": "Création de concepts et cocréation : toute la famille réfléchit avec vous",
+      "text": "20 ans d'expérience. Nous accompagnons les start-up, soutenons les petits entrepreneurs et élaborons votre business plan et votre pitch deck pour investisseurs, en ligne par téléphone ou vidéo. En moyenne 3 mois (90 – 120 heures), les grands projets 6 mois (160 – 240 heures).",
+      "rows": [
+        {
+          "name": "Classique",
+          "detail": "",
+          "price": "90 € / heure"
+        },
+        {
+          "name": "Partenaire",
+          "detail": "",
+          "price": "60 € / heure + 3 – 10 % de parts"
+        },
+        {
+          "name": "Cofondateur",
+          "detail": "",
+          "price": "Gratuit + 15 – 49 % de parts"
+        }
+      ],
+      "price": "",
+      "button": "Partagez votre idée",
+      "email_subject": "Conseil",
+      "page": "consultancy",
+      "page_link": "Rejoignez-nous à table",
+      "dark": false
+    },
+    {
+      "image": "images/design-studio.jpg",
+      "label": "N° 09 · Marketing et création de concepts",
+      "title": "L'art du… pack marketing d'entreprise",
+      "subtitle": "Le grand jeu : oui, vous recevez tout",
+      "text": "Identité visuelle, création de logo, brochures, flyers, cartes de visite et produits dérivés. Vous le demandez, nous le créons. Un pack très complet : vous serez ravi.",
+      "rows": [],
+      "price": "3 500 €",
+      "button": "Demander",
+      "email_subject": "Pack marketing d'entreprise",
+      "page": "marketing",
+      "page_link": "Entrez dans le studio de design",
+      "dark": false
+    },
+    {
+      "image": "images/secret-pack.jpg",
+      "label": "N° 13 · Notre chiffre porte-bonheur",
+      "title": "L'art de… Quadrupple : notre pack secret",
+      "subtitle": "",
+      "text": "Personne ne le sait encore. Bientôt, restez à l'écoute.",
+      "rows": [],
+      "price": "Prix : … ?! (personne ne le sait)",
+      "button": "",
+      "email_subject": "",
+      "page": "",
+      "page_link": "",
+      "dark": true
+    }
+  ],
+  "quote": {
+    "image": "images/fireplace.jpg",
+    "label": "L'art… ce qu'il signifie pour nous",
+    "text": "Quelque chose que l'on fait avec amour. Venu du cœur, créé de vos mains : l'esprit qui agit à travers vous.",
+    "word": "L'Art."
+  },
+  "contact": {
+    "label": "Marketing et création de concepts",
+    "heading": "Une idée, mais pas encore toute l'image ?",
+    "text": "Ça vous parle ? Une idée en tête que vous n'arrivez pas à mettre sur papier. Où que vous soyez bloqué, lancez-vous. Appelez-nous, écrivez-nous ou envoyez-nous un WhatsApp et partagez vos idées. Nous comblons les vides, simplement en écoutant, et nous vous menons au niveau supérieur. Paso a paso, comme on dit en Espagne.",
+    "email": "quadruppleart@protonmail.com",
+    "whatsapp": "",
+    "crypto": "Payez de façon classique, ou en crypto."
+  },
+  "footer": "Une marque – quatre âmes – treize expressions de l'art",
+  "ui": {
+    "back": "Retour à la ferme",
+    "scroll": "Défiler",
+    "photo": "PHOTO",
+    "lang": "Langue"
+  }
+}

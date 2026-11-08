@@ -1,0 +1,66 @@
+{
+  "theme": "kitchen",
+  "label": "N° 02 · Art",
+  "title": "L'art de… la cuisine",
+  "subtitle": "Trente ans de recettes, désormais partagées",
+  "image": "images/kitchen.jpg",
+  "image_alt": "Peinture à l'huile de la cuisine de la ferme avec des plats du monde entier",
+  "intro": "Trente ans de cuisinier et d'entrepreneur : il est temps de partager toutes ces recettes ! De l'indonésienne à la thaïlandaise, chaque recette est écrite pour être cuisinée à la maison.",
+  "more": "",
+  "steps_heading": "Ce que vous recevez",
+  "steps": [
+    {
+      "title": "Choisissez votre cuisine",
+      "text": "Indonésienne, néerlandaise, française, belge, italienne et méditerranéenne, surinamienne ou thaïlandaise."
+    },
+    {
+      "title": "Toujours avec photos",
+      "text": "Chaque recette est accompagnée de photos du plat."
+    },
+    {
+      "title": "Ingrédients et préparation",
+      "text": "Une liste complète des ingrédients et toute la préparation."
+    },
+    {
+      "title": "Tutoriel vidéo",
+      "text": "Possible, sur demande."
+    }
+  ],
+  "gallery_heading": "De notre cuisine",
+  "photos": [
+    {
+      "image": "",
+      "caption": "table de riz indonésienne"
+    },
+    {
+      "image": "",
+      "caption": "classique français"
+    },
+    {
+      "image": "",
+      "caption": "pasta"
+    },
+    {
+      "image": "",
+      "caption": "curry thaï"
+    }
+  ],
+  "prices_heading": "Recettes et prix",
+  "prices": [
+    {
+      "name": "Recettes",
+      "detail": "avec photos, ingrédients et préparation",
+      "price": "99 € – 333 €"
+    },
+    {
+      "name": "Tutoriel vidéo",
+      "detail": "",
+      "price": "sur demande"
+    }
+  ],
+  "note": "[Client: what do you get for €99 and what for €333?]",
+  "cta_heading": "Envie de plus ?",
+  "cta_text": "Dites-nous quelle cuisine vous aimez, et nous vous aidons à choisir vos recettes.",
+  "cta_button": "Commandez vos recettes",
+  "email_subject": "Recettes"
+}

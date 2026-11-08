@@ -1,0 +1,76 @@
+{
+  "theme": "rustic",
+  "label": "Nr. 04 · Handwerk",
+  "title": "Die Kunst der… Lederarbeit",
+  "subtitle": "Cowboyhüte, auf die altmodische Art",
+  "image": "images/leather-workshop.jpg",
+  "image_alt": "Ölgemälde der Lederwerkstatt in der Steinscheune, ein junger Cowboy formt einen Lederhut",
+  "intro": "Jeder Hut beginnt mit einem Gespräch. Wir fertigen Cowboyhüte aus Filz und Stroh von Hand, maßgefertigt – keiner wie der andere. Bevor wir beginnen, setzen wir uns mit dir zu einem Vorgespräch zusammen, um den Stil zu finden, der wirklich zu dir passt.",
+  "more": "Neben Hüten fertigt die Werkstatt Chaps, Gürtel, Geldbörsen, Holster und andere Cowboy-Lederarbeiten. Frag uns nach den Möglichkeiten.",
+  "steps_heading": "So entsteht dein Hut",
+  "steps": [
+    {
+      "title": "Das Vorgespräch",
+      "text": "Jede Bestellung beginnt auf Anfrage mit einem Gespräch, um den Stil deines Hutes festzulegen."
+    },
+    {
+      "title": "Filz oder Stroh",
+      "text": "Gemeinsam wählen wir das Material, die Form der Krone, die Krempe und die Details."
+    },
+    {
+      "title": "Von Hand gemacht",
+      "text": "In unserer Werkstatt geformt und veredelt, auf die altmodische Art. Handwerk braucht Geduld."
+    },
+    {
+      "title": "Dein Hut",
+      "text": "[DELIVERY: how and how long — to confirm with the client]"
+    }
+  ],
+  "gallery_heading": "Aus unserer Werkstatt",
+  "photos": [
+    {
+      "image": "",
+      "caption": "Filzhut"
+    },
+    {
+      "image": "",
+      "caption": "Strohhut"
+    },
+    {
+      "image": "",
+      "caption": "Chaps oder Gürtel"
+    },
+    {
+      "image": "",
+      "caption": "in der Werkstatt"
+    }
+  ],
+  "prices_heading": "Was wir machen",
+  "prices": [
+    {
+      "name": "Cowboyhüte",
+      "detail": "Filz oder Stroh, maßgefertigt",
+      "price": "350 € – 800 €"
+    },
+    {
+      "name": "Chaps",
+      "detail": "",
+      "price": "auf Anfrage"
+    },
+    {
+      "name": "Gürtel & Geldbörsen",
+      "detail": "",
+      "price": "auf Anfrage"
+    },
+    {
+      "name": "Holster & andere Cowboy-Lederarbeiten",
+      "detail": "",
+      "price": "auf Anfrage"
+    }
+  ],
+  "note": "Die Preise für Lederarbeiten liegen je nach Stück zwischen 350 € und 800 €. [Client: confirm which price belongs to what.]",
+  "cta_heading": "Lass uns über deinen Hut sprechen",
+  "cta_text": "Erzähl uns, was dir vorschwebt. Wir vereinbaren das Vorgespräch und machen von dort aus weiter – paso a paso.",
+  "cta_button": "Vorgespräch buchen",
+  "email_subject": "Vorgespräch Cowboyhut"
+}

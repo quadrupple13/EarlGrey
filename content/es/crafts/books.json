@@ -1,0 +1,71 @@
+{
+  "theme": "rustic",
+  "label": "N.º 05 · 06 · 07 · Artesanía",
+  "title": "El arte de… los libros, hechos a mano",
+  "subtitle": "Para guardar, y para durar generaciones",
+  "image": "images/book-workshop.jpg",
+  "image_alt": "Óleo del taller de encuadernación con una Biblia antigua, un diario y un libro de boda",
+  "intro": "¿Libros antiguos que te encantaría conservar? Biblias antiguas, recetarios, libros de historia o simplemente libros viejos que quieres, ¿necesitan una tapa o una encuadernación nueva? Nosotros los restauramos.",
+  "more": "Y para quienes desean tener uno, creamos diarios y libros de boda con los elementos de la naturaleza. No es solo un libro: es una expresión de arte, para guardar y perdurar.",
+  "steps_heading": "Cómo funciona",
+  "steps": [
+    {
+      "title": "Envía tu solicitud",
+      "text": "Comparte tus ideas, o fotos y un vídeo del libro que necesita reparación."
+    },
+    {
+      "title": "Lo estudiamos",
+      "text": "Con las fotos o el vídeo decidimos si podemos ayudarte."
+    },
+    {
+      "title": "Danos un poco de tiempo",
+      "text": "Es un oficio artesanal. La artesanía requiere paciencia."
+    },
+    {
+      "title": "De vuelta a ti",
+      "text": "Tu libro vuelve por envío urgente, con seguimiento."
+    }
+  ],
+  "gallery_heading": "Desde el banco de trabajo",
+  "photos": [
+    {
+      "image": "",
+      "caption": "Biblia restaurada"
+    },
+    {
+      "image": "",
+      "caption": "diario de naturaleza"
+    },
+    {
+      "image": "",
+      "caption": "libro de boda"
+    },
+    {
+      "image": "",
+      "caption": "en el banco de trabajo"
+    }
+  ],
+  "prices_heading": "Lo que hacemos",
+  "prices": [
+    {
+      "name": "Encuadernación y restauración",
+      "detail": "",
+      "price": "80 € por hora"
+    },
+    {
+      "name": "Diario artesanal",
+      "detail": "con los elementos de la naturaleza",
+      "price": "100 € – 300 €"
+    },
+    {
+      "name": "Libro de boda artesanal",
+      "detail": "con tus fotos",
+      "price": "700 € – 1.300 €"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Comparte tu idea de libro",
+  "cta_text": "Danos la oportunidad de crear algo que dure generaciones.",
+  "cta_button": "Empieza tu libro",
+  "email_subject": "Libros hechos a mano"
+}

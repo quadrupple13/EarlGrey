@@ -1,0 +1,61 @@
+{
+  "theme": "studio",
+  "label": "Nr. 09 · Marketing & Konzeptentwicklung",
+  "title": "Die Kunst des… kompletten Marketingpakets",
+  "subtitle": "Das volle Programm – ja, du bekommst alles",
+  "image": "images/design-studio.jpg",
+  "image_alt": "Gemälde eines kreativen Designstudios mit Logos, Broschüren und bedruckten T-Shirts",
+  "intro": "Ein großes Paket für dein Unternehmen, von deinem ersten Logo bis zum Merchandise in deinem Laden. Du wirst begeistert sein.",
+  "more": "",
+  "steps_heading": "Was im Paket steckt",
+  "steps": [
+    {
+      "title": "Corporate Identity",
+      "text": "Das Erscheinungsbild deines Unternehmens."
+    },
+    {
+      "title": "Logoentwicklung",
+      "text": "Ein Logo, das wirklich deins ist."
+    },
+    {
+      "title": "Druck",
+      "text": "Broschüren, Flyer, Visitenkarten – alles, was du brauchst."
+    },
+    {
+      "title": "Merchandise",
+      "text": "Du nennst es, wir machen es."
+    }
+  ],
+  "gallery_heading": "Aus dem Studio",
+  "photos": [
+    {
+      "image": "",
+      "caption": "Logo"
+    },
+    {
+      "image": "",
+      "caption": "Visitenkarten"
+    },
+    {
+      "image": "",
+      "caption": "Broschüre"
+    },
+    {
+      "image": "",
+      "caption": "Merchandise"
+    }
+  ],
+  "prices_heading": "Preis",
+  "prices": [
+    {
+      "name": "Marketingpaket",
+      "detail": "das volle Programm",
+      "price": "3.500 €"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Lass es uns umsetzen",
+  "cta_text": "Erzähl uns von deinem Unternehmen, und wir legen los.",
+  "cta_button": "Paket anfragen",
+  "email_subject": "Marketingpaket"
+}

@@ -1,0 +1,61 @@
+{
+  "theme": "studio",
+  "label": "N.º 09 · Marketing y creación de conceptos",
+  "title": "El arte del… paquete de marketing corporativo",
+  "subtitle": "Todo completo: sí, te damos de todo",
+  "image": "images/design-studio.jpg",
+  "image_alt": "Pintura de un estudio de diseño creativo con logotipos, folletos y camisetas estampadas",
+  "intro": "Un paquete muy completo para tu empresa, desde tu primer logotipo hasta el merchandising de tu tienda. Quedarás encantado.",
+  "more": "",
+  "steps_heading": "Qué incluye el paquete",
+  "steps": [
+    {
+      "title": "Identidad corporativa",
+      "text": "La imagen de tu empresa."
+    },
+    {
+      "title": "Desarrollo de logotipo",
+      "text": "Un logotipo que es realmente tuyo."
+    },
+    {
+      "title": "Impresión",
+      "text": "Folletos, flyers, tarjetas de visita: todo lo que necesitas."
+    },
+    {
+      "title": "Merchandising",
+      "text": "Tú lo pides, nosotros lo creamos."
+    }
+  ],
+  "gallery_heading": "Desde el estudio",
+  "photos": [
+    {
+      "image": "",
+      "caption": "logotipo"
+    },
+    {
+      "image": "",
+      "caption": "tarjetas de visita"
+    },
+    {
+      "image": "",
+      "caption": "folleto"
+    },
+    {
+      "image": "",
+      "caption": "merchandising"
+    }
+  ],
+  "prices_heading": "Precio",
+  "prices": [
+    {
+      "name": "Paquete de marketing corporativo",
+      "detail": "todo completo",
+      "price": "3.500 €"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Hagámoslo realidad",
+  "cta_text": "Háblanos de tu empresa y empezamos a crear.",
+  "cta_button": "Solicita el paquete",
+  "email_subject": "Paquete de marketing corporativo"
+}

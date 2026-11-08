@@ -1,0 +1,66 @@
+{
+  "theme": "kitchen",
+  "label": "N.º 02 · Arte",
+  "title": "El arte de… Cocinar",
+  "subtitle": "Treinta años de recetas, ahora compartidas",
+  "image": "images/kitchen.jpg",
+  "image_alt": "Óleo de la cocina de la casa de campo con platos de todo el mundo",
+  "intro": "Treinta años como cocinero y empresario: ¡es hora de compartir todas esas recetas! De la indonesia a la tailandesa, cada receta está escrita para cocinarla en casa.",
+  "more": "",
+  "steps_heading": "Lo que recibes",
+  "steps": [
+    {
+      "title": "Elige tu cocina",
+      "text": "Indonesia, holandesa, francesa, belga, italiana y mediterránea, surinamesa o tailandesa."
+    },
+    {
+      "title": "Siempre con fotos",
+      "text": "Cada receta incluye fotos del plato."
+    },
+    {
+      "title": "Ingredientes y elaboración",
+      "text": "Una lista completa de ingredientes y la elaboración paso a paso."
+    },
+    {
+      "title": "Videotutorial",
+      "text": "Posible, bajo petición."
+    }
+  ],
+  "gallery_heading": "De nuestra cocina",
+  "photos": [
+    {
+      "image": "",
+      "caption": "rijsttafel indonesia"
+    },
+    {
+      "image": "",
+      "caption": "clásico francés"
+    },
+    {
+      "image": "",
+      "caption": "pasta"
+    },
+    {
+      "image": "",
+      "caption": "curry tailandés"
+    }
+  ],
+  "prices_heading": "Recetas y precios",
+  "prices": [
+    {
+      "name": "Recetas",
+      "detail": "con fotos, ingredientes y elaboración",
+      "price": "99 € – 333 €"
+    },
+    {
+      "name": "Videotutorial",
+      "detail": "",
+      "price": "bajo petición"
+    }
+  ],
+  "note": "[Client: what do you get for €99 and what for €333?]",
+  "cta_heading": "¿Con ganas de más?",
+  "cta_text": "Cuéntanos qué cocina te gusta y te ayudamos a elegir tus recetas.",
+  "cta_button": "Pide tus recetas",
+  "email_subject": "Recetas"
+}

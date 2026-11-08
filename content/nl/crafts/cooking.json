@@ -1,0 +1,66 @@
+{
+  "theme": "kitchen",
+  "label": "Nr. 02 · Kunst",
+  "title": "De kunst van… Koken",
+  "subtitle": "Dertig jaar recepten, nu gedeeld",
+  "image": "images/kitchen.jpg",
+  "image_alt": "Olieverfschilderij van de boerderijkeuken met gerechten uit de hele wereld",
+  "intro": "Dertig jaar kok en ondernemer — tijd om al die recepten te delen! Van Indonesisch tot Thais, elk recept is geschreven om thuis te koken.",
+  "more": "",
+  "steps_heading": "Wat je krijgt",
+  "steps": [
+    {
+      "title": "Kies je keuken",
+      "text": "Indonesisch, Nederlands, Frans, Belgisch, Italiaans & Mediterraan, Surinaams of Thais."
+    },
+    {
+      "title": "Altijd met foto's",
+      "text": "Bij elk recept horen foto's van het gerecht."
+    },
+    {
+      "title": "Ingrediënten & bereiding",
+      "text": "Een complete ingrediëntenlijst en de volledige bereiding."
+    },
+    {
+      "title": "Videoles",
+      "text": "Mogelijk, op aanvraag."
+    }
+  ],
+  "gallery_heading": "Uit onze keuken",
+  "photos": [
+    {
+      "image": "",
+      "caption": "rijsttafel"
+    },
+    {
+      "image": "",
+      "caption": "Franse klassieker"
+    },
+    {
+      "image": "",
+      "caption": "pasta"
+    },
+    {
+      "image": "",
+      "caption": "Thaise curry"
+    }
+  ],
+  "prices_heading": "Recepten & prijzen",
+  "prices": [
+    {
+      "name": "Recepten",
+      "detail": "met foto's, ingrediënten en bereiding",
+      "price": "€99 – €333"
+    },
+    {
+      "name": "Videoles",
+      "detail": "",
+      "price": "op aanvraag"
+    }
+  ],
+  "note": "[Client: what do you get for €99 and what for €333?]",
+  "cta_heading": "Trek in meer?",
+  "cta_text": "Vertel ons welke keuken je lekker vindt, dan helpen we je je recepten te kiezen.",
+  "cta_button": "Bestel je recepten",
+  "email_subject": "Recepten"
+}

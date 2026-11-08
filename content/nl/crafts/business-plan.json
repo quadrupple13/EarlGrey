@@ -1,0 +1,66 @@
+{
+  "theme": "office",
+  "label": "Nr. 01 · Advies & begeleiding",
+  "title": "De kunst van… Businessplannen schrijven & samen creëren",
+  "subtitle": "Meer dan 20 jaar ervaring",
+  "image": "images/office.jpg",
+  "image_alt": "Schilderij van een sfeervol kantoor in de boerderij met een businessplan en pitch deck op het bureau",
+  "intro": "Onze specialiteit is conceptontwikkeling, gastronomie, landbouw en meer. Wij schrijven je complete businessplan — en het is van jou: je krijgt de eigendomsrechten.",
+  "more": "",
+  "steps_heading": "Wat je krijgt",
+  "steps": [
+    {
+      "title": "Overleg",
+      "text": "Online, via telefoon en videobellen."
+    },
+    {
+      "title": "Het complete plan",
+      "text": "Algemeen deel, marketing, financiën, marktonderzoek, pitch deck en samenvatting."
+    },
+    {
+      "title": "Geleverd",
+      "text": "Op papier, als pdf en als werkbestand — inclusief eigendomsrechten."
+    },
+    {
+      "title": "Doorlooptijd",
+      "text": "4 tot 12 weken. Haast? Een compleet plan in 1 week, op aanvraag."
+    }
+  ],
+  "gallery_heading": "Voorbeelden",
+  "photos": [
+    {
+      "image": "",
+      "caption": "voorkant businessplan"
+    },
+    {
+      "image": "",
+      "caption": "pitch deck"
+    },
+    {
+      "image": "",
+      "caption": "financieel overzicht"
+    },
+    {
+      "image": "",
+      "caption": "samenvatting"
+    }
+  ],
+  "prices_heading": "Investering",
+  "prices": [
+    {
+      "name": "Businessplan",
+      "detail": "compleet",
+      "price": "€7.790"
+    },
+    {
+      "name": "Spoed",
+      "detail": "compleet in 1 week, op aanvraag",
+      "price": "€9.990"
+    }
+  ],
+  "note": "Spoedaanvragen worden aangenomen op basis van 1 op 25.",
+  "cta_heading": "Vraag je businessplan aan",
+  "cta_text": "Vertel ons over je plannen. Dan plannen we een eerste gesprek.",
+  "cta_button": "Vraag een eerste gesprek aan",
+  "email_subject": "Businessplan"
+}

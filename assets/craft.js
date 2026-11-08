@@ -9,17 +9,18 @@
   if (!name) { location.href = 'index.html'; return; }
 
   Promise.all([
-    fetch('content/crafts/' + name + '.json', { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw 0; return r.json(); }),
-    fetch('content/site.json', { cache: 'no-cache' }).then(function (r) { return r.json(); })
+    fetch(QLANG.base + 'crafts/' + name + '.json', { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw 0; return r.json(); }),
+    fetch(QLANG.base + 'site.json', { cache: 'no-cache' }).then(function (r) { return r.json(); })
   ]).then(function (res) { render(res[0], res[1]); }).catch(function () { location.href = 'index.html'; });
 
   function render(c, site) {
-    document.title = 'Quadrupple – ' + c.title.replace('The Art of… ', '');
+    document.title = 'Quadrupple – ' + c.title.replace(/^[^…]*…\s*/, '');
     var root = document.getElementById('page');
     root.className = 'cp t-' + (c.theme || 'rustic');
     var email = site.contact.email;
     var o = '';
-    o += '<nav><a href="index.html">' + BACK + 'Back to the farm</a><span class="f-brand">' + h(site.brand) + '</span></nav>';
+    var ui = site.ui || {};
+    o += '<nav><a href="' + QLANG.link('index.html') + '">' + BACK + h(ui.back || 'Back to the farm') + '</a>' + QLANG.switcher(ui.lang) + '<span class="f-brand">' + h(site.brand) + '</span></nav>';
     o += '<header><img src="' + h(c.image) + '" alt="' + h(c.image_alt) + '"><div class="shade"></div><div class="t"><p class="f-label" style="margin:0">' + h(c.label) + '</p><h1 class="f-head">' + h(c.title) + '</h1>' + (c.subtitle ? '<p class="f-hand s">' + h(c.subtitle) + '</p>' : '') + '</div></header>';
     o += '<section class="intro"><p>' + br(c.intro) + '</p>' + (c.more ? '<p>' + br(c.more) + '</p>' : '') + '</section>';
     if (c.steps && c.steps.length) {
@@ -31,7 +32,7 @@
       o += '<section><h2 class="f-head">' + h(c.gallery_heading) + '</h2><div class="grid" style="gap:16px">';
       c.photos.forEach(function (p) {
         o += p.image ? '<figure style="margin:0"><img class="photo" src="' + h(p.image) + '" alt="' + h(p.caption) + '" loading="lazy"><figcaption class="f-hand" style="font-size:22px;margin-top:6px">' + h(p.caption) + '</figcaption></figure>'
-                     : '<div class="ph">[PHOTO: ' + h(p.caption) + ']</div>';
+                     : '<div class="ph">[' + h(ui.photo || 'PHOTO') + ': ' + h(p.caption) + ']</div>';
       });
       o += '</div></section>';
     }

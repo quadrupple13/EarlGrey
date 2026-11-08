@@ -1,0 +1,225 @@
+{
+  "brand": "QUADRUPPLE",
+  "slogan": [
+    {
+      "big": "ÉÉN",
+      "rest": "merk"
+    },
+    {
+      "big": "VIER",
+      "rest": "zielen"
+    },
+    {
+      "big": "DERTIEN",
+      "rest": "uitingen van KUNST"
+    }
+  ],
+  "hero_images": [
+    {
+      "image": "images/hero-1-photo.jpg",
+      "stage": "Het echte leven"
+    },
+    {
+      "image": "images/hero-2-charcoal.jpg",
+      "stage": "Houtskool"
+    },
+    {
+      "image": "images/hero-3-watercolor.jpg",
+      "stage": "Aquarel"
+    },
+    {
+      "image": "images/hero-4-oil.jpg",
+      "stage": "Olieverf"
+    }
+  ],
+  "song": "images/quadrupple-family-farm.mp3",
+  "song_button": "Speel ons lied",
+  "song_button_off": "Muziek uit",
+  "welcome": {
+    "label": "Welkom op de Quadrupple Family Farm",
+    "heading": "Vier zielen, samen midden in de natuur",
+    "text": "Omringd door dieren, wild en bergen. Geen rijkdom, alleen het hoognodige. Met de wereld om ons heen als doek, als inspiratie en als bron van… Kunst.",
+    "question": "Benieuwd wat we doen?"
+  },
+  "walk": [
+    {
+      "image": "images/leather-workshop.jpg",
+      "label": "Nr. 04 · Ambacht",
+      "title": "De kunst van… Leerwerk",
+      "subtitle": "Op de ouderwetse manier",
+      "text": "Handgemaakte cowboyhoeden van vilt en stro, op maat gemaakt na een kort intakegesprek om jouw stijl te vinden. Ook chaps, riemen, portemonnees, holsters en ander cowboyleerwerk.",
+      "rows": [],
+      "price": "Vanaf €350 – €800",
+      "button": "Aanvragen",
+      "email_subject": "Leerwerk",
+      "page": "leather",
+      "page_link": "Stap binnen in de hoedenwerkplaats",
+      "dark": false
+    },
+    {
+      "image": "images/charcoal-studio.jpg",
+      "label": "Nr. 03 · Kunst",
+      "title": "De kunst van… Houtskooltekeningen",
+      "subtitle": "Op de ouderwetse manier",
+      "text": "Portretten, stillevens, dieren en bergen in zwart, wit en grijs. Stuur ons je foto en wij maken de kunst, in houtskool. Standaard A3, A4 en andere formaten op aanvraag. We bespreken het altijd eerst via telefoon, WhatsApp of videobellen.",
+      "rows": [],
+      "price": "Vanaf €200 per uur",
+      "button": "Aanvragen",
+      "email_subject": "Houtskooltekening",
+      "page": "charcoal",
+      "page_link": "Stap binnen in het atelier",
+      "dark": false
+    },
+    {
+      "image": "images/kitchen.jpg",
+      "label": "Nr. 02 · Kunst",
+      "title": "De kunst van… Koken",
+      "subtitle": "Recepten uit 30 jaar achter het fornuis",
+      "text": "30 jaar kok en ondernemer — tijd om al die recepten te delen. Indonesisch, Nederlands, Frans, Belgisch, Italiaans & Mediterraan, Surinaams en Thais. Altijd met foto's, ingrediëntenlijst en bereiding. Videoles op aanvraag.",
+      "rows": [],
+      "price": "Vanaf €99 – €333",
+      "button": "Bestellen",
+      "email_subject": "Recepten",
+      "page": "cooking",
+      "page_link": "Stap binnen in de keuken",
+      "dark": false
+    },
+    {
+      "image": "images/book-workshop.jpg",
+      "label": "Nr. 05 · 06 · 07 · Ambacht",
+      "title": "De kunst van… Boeken, met de hand",
+      "subtitle": "Gemaakt met de elementen van de natuur — om te bewaren en te blijven",
+      "text": "",
+      "rows": [
+        {
+          "name": "Boekbinden & reparatie",
+          "detail": "oude Bijbels, receptenboeken, geschiedenisboeken. Per express teruggestuurd met track & trace.",
+          "price": "€80 / uur"
+        },
+        {
+          "name": "Handgemaakte dagboeken",
+          "detail": "op maat, een dagboek om door te geven aan volgende generaties.",
+          "price": "€100 – €300"
+        },
+        {
+          "name": "Handgemaakte trouwboeken",
+          "detail": "deel je ideeën en foto's.",
+          "price": "€700 – €1.300"
+        }
+      ],
+      "price": "",
+      "button": "Aanvragen",
+      "email_subject": "Boeken met de hand",
+      "page": "books",
+      "page_link": "Stap binnen in de boekenwerkplaats",
+      "dark": false
+    },
+    {
+      "image": "images/tattoo-studio.jpg",
+      "label": "Nr. 08 · Kunst",
+      "title": "De kunst van… Tatoeëren",
+      "subtitle": "Alleen op aanvraag",
+      "text": "We zitten nu in onze tattoo-opleiding. Binnenkort komt deze prachtige kunstvorm bij onze steeds groeiende lijst.",
+      "rows": [],
+      "price": "€120 per uur",
+      "button": "Aanvragen",
+      "email_subject": "Tattoo",
+      "page": "tattoo",
+      "page_link": "Stap binnen in de tattoostudio",
+      "dark": false
+    },
+    {
+      "image": "images/office.jpg",
+      "label": "Nr. 01 · Advies & begeleiding",
+      "title": "De kunst van… Businessplannen schrijven & samen creëren",
+      "subtitle": "Meer dan 20 jaar ervaring — conceptontwikkeling, gastronomie, landbouw en meer",
+      "text": "Compleet: algemeen deel, marketing, financiën, marktonderzoek, pitch deck en samenvatting. Geleverd op papier, als pdf en als werkbestand, inclusief eigendomsrechten. Online via telefoon en video. 4 – 12 weken. Haast? Compleet in 1 week, op aanvraag: €9.990.",
+      "rows": [],
+      "price": "€7.790",
+      "button": "Aanvragen",
+      "email_subject": "Businessplan",
+      "page": "business-plan",
+      "page_link": "Stap binnen in het kantoor",
+      "dark": false
+    },
+    {
+      "image": "images/meeting.jpg",
+      "label": "Nr. 10 · 11 · 12 · Advies & begeleiding",
+      "title": "De kunst van… Advies & startup-coaching",
+      "subtitle": "Conceptontwikkeling en samen creëren — het hele gezin denkt mee",
+      "text": "20 jaar ervaring. We coachen startups, ondersteunen kleine ondernemers en ontwikkelen je businessplan en pitch deck voor investeerders, online via telefoon of video. Gemiddeld 3 maanden (90 – 120 uur), grote projecten 6 maanden (160 – 240 uur).",
+      "rows": [
+        {
+          "name": "Klassiek",
+          "detail": "",
+          "price": "€90 / uur"
+        },
+        {
+          "name": "Partner",
+          "detail": "",
+          "price": "€60 / uur + 3 – 10% aandeel"
+        },
+        {
+          "name": "Medeoprichter",
+          "detail": "",
+          "price": "Gratis + 15 – 49% aandeel"
+        }
+      ],
+      "price": "",
+      "button": "Deel je idee",
+      "email_subject": "Advies",
+      "page": "consultancy",
+      "page_link": "Schuif aan bij de tafel",
+      "dark": false
+    },
+    {
+      "image": "images/design-studio.jpg",
+      "label": "Nr. 09 · Marketing & conceptontwikkeling",
+      "title": "De kunst van… het complete marketingpakket",
+      "subtitle": "Van A tot Z — ja, je krijgt het allemaal",
+      "text": "Huisstijl, logo-ontwikkeling, brochures, flyers, visitekaartjes en merchandise. Noem het maar, wij maken het. Een groot pakket — je zult blij zijn.",
+      "rows": [],
+      "price": "€3.500",
+      "button": "Aanvragen",
+      "email_subject": "Marketingpakket",
+      "page": "marketing",
+      "page_link": "Stap binnen in de ontwerpstudio",
+      "dark": false
+    },
+    {
+      "image": "images/secret-pack.jpg",
+      "label": "Nr. 13 · Ons geluksgetal",
+      "title": "De kunst van… Quadrupple: ons geheime pakket",
+      "subtitle": "",
+      "text": "Niemand weet het nog. Binnenkort — blijf kijken.",
+      "rows": [],
+      "price": "Prijs: … ?! (niemand weet het)",
+      "button": "",
+      "email_subject": "",
+      "page": "",
+      "page_link": "",
+      "dark": true
+    }
+  ],
+  "quote": {
+    "image": "images/fireplace.jpg",
+    "label": "Kunst… wat het voor ons betekent",
+    "text": "Iets wat je met liefde doet. Recht uit het hart, gemaakt met je handen — de geest die door je heen werkt.",
+    "word": "Kunst."
+  },
+  "contact": {
+    "label": "Marketing & conceptontwikkeling",
+    "heading": "Een idee, maar nog niet het hele plaatje?",
+    "text": "Herken je dit? Een idee in je hoofd dat je maar niet op papier krijgt. Waar je ook vastloopt, probeer het gewoon. Bel, mail of app ons en deel je ideeën. Wij vullen de gaten in — door gewoon te luisteren — en brengen je naar het volgende niveau. Paso a paso, zoals ze in Spanje zeggen.",
+    "email": "quadruppleart@protonmail.com",
+    "whatsapp": "",
+    "crypto": "Betaal op de klassieke manier — of met crypto."
+  },
+  "footer": "Eén merk – vier zielen – dertien uitingen van kunst",
+  "ui": {
+    "back": "Terug naar de boerderij",
+    "scroll": "Scroll",
+    "photo": "FOTO",
+    "lang": "Taal"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "theme": "tattoo",
+  "label": "Nr. 08 · Kunst",
+  "title": "Die Kunst des… Tätowierens",
+  "subtitle": "Nur auf Anfrage",
+  "image": "images/tattoo-studio.jpg",
+  "image_alt": "Gemälde eines sauberen, hellen Tattoostudios mit Blick auf die Olivenbäume",
+  "intro": "Gerade sind wir in unserer Tattoo-Ausbildung. Aber bald nehmen wir diese wunderschöne Kunstform in unsere ständig wachsende Liste auf.",
+  "more": "",
+  "steps_heading": "So funktioniert's",
+  "steps": [
+    {
+      "title": "Auf Anfrage",
+      "text": "Unser Tattoo-Service ist nur auf Anfrage. Schick uns eine Nachricht."
+    },
+    {
+      "title": "Dein Design",
+      "text": "[To confirm with the client: how a design is made]"
+    },
+    {
+      "title": "Sauber & sicher",
+      "text": "[To confirm with the client: hygiene and certification]"
+    },
+    {
+      "title": "Nachsorge",
+      "text": "[To confirm with the client: appointments and aftercare]"
+    }
+  ],
+  "gallery_heading": "Designs",
+  "photos": [
+    {
+      "image": "",
+      "caption": "Tattoo-Design"
+    },
+    {
+      "image": "",
+      "caption": "Tattoo-Design"
+    },
+    {
+      "image": "",
+      "caption": "verheiltes Tattoo"
+    },
+    {
+      "image": "",
+      "caption": "das Studio"
+    }
+  ],
+  "prices_heading": "Preis",
+  "prices": [
+    {
+      "name": "Tattoo",
+      "detail": "nur auf Anfrage",
+      "price": "120 € pro Stunde"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Frag nach einem Tattoo",
+  "cta_text": "Erzähl uns deine Idee. Wir sagen dir, was möglich ist.",
+  "cta_button": "Schick deine Anfrage",
+  "email_subject": "Tattoo"
+}

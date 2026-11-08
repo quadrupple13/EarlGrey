@@ -1,0 +1,225 @@
+{
+  "brand": "QUADRUPPLE",
+  "slogan": [
+    {
+      "big": "UNA",
+      "rest": "marca"
+    },
+    {
+      "big": "CUATRO",
+      "rest": "almas"
+    },
+    {
+      "big": "TRECE",
+      "rest": "expresiones de ARTE"
+    }
+  ],
+  "hero_images": [
+    {
+      "image": "images/hero-1-photo.jpg",
+      "stage": "La vida real"
+    },
+    {
+      "image": "images/hero-2-charcoal.jpg",
+      "stage": "Carboncillo"
+    },
+    {
+      "image": "images/hero-3-watercolor.jpg",
+      "stage": "Acuarela"
+    },
+    {
+      "image": "images/hero-4-oil.jpg",
+      "stage": "Óleo"
+    }
+  ],
+  "song": "images/quadrupple-family-farm.mp3",
+  "song_button": "Escucha nuestra canción",
+  "song_button_off": "Apagar música",
+  "welcome": {
+    "label": "Bienvenidos a la Quadrupple Family Farm",
+    "heading": "Cuatro almas que viven juntas en plena naturaleza",
+    "text": "Rodeados de animales, fauna salvaje y montañas. Sin riquezas, solo lo esencial. Con el mundo a nuestro alrededor como lienzo, como inspiración y como fuente de… Arte.",
+    "question": "¿Quieres saber lo que hacemos?"
+  },
+  "walk": [
+    {
+      "image": "images/leather-workshop.jpg",
+      "label": "N.º 04 · Artesanía",
+      "title": "El arte del… Trabajo en cuero",
+      "subtitle": "A la antigua usanza",
+      "text": "Sombreros vaqueros hechos a mano en fieltro y paja, a medida tras una breve entrevista para encontrar tu estilo. También zahones, cinturones, carteras, fundas y otros trabajos de cuero vaquero.",
+      "rows": [],
+      "price": "Desde 350 € – 800 €",
+      "button": "Solicitar",
+      "email_subject": "Trabajo en cuero",
+      "page": "leather",
+      "page_link": "Entra en el taller de sombreros",
+      "dark": false
+    },
+    {
+      "image": "images/charcoal-studio.jpg",
+      "label": "N.º 03 · Arte",
+      "title": "El arte del… Dibujo al carboncillo",
+      "subtitle": "A la antigua usanza",
+      "text": "Retratos, bodegones, animales y montañas en blanco, negro y gris. Envíanos tu foto y creamos el arte, al carboncillo. A3 de serie, A4 y otros tamaños bajo petición. Siempre lo hablamos primero por teléfono, WhatsApp o videollamada.",
+      "rows": [],
+      "price": "Desde 200 € por hora",
+      "button": "Solicitar",
+      "email_subject": "Dibujo al carboncillo",
+      "page": "charcoal",
+      "page_link": "Entra en el estudio",
+      "dark": false
+    },
+    {
+      "image": "images/kitchen.jpg",
+      "label": "N.º 02 · Arte",
+      "title": "El arte de… Cocinar",
+      "subtitle": "Recetas de 30 años entre fogones",
+      "text": "Cocinero y empresario durante 30 años: es hora de compartir todas esas recetas. Indonesia, holandesa, francesa, belga, italiana y mediterránea, surinamesa y tailandesa. Siempre con fotos, lista de ingredientes y elaboración. Videotutorial bajo petición.",
+      "rows": [],
+      "price": "Desde 99 € – 333 €",
+      "button": "Pedir",
+      "email_subject": "Recetas",
+      "page": "cooking",
+      "page_link": "Entra en la cocina",
+      "dark": false
+    },
+    {
+      "image": "images/book-workshop.jpg",
+      "label": "N.º 05 · 06 · 07 · Artesanía",
+      "title": "El arte de… los libros, hechos a mano",
+      "subtitle": "Hechos con los elementos de la naturaleza, para guardar y perdurar",
+      "text": "",
+      "rows": [
+        {
+          "name": "Encuadernación y restauración",
+          "detail": "Biblias antiguas, recetarios, libros de historia. Devueltos por envío urgente con seguimiento.",
+          "price": "80 € / hora"
+        },
+        {
+          "name": "Diarios artesanales",
+          "detail": "a medida, un diario para pasar de generación en generación.",
+          "price": "100 € – 300 €"
+        },
+        {
+          "name": "Libros de boda artesanales",
+          "detail": "comparte tus ideas y fotos.",
+          "price": "700 € – 1.300 €"
+        }
+      ],
+      "price": "",
+      "button": "Solicitar",
+      "email_subject": "Libros hechos a mano",
+      "page": "books",
+      "page_link": "Entra en el taller de libros",
+      "dark": false
+    },
+    {
+      "image": "images/tattoo-studio.jpg",
+      "label": "N.º 08 · Arte",
+      "title": "El arte del… Tatuaje",
+      "subtitle": "Solo bajo petición",
+      "text": "Ahora mismo estamos en nuestro aprendizaje de tatuaje. Pronto esta forma de arte tan bella se unirá a nuestra lista, que no deja de crecer.",
+      "rows": [],
+      "price": "120 € por hora",
+      "button": "Solicitar",
+      "email_subject": "Tatuaje",
+      "page": "tattoo",
+      "page_link": "Entra en el estudio de tatuaje",
+      "dark": false
+    },
+    {
+      "image": "images/office.jpg",
+      "label": "N.º 01 · Asesoría y acompañamiento",
+      "title": "El arte de… escribir y cocrear planes de negocio",
+      "subtitle": "Más de 20 años de experiencia: creación de conceptos, gastronomía, agricultura y más",
+      "text": "Completo: parte general, marketing, finanzas, estudio de mercado, pitch deck y resumen ejecutivo. Entregado en papel, en PDF y como archivo de trabajo, con derechos de propiedad. Online por teléfono y vídeo. De 4 a 12 semanas. ¿Tienes prisa? Completo en 1 semana, bajo petición: 9.990 €.",
+      "rows": [],
+      "price": "7.790 €",
+      "button": "Solicitar",
+      "email_subject": "Plan de negocio",
+      "page": "business-plan",
+      "page_link": "Entra en la oficina",
+      "dark": false
+    },
+    {
+      "image": "images/meeting.jpg",
+      "label": "N.º 10 · 11 · 12 · Asesoría y acompañamiento",
+      "title": "El arte de… la consultoría y el coaching para startups",
+      "subtitle": "Creación de conceptos y cocreación: toda la familia aporta ideas",
+      "text": "20 años de experiencia. Asesoramos a startups, apoyamos a pequeños emprendedores y desarrollamos tu plan de negocio y tu pitch deck para inversores, online por teléfono o vídeo. Una media de 3 meses (90 – 120 horas); los proyectos grandes, 6 meses (160 – 240 horas).",
+      "rows": [
+        {
+          "name": "Clásico",
+          "detail": "",
+          "price": "90 € / hora"
+        },
+        {
+          "name": "Socio",
+          "detail": "",
+          "price": "60 € / hora + 3 – 10 % de participación"
+        },
+        {
+          "name": "Cofundador",
+          "detail": "",
+          "price": "Gratis + 15 – 49 % de participación"
+        }
+      ],
+      "price": "",
+      "button": "Comparte tu idea",
+      "email_subject": "Consultoría",
+      "page": "consultancy",
+      "page_link": "Siéntate a nuestra mesa",
+      "dark": false
+    },
+    {
+      "image": "images/design-studio.jpg",
+      "label": "N.º 09 · Marketing y creación de conceptos",
+      "title": "El arte del… paquete de marketing corporativo",
+      "subtitle": "Todo completo: sí, te damos de todo",
+      "text": "Identidad corporativa, desarrollo de logotipo, folletos, flyers, tarjetas de visita y merchandising. Tú lo pides, nosotros lo creamos. Es un paquete muy completo: quedarás encantado.",
+      "rows": [],
+      "price": "3.500 €",
+      "button": "Solicitar",
+      "email_subject": "Paquete de marketing corporativo",
+      "page": "marketing",
+      "page_link": "Entra en el estudio de diseño",
+      "dark": false
+    },
+    {
+      "image": "images/secret-pack.jpg",
+      "label": "N.º 13 · Nuestro número de la suerte",
+      "title": "El arte de… Quadrupple: nuestro paquete secreto",
+      "subtitle": "",
+      "text": "Nadie lo sabe todavía. Muy pronto, atentos.",
+      "rows": [],
+      "price": "Precio: … ?! (nadie lo sabe)",
+      "button": "",
+      "email_subject": "",
+      "page": "",
+      "page_link": "",
+      "dark": true
+    }
+  ],
+  "quote": {
+    "image": "images/fireplace.jpg",
+    "label": "Arte… lo que significa para nosotros",
+    "text": "Algo que haces con amor. Directo del corazón, creado con tus manos: el espíritu obrando a través de ti.",
+    "word": "Arte."
+  },
+  "contact": {
+    "label": "Marketing y creación de conceptos",
+    "heading": "¿Tienes una idea, pero no la imagen completa?",
+    "text": "¿Te suena? Una idea en la cabeza que no consigues plasmar en papel. Te atasques donde te atasques, inténtalo. Llámanos, escríbenos o mándanos un WhatsApp y comparte tus ideas. Completamos lo que falta, simplemente escuchando, y te llevamos al siguiente nivel. Paso a paso.",
+    "email": "quadruppleart@protonmail.com",
+    "whatsapp": "",
+    "crypto": "Paga de la forma clásica, o con criptomonedas."
+  },
+  "footer": "Una marca – cuatro almas – trece expresiones de arte",
+  "ui": {
+    "back": "Volver a la granja",
+    "scroll": "Desliza",
+    "photo": "FOTO",
+    "lang": "Idioma"
+  }
+}

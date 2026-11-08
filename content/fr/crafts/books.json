@@ -1,0 +1,71 @@
+{
+  "theme": "rustic",
+  "label": "N° 05 · 06 · 07 · Artisanat",
+  "title": "L'art des… livres, faits main",
+  "subtitle": "À garder, et pour des générations",
+  "image": "images/book-workshop.jpg",
+  "image_alt": "Peinture à l'huile de l'atelier de reliure avec une vieille Bible, un journal et un livre de mariage",
+  "intro": "De vieux livres que vous aimeriez préserver ? Vieilles Bibles, livres de recettes, livres d'histoire, ou simplement de vieux livres que vous aimez, qui ont besoin d'une nouvelle couverture ou reliure ? Nous les restaurons.",
+  "more": "Et pour ceux qui aiment en posséder un, nous créons des journaux et des livres de mariage avec les éléments de la nature. Pas simplement un livre : une expression de l'art, à garder et faite pour durer.",
+  "steps_heading": "Comment ça marche",
+  "steps": [
+    {
+      "title": "Envoyez votre demande",
+      "text": "Partagez vos idées, ou des photos et une vidéo du livre à réparer."
+    },
+    {
+      "title": "Nous regardons",
+      "text": "Grâce aux photos ou à la vidéo, nous déterminons si nous pouvons vous aider."
+    },
+    {
+      "title": "Laissez-nous un peu de temps",
+      "text": "C'est un artisanat. L'artisanat demande de la patience."
+    },
+    {
+      "title": "Retour chez vous",
+      "text": "Votre livre revient en express, avec suivi."
+    }
+  ],
+  "gallery_heading": "De l'établi",
+  "photos": [
+    {
+      "image": "",
+      "caption": "Bible restaurée"
+    },
+    {
+      "image": "",
+      "caption": "journal nature"
+    },
+    {
+      "image": "",
+      "caption": "livre de mariage"
+    },
+    {
+      "image": "",
+      "caption": "à l'établi"
+    }
+  ],
+  "prices_heading": "Ce que nous faisons",
+  "prices": [
+    {
+      "name": "Reliure et restauration",
+      "detail": "",
+      "price": "80 € de l'heure"
+    },
+    {
+      "name": "Journal fait main",
+      "detail": "avec les éléments de la nature",
+      "price": "100 € – 300 €"
+    },
+    {
+      "name": "Livre de mariage fait main",
+      "detail": "avec vos photos",
+      "price": "700 € – 1 300 €"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Partagez votre idée de livre",
+  "cta_text": "Donnez-nous l'occasion de créer quelque chose qui traverse les générations.",
+  "cta_button": "Commencez votre livre",
+  "email_subject": "Livres faits main"
+}

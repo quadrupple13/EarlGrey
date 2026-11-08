@@ -1,0 +1,71 @@
+{
+  "theme": "rustic",
+  "label": "Nr. 05 · 06 · 07 · Ambacht",
+  "title": "De kunst van… Boeken, met de hand",
+  "subtitle": "Om te bewaren, en om generaties mee te gaan",
+  "image": "images/book-workshop.jpg",
+  "image_alt": "Olieverfschilderij van de boekenwerkplaats met een oude Bijbel, een dagboek en een trouwboek",
+  "intro": "Oude boeken die je graag wilt bewaren? Oude Bijbels, receptenboeken, geschiedenisboeken, of gewoon oude boeken waar je van houdt — toe aan een nieuwe kaft of binding? Wij repareren ze.",
+  "more": "En voor wie er graag een bezit, maken we dagboeken en trouwboeken met de elementen van de natuur. Niet zomaar een boek: een uiting van kunst, om te bewaren en te blijven.",
+  "steps_heading": "Zo werkt het",
+  "steps": [
+    {
+      "title": "Stuur je aanvraag",
+      "text": "Deel je ideeën — of foto's en een video van het boek dat gerepareerd moet worden."
+    },
+    {
+      "title": "We kijken ernaar",
+      "text": "Aan de hand van de foto's of video bepalen we of we je kunnen helpen."
+    },
+    {
+      "title": "Geef ons wat tijd",
+      "text": "Het is een ambacht. Een ambacht vraagt geduld."
+    },
+    {
+      "title": "Terug naar jou",
+      "text": "Je boek komt per express terug, met track & trace."
+    }
+  ],
+  "gallery_heading": "Van de werkbank",
+  "photos": [
+    {
+      "image": "",
+      "caption": "gerestaureerde Bijbel"
+    },
+    {
+      "image": "",
+      "caption": "natuurdagboek"
+    },
+    {
+      "image": "",
+      "caption": "trouwboek"
+    },
+    {
+      "image": "",
+      "caption": "aan de werkbank"
+    }
+  ],
+  "prices_heading": "Wat we maken",
+  "prices": [
+    {
+      "name": "Boekbinden & reparatie",
+      "detail": "",
+      "price": "€80 per uur"
+    },
+    {
+      "name": "Handgemaakt dagboek",
+      "detail": "met de elementen van de natuur",
+      "price": "€100 – €300"
+    },
+    {
+      "name": "Handgemaakt trouwboek",
+      "detail": "met jouw foto's",
+      "price": "€700 – €1.300"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Deel je boekidee",
+  "cta_text": "Geef ons de kans iets te maken dat generaties meegaat.",
+  "cta_button": "Begin aan je boek",
+  "email_subject": "Boeken met de hand"
+}

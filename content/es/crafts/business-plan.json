@@ -1,0 +1,66 @@
+{
+  "theme": "office",
+  "label": "N.º 01 · Asesoría y acompañamiento",
+  "title": "El arte de… escribir y cocrear planes de negocio",
+  "subtitle": "Más de 20 años de experiencia",
+  "image": "images/office.jpg",
+  "image_alt": "Pintura de una elegante oficina en la casa de campo con un plan de negocio y un pitch deck sobre el escritorio",
+  "intro": "Nuestra especialidad es la creación de conceptos, la gastronomía, la agricultura y más. Escribimos tu plan de negocio completo, y es tuyo: recibes los derechos de propiedad.",
+  "more": "",
+  "steps_heading": "Qué incluye",
+  "steps": [
+    {
+      "title": "Asesoría",
+      "text": "Online, por teléfono y por videollamada."
+    },
+    {
+      "title": "El plan completo",
+      "text": "Parte general, marketing, finanzas, estudio de mercado, pitch deck y resumen ejecutivo."
+    },
+    {
+      "title": "Entrega",
+      "text": "En papel, en PDF y como archivo de trabajo, con los derechos de propiedad."
+    },
+    {
+      "title": "Plazo",
+      "text": "De 4 a 12 semanas. ¿Tienes prisa? Un plan completo en 1 semana, bajo petición."
+    }
+  ],
+  "gallery_heading": "Ejemplos",
+  "photos": [
+    {
+      "image": "",
+      "caption": "portada del plan de negocio"
+    },
+    {
+      "image": "",
+      "caption": "pitch deck"
+    },
+    {
+      "image": "",
+      "caption": "resumen financiero"
+    },
+    {
+      "image": "",
+      "caption": "resumen ejecutivo"
+    }
+  ],
+  "prices_heading": "Inversión",
+  "prices": [
+    {
+      "name": "Plan de negocio",
+      "detail": "completo",
+      "price": "7.790 €"
+    },
+    {
+      "name": "Urgente",
+      "detail": "completo en 1 semana, bajo petición",
+      "price": "9.990 €"
+    }
+  ],
+  "note": "Las solicitudes urgentes se aceptan en una proporción de 1 de cada 25.",
+  "cta_heading": "Solicita tu plan de negocio",
+  "cta_text": "Cuéntanos tus planes. Organizamos una primera llamada.",
+  "cta_button": "Solicita una primera llamada",
+  "email_subject": "Plan de negocio"
+}

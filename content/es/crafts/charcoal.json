@@ -1,0 +1,66 @@
+{
+  "theme": "charcoal",
+  "label": "N.º 03 · Arte",
+  "title": "El arte del… Dibujo al carboncillo",
+  "subtitle": "A la antigua usanza, en blanco, negro y gris",
+  "image": "images/charcoal-studio.jpg",
+  "image_alt": "Óleo del artista dibujando un caballo al carboncillo en el caballete",
+  "intro": "Una gran pasión: dibujar. ¿Por qué no compartir este arte? Dibujamos retratos, bodegones, animales y naturaleza, sobre todo las montañas. ¿Tienes una idea propia? Cuéntanosla.",
+  "more": "Envíanos tu foto y creamos el arte en blanco, negro y gris. Al carboncillo.",
+  "steps_heading": "Así nace tu dibujo",
+  "steps": [
+    {
+      "title": "Lo hablamos",
+      "text": "Siempre primero una llamada, un WhatsApp o una videollamada para hablar de tu proyecto."
+    },
+    {
+      "title": "Envía tu foto",
+      "text": "Envíanos la foto que quieres que dibujemos."
+    },
+    {
+      "title": "A mano, al carboncillo",
+      "text": "Creamos el dibujo en blanco, negro y gris."
+    },
+    {
+      "title": "Tu dibujo",
+      "text": "[DELIVERY: how and how long — to confirm with the client]"
+    }
+  ],
+  "gallery_heading": "Del cuaderno de bocetos",
+  "photos": [
+    {
+      "image": "",
+      "caption": "retrato"
+    },
+    {
+      "image": "",
+      "caption": "animal"
+    },
+    {
+      "image": "",
+      "caption": "montañas"
+    },
+    {
+      "image": "",
+      "caption": "bodegón"
+    }
+  ],
+  "prices_heading": "Tamaños y precios",
+  "prices": [
+    {
+      "name": "A3",
+      "detail": "nuestro tamaño habitual",
+      "price": "desde 200 € por hora"
+    },
+    {
+      "name": "A4 y otros tamaños",
+      "detail": "",
+      "price": "bajo petición"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Háblanos de tu dibujo",
+  "cta_text": "¿Un retrato, tu mascota, las montañas o algo totalmente distinto? Envíanos tu idea y tu foto.",
+  "cta_button": "Habla de tu dibujo",
+  "email_subject": "Dibujo al carboncillo"
+}

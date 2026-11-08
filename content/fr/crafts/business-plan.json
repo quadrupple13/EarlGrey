@@ -1,0 +1,66 @@
+{
+  "theme": "office",
+  "label": "N° 01 · Conseil et accompagnement",
+  "title": "L'art de… rédiger et cocréer des business plans",
+  "subtitle": "Plus de 20 ans d'expérience",
+  "image": "images/office.jpg",
+  "image_alt": "Peinture d'un bureau élégant dans la ferme avec un business plan et un pitch deck sur le bureau",
+  "intro": "Notre spécialité : la création de concepts, la gastronomie, l'agriculture et plus. Nous rédigeons votre business plan complet, et il vous appartient : vous recevez les droits de propriété.",
+  "more": "",
+  "steps_heading": "Ce qui est inclus",
+  "steps": [
+    {
+      "title": "Conseil",
+      "text": "En ligne, par téléphone et par appel vidéo."
+    },
+    {
+      "title": "Le plan complet",
+      "text": "Partie générale, marketing, finances, étude de marché, pitch deck et synthèse."
+    },
+    {
+      "title": "Livraison",
+      "text": "Sur papier, en PDF et en fichier de travail, droits de propriété inclus."
+    },
+    {
+      "title": "Délai",
+      "text": "4 à 12 semaines. Pressé ? Un plan complet en 1 semaine, sur demande."
+    }
+  ],
+  "gallery_heading": "Exemples",
+  "photos": [
+    {
+      "image": "",
+      "caption": "couverture du business plan"
+    },
+    {
+      "image": "",
+      "caption": "pitch deck"
+    },
+    {
+      "image": "",
+      "caption": "aperçu financier"
+    },
+    {
+      "image": "",
+      "caption": "synthèse"
+    }
+  ],
+  "prices_heading": "Investissement",
+  "prices": [
+    {
+      "name": "Business plan",
+      "detail": "complet",
+      "price": "7 790 €"
+    },
+    {
+      "name": "Urgent",
+      "detail": "complet en 1 semaine, sur demande",
+      "price": "9 990 €"
+    }
+  ],
+  "note": "Les demandes urgentes sont acceptées à raison d'une sur 25.",
+  "cta_heading": "Demandez votre business plan",
+  "cta_text": "Parlez-nous de vos projets. Nous organisons un premier appel.",
+  "cta_button": "Demander un premier appel",
+  "email_subject": "Business plan"
+}

@@ -1,0 +1,66 @@
+{
+  "theme": "charcoal",
+  "label": "N° 03 · Art",
+  "title": "L'art du… dessin au fusain",
+  "subtitle": "À l'ancienne, en noir, blanc et gris",
+  "image": "images/charcoal-studio.jpg",
+  "image_alt": "Peinture à l'huile de l'artiste dessinant un cheval au fusain sur un chevalet",
+  "intro": "Une grande passion : le dessin. Pourquoi ne pas partager cet art ? Nous dessinons des portraits, des natures mortes, des animaux et la nature, surtout les montagnes. Vous avez votre propre idée ? Racontez-la-nous.",
+  "more": "Envoyez-nous votre photo, et nous créons l'œuvre en noir, blanc et gris. Au fusain.",
+  "steps_heading": "Comment naît votre dessin",
+  "steps": [
+    {
+      "title": "On en parle",
+      "text": "Toujours d'abord un appel, un WhatsApp ou un appel vidéo pour parler de votre projet."
+    },
+    {
+      "title": "Envoyez votre photo",
+      "text": "Envoyez-nous la photo que vous voulez faire dessiner."
+    },
+    {
+      "title": "À la main, au fusain",
+      "text": "Nous réalisons le dessin en noir, blanc et gris."
+    },
+    {
+      "title": "Votre dessin",
+      "text": "[DELIVERY: how and how long — to confirm with the client]"
+    }
+  ],
+  "gallery_heading": "Du carnet de croquis",
+  "photos": [
+    {
+      "image": "",
+      "caption": "portrait"
+    },
+    {
+      "image": "",
+      "caption": "animal"
+    },
+    {
+      "image": "",
+      "caption": "montagnes"
+    },
+    {
+      "image": "",
+      "caption": "nature morte"
+    }
+  ],
+  "prices_heading": "Formats et prix",
+  "prices": [
+    {
+      "name": "A3",
+      "detail": "notre format habituel",
+      "price": "à partir de 200 € de l'heure"
+    },
+    {
+      "name": "A4 et autres formats",
+      "detail": "",
+      "price": "sur demande"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Parlez-nous de votre dessin",
+  "cta_text": "Un portrait, votre animal, les montagnes ou tout autre chose ? Envoyez-nous votre idée et votre photo.",
+  "cta_button": "Parlez de votre dessin",
+  "email_subject": "Dessin au fusain"
+}

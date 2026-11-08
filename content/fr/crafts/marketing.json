@@ -1,0 +1,61 @@
+{
+  "theme": "studio",
+  "label": "N° 09 · Marketing et création de concepts",
+  "title": "L'art du… pack marketing d'entreprise",
+  "subtitle": "Le grand jeu : oui, vous recevez tout",
+  "image": "images/design-studio.jpg",
+  "image_alt": "Peinture d'un studio de design créatif avec logos, brochures et t-shirts imprimés",
+  "intro": "Un pack très complet pour votre entreprise, de votre premier logo aux produits dérivés de votre boutique. Vous serez ravi.",
+  "more": "",
+  "steps_heading": "Ce que contient le pack",
+  "steps": [
+    {
+      "title": "Identité visuelle",
+      "text": "L'image de votre entreprise."
+    },
+    {
+      "title": "Création de logo",
+      "text": "Un logo vraiment à vous."
+    },
+    {
+      "title": "Impression",
+      "text": "Brochures, flyers, cartes de visite : tout ce qu'il vous faut."
+    },
+    {
+      "title": "Produits dérivés",
+      "text": "Vous le demandez, nous le créons."
+    }
+  ],
+  "gallery_heading": "Du studio",
+  "photos": [
+    {
+      "image": "",
+      "caption": "logo"
+    },
+    {
+      "image": "",
+      "caption": "cartes de visite"
+    },
+    {
+      "image": "",
+      "caption": "brochure"
+    },
+    {
+      "image": "",
+      "caption": "produits dérivés"
+    }
+  ],
+  "prices_heading": "Prix",
+  "prices": [
+    {
+      "name": "Pack marketing d'entreprise",
+      "detail": "le grand jeu",
+      "price": "3 500 €"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Concrétisons-le",
+  "cta_text": "Parlez-nous de votre entreprise, et nous commençons à créer.",
+  "cta_button": "Demander le pack",
+  "email_subject": "Pack marketing d'entreprise"
+}

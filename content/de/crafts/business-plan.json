@@ -1,0 +1,66 @@
+{
+  "theme": "office",
+  "label": "Nr. 01 · Beratung & Begleitung",
+  "title": "Die Kunst des… Businessplan-Schreibens & gemeinsamen Gestaltens",
+  "subtitle": "Über 20 Jahre Erfahrung",
+  "image": "images/office.jpg",
+  "image_alt": "Gemälde eines eleganten Büros im Bauernhaus mit Businessplan und Pitch Deck auf dem Schreibtisch",
+  "intro": "Unsere Spezialität sind Konzeptentwicklung, Gastronomie, Landwirtschaft und mehr. Wir schreiben deinen kompletten Businessplan – und er gehört dir: Du erhältst die Eigentumsrechte.",
+  "more": "",
+  "steps_heading": "Was enthalten ist",
+  "steps": [
+    {
+      "title": "Beratung",
+      "text": "Online, per Telefon und Videoanruf."
+    },
+    {
+      "title": "Der komplette Plan",
+      "text": "Allgemeiner Teil, Marketing, Finanzen, Marktforschung, Pitch Deck und Zusammenfassung."
+    },
+    {
+      "title": "Lieferung",
+      "text": "Auf Papier, als PDF und als Arbeitsdatei – inklusive Eigentumsrechten."
+    },
+    {
+      "title": "Zeitrahmen",
+      "text": "4 bis 12 Wochen. Eilig? Ein kompletter Plan in 1 Woche, auf Anfrage."
+    }
+  ],
+  "gallery_heading": "Beispiele",
+  "photos": [
+    {
+      "image": "",
+      "caption": "Deckblatt Businessplan"
+    },
+    {
+      "image": "",
+      "caption": "pitch deck"
+    },
+    {
+      "image": "",
+      "caption": "Finanzübersicht"
+    },
+    {
+      "image": "",
+      "caption": "Zusammenfassung"
+    }
+  ],
+  "prices_heading": "Investition",
+  "prices": [
+    {
+      "name": "Businessplan",
+      "detail": "komplett",
+      "price": "7.790 €"
+    },
+    {
+      "name": "Eilauftrag",
+      "detail": "komplett in 1 Woche, auf Anfrage",
+      "price": "9.990 €"
+    }
+  ],
+  "note": "Eilaufträge werden im Verhältnis 1 zu 25 angenommen.",
+  "cta_heading": "Fordere deinen Businessplan an",
+  "cta_text": "Erzähl uns von deinen Plänen. Wir vereinbaren ein erstes Gespräch.",
+  "cta_button": "Erstes Gespräch anfragen",
+  "email_subject": "Businessplan"
+}

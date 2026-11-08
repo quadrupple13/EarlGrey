@@ -1,0 +1,71 @@
+{
+  "theme": "office",
+  "label": "Nr. 10 · 11 · 12 · Advies & begeleiding",
+  "title": "De kunst van… Advies & startup-coaching",
+  "subtitle": "Conceptontwikkeling & samen creëren",
+  "image": "images/meeting.jpg",
+  "image_alt": "Schilderij van een zakelijk overleg met het hele gezin en een klant in de boerderij",
+  "intro": "Twintig jaar ervaring in conceptontwikkeling, gastronomie, landbouw en meer. We coachen startups, ondersteunen kleine ondernemers bij hun groei en ontwikkelen je businessplan en pitch deck voor investeerders.",
+  "more": "Online, via telefoon of videobellen — en het hele gezin denkt mee.",
+  "steps_heading": "Zo werken we",
+  "steps": [
+    {
+      "title": "Deel je idee",
+      "text": "Bel, mail of app ons. Het maakt niet uit waar je vastloopt."
+    },
+    {
+      "title": "We luisteren",
+      "text": "Wij vullen de gaten in — gewoon door naar je te luisteren."
+    },
+    {
+      "title": "Samen bouwen",
+      "text": "Concept, businessplan en pitch deck voor investeerders."
+    },
+    {
+      "title": "Volgend niveau",
+      "text": "Gemiddeld 3 maanden (90 – 120 uur). Grote projecten 6 maanden (160 – 240 uur)."
+    }
+  ],
+  "gallery_heading": "Aan tafel",
+  "photos": [
+    {
+      "image": "",
+      "caption": "coachingsessie"
+    },
+    {
+      "image": "",
+      "caption": "pitch deck"
+    },
+    {
+      "image": "",
+      "caption": "workshop"
+    },
+    {
+      "image": "",
+      "caption": "klantproject"
+    }
+  ],
+  "prices_heading": "Drie manieren om samen te werken",
+  "prices": [
+    {
+      "name": "Klassiek",
+      "detail": "",
+      "price": "€90 per uur"
+    },
+    {
+      "name": "Partner",
+      "detail": "plus 3 – 10% aandeel in je bedrijf",
+      "price": "€60 per uur"
+    },
+    {
+      "name": "Medeoprichter",
+      "detail": "plus 15 – 49% aandeel in je bedrijf",
+      "price": "gratis"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Een idee? Probeer het gewoon.",
+  "cta_text": "We brengen je naar het volgende niveau — paso a paso, zoals ze in Spanje zeggen.",
+  "cta_button": "Deel je idee",
+  "email_subject": "Advies"
+}

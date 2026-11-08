@@ -1,0 +1,76 @@
+{
+  "theme": "rustic",
+  "label": "Nr. 04 · Ambacht",
+  "title": "De kunst van… Leerwerk",
+  "subtitle": "Cowboyhoeden, op de ouderwetse manier",
+  "image": "images/leather-workshop.jpg",
+  "image_alt": "Olieverfschilderij van de leerwerkplaats in de stenen schuur, een jonge cowboy die een leren hoed vormt",
+  "intro": "Elke hoed begint met een gesprek. We maken cowboyhoeden van vilt en stro met de hand, op maat — geen twee hetzelfde. Voordat we beginnen, gaan we met je zitten voor een intakegesprek om de stijl te vinden die echt bij jou past.",
+  "more": "Naast hoeden maakt de werkplaats chaps, riemen, portemonnees, holsters en ander cowboyleerwerk. Neem contact op voor de mogelijkheden.",
+  "steps_heading": "Zo wordt je hoed gemaakt",
+  "steps": [
+    {
+      "title": "Het intakegesprek",
+      "text": "Elke bestelling begint op aanvraag met een gesprek, om de stijl van je hoed te bepalen."
+    },
+    {
+      "title": "Vilt of stro",
+      "text": "Samen kiezen we het materiaal, de vorm van de bol, de rand en de afwerking."
+    },
+    {
+      "title": "Met de hand gemaakt",
+      "text": "Gevormd en afgewerkt in onze werkplaats, op de ouderwetse manier. Een ambacht vraagt geduld."
+    },
+    {
+      "title": "Je hoed",
+      "text": "[DELIVERY: how and how long — to confirm with the client]"
+    }
+  ],
+  "gallery_heading": "Uit onze werkplaats",
+  "photos": [
+    {
+      "image": "",
+      "caption": "vilten hoed"
+    },
+    {
+      "image": "",
+      "caption": "strohoed"
+    },
+    {
+      "image": "",
+      "caption": "chaps of riem"
+    },
+    {
+      "image": "",
+      "caption": "in de werkplaats"
+    }
+  ],
+  "prices_heading": "Wat we maken",
+  "prices": [
+    {
+      "name": "Cowboyhoeden",
+      "detail": "vilt of stro, op maat",
+      "price": "€350 – €800"
+    },
+    {
+      "name": "Chaps",
+      "detail": "",
+      "price": "op aanvraag"
+    },
+    {
+      "name": "Riemen & portemonnees",
+      "detail": "",
+      "price": "op aanvraag"
+    },
+    {
+      "name": "Holsters & ander cowboyleerwerk",
+      "detail": "",
+      "price": "op aanvraag"
+    }
+  ],
+  "note": "De prijzen voor leerwerk liggen tussen €350 en €800, afhankelijk van het stuk. [Client: confirm which price belongs to what.]",
+  "cta_heading": "Laten we het over je hoed hebben",
+  "cta_text": "Vertel ons wat je in gedachten hebt. Wij plannen het intakegesprek en gaan van daaruit verder — paso a paso.",
+  "cta_button": "Plan je intakegesprek",
+  "email_subject": "Intake cowboyhoed"
+}

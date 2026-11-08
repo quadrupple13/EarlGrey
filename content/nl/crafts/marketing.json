@@ -1,0 +1,61 @@
+{
+  "theme": "studio",
+  "label": "Nr. 09 · Marketing & conceptontwikkeling",
+  "title": "De kunst van… het complete marketingpakket",
+  "subtitle": "Van A tot Z — ja, je krijgt het allemaal",
+  "image": "images/design-studio.jpg",
+  "image_alt": "Schilderij van een creatieve ontwerpstudio met logo's, brochures en bedrukte T-shirts",
+  "intro": "Een groot pakket voor je bedrijf, van je eerste logo tot de merchandise in je winkel. Je zult blij zijn.",
+  "more": "",
+  "steps_heading": "Wat er in het pakket zit",
+  "steps": [
+    {
+      "title": "Huisstijl",
+      "text": "De uitstraling van je bedrijf."
+    },
+    {
+      "title": "Logo-ontwikkeling",
+      "text": "Een logo dat echt van jou is."
+    },
+    {
+      "title": "Drukwerk",
+      "text": "Brochures, flyers, visitekaartjes — alles wat je nodig hebt."
+    },
+    {
+      "title": "Merchandise",
+      "text": "Noem het maar, wij maken het."
+    }
+  ],
+  "gallery_heading": "Uit de studio",
+  "photos": [
+    {
+      "image": "",
+      "caption": "logo"
+    },
+    {
+      "image": "",
+      "caption": "visitekaartjes"
+    },
+    {
+      "image": "",
+      "caption": "brochure"
+    },
+    {
+      "image": "",
+      "caption": "merchandise"
+    }
+  ],
+  "prices_heading": "Prijs",
+  "prices": [
+    {
+      "name": "Marketingpakket",
+      "detail": "van A tot Z",
+      "price": "€3.500"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Laten we het waarmaken",
+  "cta_text": "Vertel ons over je bedrijf, dan gaan we aan de slag.",
+  "cta_button": "Vraag het pakket aan",
+  "email_subject": "Marketingpakket"
+}

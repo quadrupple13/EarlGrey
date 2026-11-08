@@ -17,7 +17,7 @@ a:hover{color:#5A2C17}
 .hero{position:relative;height:400vh}
 .hero-stick{position:sticky;top:0;height:100vh;overflow:hidden;background:#EFE3CC}
 .layer{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 70%}
-.hero-text{position:absolute;top:0;left:0;right:0;display:flex;flex-direction:column;align-items:center;gap:14px;padding:56px 24px 0;text-align:center;text-shadow:0 0 18px rgba(250,244,232,.9)}
+.hero-text{position:absolute;top:0;left:0;right:0;display:flex;flex-direction:column;align-items:center;gap:14px;padding:88px 24px 0;text-align:center;text-shadow:0 0 18px rgba(250,244,232,.9)}
 .hero-text h1{margin:0;font-size:clamp(40px,9vw,88px);line-height:1;font-weight:400}
 .slogan{margin:0;font-size:clamp(18px,3.4vw,28px);line-height:1.35;display:flex;flex-direction:column}
 .slogan b{font-weight:600}
@@ -133,3 +133,13 @@ footer.site .f-brand{font-size:24px;color:#F2EBDD}
 .t-studio .btn{border-radius:999px 12px 999px 12px;border:2px solid #2A2420;background:#D9572B;box-shadow:4px 4px 0 #2F7F7A;color:#FFFDF8;outline:0;text-shadow:none}
 .tilt-1{transform:rotate(-.8deg)}.tilt-2{transform:rotate(.7deg)}.tilt-3{transform:rotate(-.5deg)}.tilt-4{transform:rotate(.6deg)}
 .t-office [class*="tilt-"],.t-tattoo [class*="tilt-"]{transform:none}
+
+/* language switch */
+.langbar{position:fixed;top:16px;left:16px;z-index:30}
+.langs{display:flex;gap:2px;padding:3px;border-radius:255px 15px 225px 15px/15px 225px 15px 255px;background:rgba(243,231,207,.95);border:1px solid rgba(46,42,36,.35)}
+.langs a{display:inline-flex;align-items:center;justify-content:center;min-width:38px;min-height:38px;padding:0 6px;border-radius:999px;font-family:"Special Elite",monospace;font-size:13px;color:#2E2A24;text-decoration:none}
+.langs a.on{background:#3B2A1E;color:#FBEFD9}
+.cp nav .langs{background:transparent;border-color:rgba(255,255,255,.35)}
+.cp nav .langs a{min-height:36px;color:var(--navink);font-size:13px}
+.cp nav .langs a.on{background:var(--navink);color:var(--nav)}
+@media (max-width:520px){.langs a{min-width:34px;padding:0 4px;font-size:12px}.music span{display:none}}

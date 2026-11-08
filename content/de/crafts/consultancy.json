@@ -1,0 +1,71 @@
+{
+  "theme": "office",
+  "label": "Nr. 10 · 11 · 12 · Beratung & Begleitung",
+  "title": "Die Kunst der… Beratung & Start-up-Coaching",
+  "subtitle": "Konzeptentwicklung & gemeinsames Gestalten",
+  "image": "images/meeting.jpg",
+  "image_alt": "Gemälde einer Geschäftsbesprechung mit der ganzen Familie und einem Kunden im Bauernhaus",
+  "intro": "Zwanzig Jahre Erfahrung in Konzeptentwicklung, Gastronomie, Landwirtschaft und mehr. Wir coachen Start-ups, unterstützen kleine Unternehmer beim Wachsen und entwickeln deinen Businessplan und dein Pitch Deck für Investoren.",
+  "more": "Online, per Telefon oder Videoanruf – und die ganze Familie denkt mit.",
+  "steps_heading": "So arbeiten wir",
+  "steps": [
+    {
+      "title": "Teile deine Idee",
+      "text": "Ruf uns an, schreib eine Mail oder WhatsApp. Egal, wo du feststeckst."
+    },
+    {
+      "title": "Wir hören zu",
+      "text": "Wir füllen die Lücken – indem wir dir einfach zuhören."
+    },
+    {
+      "title": "Gemeinsam aufbauen",
+      "text": "Konzept, Businessplan und Pitch Deck für Investoren."
+    },
+    {
+      "title": "Nächstes Level",
+      "text": "Durchschnittlich 3 Monate (90 – 120 Stunden). Große Projekte 6 Monate (160 – 240 Stunden)."
+    }
+  ],
+  "gallery_heading": "Am Tisch",
+  "photos": [
+    {
+      "image": "",
+      "caption": "Coaching-Sitzung"
+    },
+    {
+      "image": "",
+      "caption": "pitch deck"
+    },
+    {
+      "image": "",
+      "caption": "Workshop"
+    },
+    {
+      "image": "",
+      "caption": "Kundenprojekt"
+    }
+  ],
+  "prices_heading": "Drei Wege der Zusammenarbeit",
+  "prices": [
+    {
+      "name": "Klassisch",
+      "detail": "",
+      "price": "90 € pro Stunde"
+    },
+    {
+      "name": "Partner",
+      "detail": "plus 3 – 10 % Beteiligung an deinem Unternehmen",
+      "price": "60 € pro Stunde"
+    },
+    {
+      "name": "Mitgründer",
+      "detail": "plus 15 – 49 % Beteiligung an deinem Unternehmen",
+      "price": "kostenlos"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Eine Idee? Versuch es einfach.",
+  "cta_text": "Wir bringen dich aufs nächste Level – paso a paso, wie man in Spanien sagt.",
+  "cta_button": "Teile deine Idee",
+  "email_subject": "Beratung"
+}

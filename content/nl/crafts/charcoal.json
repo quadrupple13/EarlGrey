@@ -1,0 +1,66 @@
+{
+  "theme": "charcoal",
+  "label": "Nr. 03 · Kunst",
+  "title": "De kunst van… Houtskooltekeningen",
+  "subtitle": "Op de ouderwetse manier — in zwart, wit en grijs",
+  "image": "images/charcoal-studio.jpg",
+  "image_alt": "Olieverfschilderij van de tekenaar die met houtskool een paard tekent aan de ezel",
+  "intro": "Een grote passie: tekenen. Waarom deze kunstvorm dan niet delen? We tekenen portretten, stillevens, dieren en natuur — vooral de bergen. Heb je zelf een idee? Laat het ons horen.",
+  "more": "Stuur ons je foto, en wij maken de kunst in zwart, wit en grijs. In houtskool.",
+  "steps_heading": "Zo ontstaat je tekening",
+  "steps": [
+    {
+      "title": "Bespreek het",
+      "text": "Altijd eerst een telefoontje, WhatsApp of videogesprek om je project te bespreken."
+    },
+    {
+      "title": "Stuur je foto",
+      "text": "Stuur ons de foto die we moeten tekenen."
+    },
+    {
+      "title": "Met de hand, in houtskool",
+      "text": "We maken de tekening in zwart, wit en grijs."
+    },
+    {
+      "title": "Je tekening",
+      "text": "[DELIVERY: how and how long — to confirm with the client]"
+    }
+  ],
+  "gallery_heading": "Uit het schetsboek",
+  "photos": [
+    {
+      "image": "",
+      "caption": "portret"
+    },
+    {
+      "image": "",
+      "caption": "dier"
+    },
+    {
+      "image": "",
+      "caption": "bergen"
+    },
+    {
+      "image": "",
+      "caption": "stilleven"
+    }
+  ],
+  "prices_heading": "Formaten & prijzen",
+  "prices": [
+    {
+      "name": "A3",
+      "detail": "ons standaardformaat",
+      "price": "vanaf €200 per uur"
+    },
+    {
+      "name": "A4 & andere formaten",
+      "detail": "",
+      "price": "op aanvraag"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Vertel ons over je tekening",
+  "cta_text": "Een portret, je huisdier, de bergen of iets heel anders? Stuur ons je idee en je foto.",
+  "cta_button": "Bespreek je tekening",
+  "email_subject": "Houtskooltekening"
+}

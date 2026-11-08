@@ -1,0 +1,61 @@
+{
+  "theme": "tattoo",
+  "label": "Nr. 08 · Kunst",
+  "title": "De kunst van… Tatoeëren",
+  "subtitle": "Alleen op aanvraag",
+  "image": "images/tattoo-studio.jpg",
+  "image_alt": "Schilderij van een schone, lichte tattoostudio met uitzicht op de olijfbomen",
+  "intro": "We zitten nu in onze tattoo-opleiding. Maar binnenkort voegen we deze prachtige kunstvorm toe aan onze steeds groeiende lijst.",
+  "more": "",
+  "steps_heading": "Zo werkt het",
+  "steps": [
+    {
+      "title": "Op aanvraag",
+      "text": "Onze tattooservice is alleen op aanvraag. Stuur ons een bericht."
+    },
+    {
+      "title": "Je ontwerp",
+      "text": "[To confirm with the client: how a design is made]"
+    },
+    {
+      "title": "Schoon & veilig",
+      "text": "[To confirm with the client: hygiene and certification]"
+    },
+    {
+      "title": "Nazorg",
+      "text": "[To confirm with the client: appointments and aftercare]"
+    }
+  ],
+  "gallery_heading": "Ontwerpen",
+  "photos": [
+    {
+      "image": "",
+      "caption": "tattoo-ontwerp"
+    },
+    {
+      "image": "",
+      "caption": "tattoo-ontwerp"
+    },
+    {
+      "image": "",
+      "caption": "genezen tattoo"
+    },
+    {
+      "image": "",
+      "caption": "de studio"
+    }
+  ],
+  "prices_heading": "Prijs",
+  "prices": [
+    {
+      "name": "Tattoo",
+      "detail": "alleen op aanvraag",
+      "price": "€120 per uur"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Vraag naar een tattoo",
+  "cta_text": "Vertel ons je idee. We laten je weten wat mogelijk is.",
+  "cta_button": "Stuur je aanvraag",
+  "email_subject": "Tattoo"
+}

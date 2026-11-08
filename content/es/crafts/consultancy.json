@@ -1,0 +1,71 @@
+{
+  "theme": "office",
+  "label": "N.º 10 · 11 · 12 · Asesoría y acompañamiento",
+  "title": "El arte de… la consultoría y el coaching para startups",
+  "subtitle": "Creación de conceptos y cocreación",
+  "image": "images/meeting.jpg",
+  "image_alt": "Pintura de una reunión de negocios con toda la familia y un cliente en la casa de campo",
+  "intro": "Veinte años de experiencia en creación de conceptos, gastronomía, agricultura y más. Asesoramos a startups, apoyamos a pequeños emprendedores en su crecimiento y desarrollamos tu plan de negocio y tu pitch deck para inversores.",
+  "more": "Online, por teléfono o videollamada, y toda la familia aporta ideas.",
+  "steps_heading": "Cómo trabajamos",
+  "steps": [
+    {
+      "title": "Comparte tu idea",
+      "text": "Llámanos, escríbenos o mándanos un WhatsApp. Da igual dónde te hayas atascado."
+    },
+    {
+      "title": "Escuchamos",
+      "text": "Completamos lo que falta, simplemente escuchándote."
+    },
+    {
+      "title": "Lo construimos juntos",
+      "text": "Concepto, plan de negocio y pitch deck para inversores."
+    },
+    {
+      "title": "Siguiente nivel",
+      "text": "Una media de 3 meses (90 – 120 horas). Los proyectos grandes, 6 meses (160 – 240 horas)."
+    }
+  ],
+  "gallery_heading": "En la mesa",
+  "photos": [
+    {
+      "image": "",
+      "caption": "sesión de coaching"
+    },
+    {
+      "image": "",
+      "caption": "pitch deck"
+    },
+    {
+      "image": "",
+      "caption": "taller"
+    },
+    {
+      "image": "",
+      "caption": "proyecto de cliente"
+    }
+  ],
+  "prices_heading": "Tres formas de trabajar juntos",
+  "prices": [
+    {
+      "name": "Clásico",
+      "detail": "",
+      "price": "90 € por hora"
+    },
+    {
+      "name": "Socio",
+      "detail": "más un 3 – 10 % de participación en tu empresa",
+      "price": "60 € por hora"
+    },
+    {
+      "name": "Cofundador",
+      "detail": "más un 15 – 49 % de participación en tu empresa",
+      "price": "gratis"
+    }
+  ],
+  "note": "",
+  "cta_heading": "¿Tienes una idea? Inténtalo.",
+  "cta_text": "Te llevamos al siguiente nivel, paso a paso.",
+  "cta_button": "Comparte tu idea",
+  "email_subject": "Consultoría"
+}

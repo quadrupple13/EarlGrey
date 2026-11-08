@@ -1,0 +1,66 @@
+{
+  "theme": "charcoal",
+  "label": "Nr. 03 · Kunst",
+  "title": "Die Kunst der… Kohlezeichnung",
+  "subtitle": "Auf die altmodische Art – in Schwarz, Weiß und Grau",
+  "image": "images/charcoal-studio.jpg",
+  "image_alt": "Ölgemälde des Künstlers, der an der Staffelei ein Pferd mit Kohle zeichnet",
+  "intro": "Eine große Leidenschaft: das Zeichnen. Warum diese Kunstform nicht teilen? Wir zeichnen Porträts, Stillleben, Tiere und Natur – vor allem die Berge. Hast du eine eigene Idee? Erzähl sie uns.",
+  "more": "Schick uns dein Foto, und wir erschaffen die Kunst in Schwarz, Weiß und Grau. Mit Kohle.",
+  "steps_heading": "So entsteht deine Zeichnung",
+  "steps": [
+    {
+      "title": "Wir besprechen es",
+      "text": "Immer zuerst ein Anruf, WhatsApp oder Videoanruf, um dein Projekt zu besprechen."
+    },
+    {
+      "title": "Schick dein Foto",
+      "text": "Schick uns das Foto, das wir zeichnen sollen."
+    },
+    {
+      "title": "Von Hand, mit Kohle",
+      "text": "Wir fertigen die Zeichnung in Schwarz, Weiß und Grau."
+    },
+    {
+      "title": "Deine Zeichnung",
+      "text": "[DELIVERY: how and how long — to confirm with the client]"
+    }
+  ],
+  "gallery_heading": "Aus dem Skizzenbuch",
+  "photos": [
+    {
+      "image": "",
+      "caption": "Porträt"
+    },
+    {
+      "image": "",
+      "caption": "Tier"
+    },
+    {
+      "image": "",
+      "caption": "Berge"
+    },
+    {
+      "image": "",
+      "caption": "Stillleben"
+    }
+  ],
+  "prices_heading": "Formate & Preise",
+  "prices": [
+    {
+      "name": "A3",
+      "detail": "unser Standardformat",
+      "price": "ab 200 € pro Stunde"
+    },
+    {
+      "name": "A4 & andere Formate",
+      "detail": "",
+      "price": "auf Anfrage"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Erzähl uns von deiner Zeichnung",
+  "cta_text": "Ein Porträt, dein Haustier, die Berge oder etwas ganz anderes? Schick uns deine Idee und dein Foto.",
+  "cta_button": "Besprich deine Zeichnung",
+  "email_subject": "Kohlezeichnung"
+}

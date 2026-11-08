@@ -1,0 +1,61 @@
+{
+  "theme": "tattoo",
+  "label": "N° 08 · Art",
+  "title": "L'art du… tatouage",
+  "subtitle": "Uniquement sur demande",
+  "image": "images/tattoo-studio.jpg",
+  "image_alt": "Peinture d'un studio de tatouage propre et lumineux avec vue sur les oliviers",
+  "intro": "Nous sommes actuellement en apprentissage du tatouage. Mais bientôt, nous ajouterons cette forme d'art magnifique à notre liste toujours plus longue.",
+  "more": "",
+  "steps_heading": "Comment ça marche",
+  "steps": [
+    {
+      "title": "Sur demande",
+      "text": "Notre service de tatouage est uniquement sur demande. Envoyez-nous un message."
+    },
+    {
+      "title": "Votre motif",
+      "text": "[To confirm with the client: how a design is made]"
+    },
+    {
+      "title": "Propre et sûr",
+      "text": "[To confirm with the client: hygiene and certification]"
+    },
+    {
+      "title": "Soins après tatouage",
+      "text": "[To confirm with the client: appointments and aftercare]"
+    }
+  ],
+  "gallery_heading": "Motifs",
+  "photos": [
+    {
+      "image": "",
+      "caption": "motif de tatouage"
+    },
+    {
+      "image": "",
+      "caption": "motif de tatouage"
+    },
+    {
+      "image": "",
+      "caption": "tatouage cicatrisé"
+    },
+    {
+      "image": "",
+      "caption": "le studio"
+    }
+  ],
+  "prices_heading": "Prix",
+  "prices": [
+    {
+      "name": "Tatouage",
+      "detail": "uniquement sur demande",
+      "price": "120 € de l'heure"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Renseignez-vous sur un tatouage",
+  "cta_text": "Racontez-nous votre idée. Nous vous dirons ce qui est possible.",
+  "cta_button": "Envoyez votre demande",
+  "email_subject": "Tatouage"
+}

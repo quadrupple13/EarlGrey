@@ -1,0 +1,225 @@
+{
+  "brand": "QUADRUPPLE",
+  "slogan": [
+    {
+      "big": "EINE",
+      "rest": "Marke"
+    },
+    {
+      "big": "VIER",
+      "rest": "Seelen"
+    },
+    {
+      "big": "DREIZEHN",
+      "rest": "Ausdrucksformen der KUNST"
+    }
+  ],
+  "hero_images": [
+    {
+      "image": "images/hero-1-photo.jpg",
+      "stage": "Das echte Leben"
+    },
+    {
+      "image": "images/hero-2-charcoal.jpg",
+      "stage": "Kohle"
+    },
+    {
+      "image": "images/hero-3-watercolor.jpg",
+      "stage": "Aquarell"
+    },
+    {
+      "image": "images/hero-4-oil.jpg",
+      "stage": "Öl"
+    }
+  ],
+  "song": "images/quadrupple-family-farm.mp3",
+  "song_button": "Unser Lied abspielen",
+  "song_button_off": "Musik aus",
+  "welcome": {
+    "label": "Willkommen auf der Quadrupple Family Farm",
+    "heading": "Vier Seelen, die mitten in der Natur zusammenleben",
+    "text": "Umgeben von Tieren, Wildnis und Bergen. Kein Reichtum, nur das Nötigste. Mit der Welt um uns herum als Leinwand, als Inspiration und als Quelle der… Kunst.",
+    "question": "Neugierig, was wir machen?"
+  },
+  "walk": [
+    {
+      "image": "images/leather-workshop.jpg",
+      "label": "Nr. 04 · Handwerk",
+      "title": "Die Kunst der… Lederarbeit",
+      "subtitle": "Auf die altmodische Art",
+      "text": "Handgemachte Cowboyhüte aus Filz und Stroh, maßgefertigt nach einem kurzen Vorgespräch, um deinen Stil zu finden. Außerdem Chaps, Gürtel, Geldbörsen, Holster und andere Cowboy-Lederarbeiten.",
+      "rows": [],
+      "price": "Ab 350 € – 800 €",
+      "button": "Anfragen",
+      "email_subject": "Lederarbeit",
+      "page": "leather",
+      "page_link": "Tritt ein in die Hutwerkstatt",
+      "dark": false
+    },
+    {
+      "image": "images/charcoal-studio.jpg",
+      "label": "Nr. 03 · Kunst",
+      "title": "Die Kunst der… Kohlezeichnung",
+      "subtitle": "Auf die altmodische Art",
+      "text": "Porträts, Stillleben, Tiere und Berge in Schwarz, Weiß und Grau. Schick uns dein Foto und wir erschaffen die Kunst, mit Kohle. Standard A3, A4 und andere Formate auf Anfrage. Wir besprechen es immer zuerst per Telefon, WhatsApp oder Videoanruf.",
+      "rows": [],
+      "price": "Ab 200 € pro Stunde",
+      "button": "Anfragen",
+      "email_subject": "Kohlezeichnung",
+      "page": "charcoal",
+      "page_link": "Tritt ein ins Atelier",
+      "dark": false
+    },
+    {
+      "image": "images/kitchen.jpg",
+      "label": "Nr. 02 · Kunst",
+      "title": "Die Kunst des… Kochens",
+      "subtitle": "Rezepte aus 30 Jahren am Herd",
+      "text": "30 Jahre Koch und Unternehmer – Zeit, all diese Rezepte zu teilen. Indonesisch, niederländisch, französisch, belgisch, italienisch & mediterran, surinamisch und thailändisch. Immer mit Fotos, Zutatenliste und Zubereitung. Video-Anleitung auf Anfrage.",
+      "rows": [],
+      "price": "Ab 99 € – 333 €",
+      "button": "Bestellen",
+      "email_subject": "Rezepte",
+      "page": "cooking",
+      "page_link": "Tritt ein in die Küche",
+      "dark": false
+    },
+    {
+      "image": "images/book-workshop.jpg",
+      "label": "Nr. 05 · 06 · 07 · Handwerk",
+      "title": "Die Kunst der… Bücher, von Hand",
+      "subtitle": "Gemacht mit den Elementen der Natur – zum Aufbewahren und für die Ewigkeit",
+      "text": "",
+      "rows": [
+        {
+          "name": "Buchbinden & Reparatur",
+          "detail": "alte Bibeln, Kochbücher, Geschichtsbücher. Per Express mit Sendungsverfolgung zurückgeschickt.",
+          "price": "80 € / Stunde"
+        },
+        {
+          "name": "Handgemachte Tagebücher",
+          "detail": "maßgefertigt, ein Tagebuch zum Weitergeben an kommende Generationen.",
+          "price": "100 € – 300 €"
+        },
+        {
+          "name": "Handgemachte Hochzeitsbücher",
+          "detail": "teile deine Ideen und Fotos.",
+          "price": "700 € – 1.300 €"
+        }
+      ],
+      "price": "",
+      "button": "Anfragen",
+      "email_subject": "Bücher von Hand",
+      "page": "books",
+      "page_link": "Tritt ein in die Buchwerkstatt",
+      "dark": false
+    },
+    {
+      "image": "images/tattoo-studio.jpg",
+      "label": "Nr. 08 · Kunst",
+      "title": "Die Kunst des… Tätowierens",
+      "subtitle": "Nur auf Anfrage",
+      "text": "Gerade sind wir in unserer Tattoo-Ausbildung. Bald kommt diese wunderschöne Kunstform zu unserer ständig wachsenden Liste.",
+      "rows": [],
+      "price": "120 € pro Stunde",
+      "button": "Anfragen",
+      "email_subject": "Tattoo",
+      "page": "tattoo",
+      "page_link": "Tritt ein ins Tattoostudio",
+      "dark": false
+    },
+    {
+      "image": "images/office.jpg",
+      "label": "Nr. 01 · Beratung & Begleitung",
+      "title": "Die Kunst des… Businessplan-Schreibens & gemeinsamen Gestaltens",
+      "subtitle": "Über 20 Jahre Erfahrung – Konzeptentwicklung, Gastronomie, Landwirtschaft und mehr",
+      "text": "Komplett: allgemeiner Teil, Marketing, Finanzen, Marktforschung, Pitch Deck und Zusammenfassung. Geliefert auf Papier, als PDF und als Arbeitsdatei, mit Eigentumsrechten. Online per Telefon und Video. 4 – 12 Wochen. Eilig? Komplett in 1 Woche, auf Anfrage: 9.990 €.",
+      "rows": [],
+      "price": "7.790 €",
+      "button": "Anfragen",
+      "email_subject": "Businessplan",
+      "page": "business-plan",
+      "page_link": "Tritt ein ins Büro",
+      "dark": false
+    },
+    {
+      "image": "images/meeting.jpg",
+      "label": "Nr. 10 · 11 · 12 · Beratung & Begleitung",
+      "title": "Die Kunst der… Beratung & Start-up-Coaching",
+      "subtitle": "Konzeptentwicklung und gemeinsames Gestalten – die ganze Familie denkt mit",
+      "text": "20 Jahre Erfahrung. Wir coachen Start-ups, unterstützen kleine Unternehmer und entwickeln deinen Businessplan und dein Pitch Deck für Investoren, online per Telefon oder Video. Durchschnittlich 3 Monate (90 – 120 Stunden), große Projekte 6 Monate (160 – 240 Stunden).",
+      "rows": [
+        {
+          "name": "Klassisch",
+          "detail": "",
+          "price": "90 € / Stunde"
+        },
+        {
+          "name": "Partner",
+          "detail": "",
+          "price": "60 € / Stunde + 3 – 10 % Beteiligung"
+        },
+        {
+          "name": "Mitgründer",
+          "detail": "",
+          "price": "Kostenlos + 15 – 49 % Beteiligung"
+        }
+      ],
+      "price": "",
+      "button": "Teile deine Idee",
+      "email_subject": "Beratung",
+      "page": "consultancy",
+      "page_link": "Setz dich mit an den Tisch",
+      "dark": false
+    },
+    {
+      "image": "images/design-studio.jpg",
+      "label": "Nr. 09 · Marketing & Konzeptentwicklung",
+      "title": "Die Kunst des… kompletten Marketingpakets",
+      "subtitle": "Das volle Programm – ja, du bekommst alles",
+      "text": "Corporate Identity, Logoentwicklung, Broschüren, Flyer, Visitenkarten und Merchandise. Du nennst es, wir machen es. Ein großes Paket – du wirst begeistert sein.",
+      "rows": [],
+      "price": "3.500 €",
+      "button": "Anfragen",
+      "email_subject": "Marketingpaket",
+      "page": "marketing",
+      "page_link": "Tritt ein ins Designstudio",
+      "dark": false
+    },
+    {
+      "image": "images/secret-pack.jpg",
+      "label": "Nr. 13 · Unsere Glückszahl",
+      "title": "Die Kunst von… Quadrupple: unser Geheimpaket",
+      "subtitle": "",
+      "text": "Noch weiß es niemand. Bald – bleib dran.",
+      "rows": [],
+      "price": "Preis: … ?! (niemand weiß es)",
+      "button": "",
+      "email_subject": "",
+      "page": "",
+      "page_link": "",
+      "dark": true
+    }
+  ],
+  "quote": {
+    "image": "images/fireplace.jpg",
+    "label": "Kunst… was sie für uns bedeutet",
+    "text": "Etwas, das du mit Liebe tust. Direkt aus dem Herzen, geschaffen mit deinen Händen – der Geist, der durch dich wirkt.",
+    "word": "Kunst."
+  },
+  "contact": {
+    "label": "Marketing & Konzeptentwicklung",
+    "heading": "Eine Idee, aber noch nicht das ganze Bild?",
+    "text": "Kennst du das? Eine Idee im Kopf, die du einfach nicht aufs Papier bekommst. Egal, wo du feststeckst – versuch es einfach. Ruf uns an, schreib uns eine Mail oder WhatsApp und teile deine Ideen. Wir füllen die Lücken – indem wir einfach zuhören – und bringen dich aufs nächste Level. Paso a paso, wie man in Spanien sagt.",
+    "email": "quadruppleart@protonmail.com",
+    "whatsapp": "",
+    "crypto": "Bezahle ganz klassisch – oder mit Krypto."
+  },
+  "footer": "Eine Marke – vier Seelen – dreizehn Ausdrucksformen der Kunst",
+  "ui": {
+    "back": "Zurück zur Farm",
+    "scroll": "Scrollen",
+    "photo": "FOTO",
+    "lang": "Sprache"
+  }
+}

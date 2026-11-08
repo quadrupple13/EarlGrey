@@ -215,5 +215,11 @@
     "whatsapp": "",
     "crypto": "Pay the classic way — or with crypto."
   },
-  "footer": "One brand – four souls – thirteen expressions of art"
+  "footer": "One brand – four souls – thirteen expressions of art",
+  "ui": {
+    "back": "Back to the farm",
+    "scroll": "Scroll",
+    "photo": "PHOTO",
+    "lang": "Language"
+  }
 }

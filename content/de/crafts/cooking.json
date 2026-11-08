@@ -1,0 +1,66 @@
+{
+  "theme": "kitchen",
+  "label": "Nr. 02 · Kunst",
+  "title": "Die Kunst des… Kochens",
+  "subtitle": "Dreißig Jahre Rezepte, jetzt geteilt",
+  "image": "images/kitchen.jpg",
+  "image_alt": "Ölgemälde der Bauernhausküche mit Gerichten aus aller Welt",
+  "intro": "Dreißig Jahre Koch und Unternehmer – Zeit, all diese Rezepte zu teilen! Von indonesisch bis thailändisch: Jedes Rezept ist zum Nachkochen zu Hause geschrieben.",
+  "more": "",
+  "steps_heading": "Was du bekommst",
+  "steps": [
+    {
+      "title": "Wähle deine Küche",
+      "text": "Indonesisch, niederländisch, französisch, belgisch, italienisch & mediterran, surinamisch oder thailändisch."
+    },
+    {
+      "title": "Immer mit Fotos",
+      "text": "Zu jedem Rezept gibt es Fotos des Gerichts."
+    },
+    {
+      "title": "Zutaten & Zubereitung",
+      "text": "Eine vollständige Zutatenliste und die komplette Zubereitung."
+    },
+    {
+      "title": "Video-Anleitung",
+      "text": "Möglich, auf Anfrage."
+    }
+  ],
+  "gallery_heading": "Aus unserer Küche",
+  "photos": [
+    {
+      "image": "",
+      "caption": "Reistafel"
+    },
+    {
+      "image": "",
+      "caption": "französischer Klassiker"
+    },
+    {
+      "image": "",
+      "caption": "Pasta"
+    },
+    {
+      "image": "",
+      "caption": "Thai-Curry"
+    }
+  ],
+  "prices_heading": "Rezepte & Preise",
+  "prices": [
+    {
+      "name": "Rezepte",
+      "detail": "mit Fotos, Zutaten und Zubereitung",
+      "price": "99 € – 333 €"
+    },
+    {
+      "name": "Video-Anleitung",
+      "detail": "",
+      "price": "auf Anfrage"
+    }
+  ],
+  "note": "[Client: what do you get for €99 and what for €333?]",
+  "cta_heading": "Lust auf mehr?",
+  "cta_text": "Sag uns, welche Küche du liebst, und wir helfen dir bei der Auswahl deiner Rezepte.",
+  "cta_button": "Bestell deine Rezepte",
+  "email_subject": "Rezepte"
+}

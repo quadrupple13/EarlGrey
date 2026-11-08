@@ -8,11 +8,13 @@
   }
   var TILT = [-0.8, 0.7, -0.5, 0.9, -0.7, 0.5, -0.6, 0.8, -0.4, 0.6];
 
-  fetch('content/site.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(render);
+  fetch(QLANG.base + 'site.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(render);
 
   function render(d) {
     var app = document.getElementById('app');
     var out = '';
+    var ui = d.ui || {};
+    out += '<div class="langbar">' + QLANG.switcher(ui.lang) + '</div>';
     out += '<audio id="song" src="' + h(d.song) + '" preload="none" loop></audio>';
     out += '<button type="button" class="music" id="musicBtn" aria-label="Play our song"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg><span id="musicTxt">' + h(d.song_button) + '</span></button>';
 
@@ -24,7 +26,7 @@
     out += '<div class="hero-text"><h1 class="f-brand">' + h(d.brand) + '</h1><p class="slogan">';
     d.slogan.forEach(function (s) { out += '<span><b>' + h(s.big) + '</b> ' + h(s.rest) + '</span>'; });
     out += '</p></div><div class="hero-bottom"><span class="pill f-hand stage" id="stage">' + h(d.hero_images[0].stage) + '</span>';
-    out += '<span class="pill f-label scroll-hint">Scroll <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></div></div></div>';
+    out += '<span class="pill f-label scroll-hint">' + h(ui.scroll || 'Scroll') + ' <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></span></div></div></div>';
 
     // welcome
     var w = d.welcome;
@@ -51,7 +53,7 @@
         if (c.button) out += '<a class="btn btn-leather" href="mailto:' + h(d.contact.email) + '?subject=' + encodeURIComponent(c.email_subject || c.title) + '">' + h(c.button) + ARROW + '</a>';
         out += '</div>';
       }
-      if (c.page) out += '<a class="more f-hand" href="craft.html?c=' + encodeURIComponent(c.page) + '">' + h(c.page_link || 'Discover more') + ARROW + '</a>';
+      if (c.page) out += '<a class="more f-hand" href="' + QLANG.link('craft.html?c=' + encodeURIComponent(c.page)) + '">' + h(c.page_link || 'Discover more') + ARROW + '</a>';
       out += '</article></div>';
     });
     var q = d.quote;
