@@ -1,447 +1,4827 @@
 # Pages CMS – dashboard for quadrupple.art
 # Log in at https://app.pagescms.org with your GitHub account and open this repository.
+# One group per language. Change a text in each language you want to update.
 media:
   input: images
   output: images
-
 content:
-  - name: site
-    label: "Main page"
+- name: lang-en
+  label: English
+  type: group
+  items:
+  - name: site-en
+    label: Main page
     type: file
     path: content/site.json
     format: json
     fields:
-      - { name: brand, label: "Brand name", type: string }
-      - name: slogan
-        label: "Slogan lines"
+    - name: brand
+      label: Brand name
+      type: string
+    - name: slogan
+      label: Slogan lines
+      type: object
+      list: true
+      fields:
+      - name: big
+        label: Big word
+        type: string
+      - name: rest
+        label: Rest of the line
+        type: string
+    - name: hero_images
+      label: 'Opening: photo to oil painting (in order)'
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Image
+        type: image
+      - name: stage
+        label: Label at the bottom
+        type: string
+    - name: song
+      label: Song (mp3)
+      type: file
+    - name: song_button
+      label: Music button text
+      type: string
+    - name: song_button_off
+      label: Music button text while playing
+      type: string
+    - name: welcome
+      label: Welcome
+      type: object
+      fields:
+      - name: label
+        label: Small label
+        type: string
+      - name: heading
+        label: Heading
+        type: string
+      - name: text
+        label: Text
+        type: text
+      - name: question
+        label: Question underneath
+        type: string
+    - name: walk
+      label: 'The walk: one card per craft (in order)'
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Painting behind the card
+        type: image
+      - name: label
+        label: Small label (number · category)
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: subtitle
+        label: Subtitle (handwritten)
+        type: string
+      - name: text
+        label: Text
+        type: text
+      - name: rows
+        label: Price list (optional)
         type: object
         list: true
         fields:
-          - { name: big, label: "Big word", type: string }
-          - { name: rest, label: "Rest of the line", type: string }
-      - name: hero_images
-        label: "Opening: photo to oil painting (in order)"
+        - name: name
+          label: Product
+          type: string
+        - name: detail
+          label: Extra info
+          type: string
+        - name: price
+          label: Price
+          type: string
+      - name: price
+        label: Price
+        type: string
+      - name: button
+        label: Button text (empty = no button)
+        type: string
+      - name: email_subject
+        label: E-mail subject
+        type: string
+      - name: page
+        label: Detail page
+        type: select
+        options:
+          values:
+          - ''
+          - leather
+          - charcoal
+          - cooking
+          - books
+          - tattoo
+          - business-plan
+          - consultancy
+          - marketing
+      - name: page_link
+        label: Link text to the detail page
+        type: string
+      - name: dark
+        label: Dark card
+        type: boolean
+    - name: quote
+      label: Closing by the fire
+      type: object
+      fields:
+      - name: image
+        label: Painting
+        type: image
+      - name: label
+        label: Small label
+        type: string
+      - name: text
+        label: Quote
+        type: text
+      - name: word
+        label: Last word
+        type: string
+    - name: contact
+      label: Contact
+      type: object
+      fields:
+      - name: label
+        label: Small label
+        type: string
+      - name: heading
+        label: Heading
+        type: string
+      - name: text
+        label: Text
+        type: text
+      - name: email
+        label: E-mail address
+        type: string
+      - name: whatsapp
+        label: WhatsApp number (with country code, e.g. +34 600 000 000)
+        type: string
+      - name: crypto
+        label: Crypto line
+        type: string
+    - name: footer
+      label: Footer line
+      type: string
+    - name: ui
+      label: Small texts (buttons, language)
+      type: object
+      fields:
+      - name: back
+        label: '"Back to the farm" link'
+        type: string
+      - name: scroll
+        label: '"Scroll" hint'
+        type: string
+      - name: photo
+        label: Word on empty photo boxes
+        type: string
+      - name: lang
+        label: Word "Language" (for screen readers)
+        type: string
+  - name: craft-leather-en
+    label: 04 · Leather Works & Hats
+    type: file
+    path: content/crafts/leather.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-charcoal-en
+    label: 03 · Charcoal Drawings
+    type: file
+    path: content/crafts/charcoal.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-cooking-en
+    label: 02 · Cooking & Recipes
+    type: file
+    path: content/crafts/cooking.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-books-en
+    label: 05 · 06 · 07 · Books by Hand
+    type: file
+    path: content/crafts/books.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-tattoo-en
+    label: 08 · Tattooing
+    type: file
+    path: content/crafts/tattoo.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-business-plan-en
+    label: 01 · Business Plan
+    type: file
+    path: content/crafts/business-plan.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-consultancy-en
+    label: 10 · 11 · 12 · Consultancy & Coaching
+    type: file
+    path: content/crafts/consultancy.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-marketing-en
+    label: 09 · Corporate Marketing Package
+    type: file
+    path: content/crafts/marketing.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+- name: lang-nl
+  label: Nederlands
+  type: group
+  items:
+  - name: site-nl
+    label: Main page
+    type: file
+    path: content/nl/site.json
+    format: json
+    fields:
+    - name: brand
+      label: Brand name
+      type: string
+    - name: slogan
+      label: Slogan lines
+      type: object
+      list: true
+      fields:
+      - name: big
+        label: Big word
+        type: string
+      - name: rest
+        label: Rest of the line
+        type: string
+    - name: hero_images
+      label: 'Opening: photo to oil painting (in order)'
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Image
+        type: image
+      - name: stage
+        label: Label at the bottom
+        type: string
+    - name: song
+      label: Song (mp3)
+      type: file
+    - name: song_button
+      label: Music button text
+      type: string
+    - name: song_button_off
+      label: Music button text while playing
+      type: string
+    - name: welcome
+      label: Welcome
+      type: object
+      fields:
+      - name: label
+        label: Small label
+        type: string
+      - name: heading
+        label: Heading
+        type: string
+      - name: text
+        label: Text
+        type: text
+      - name: question
+        label: Question underneath
+        type: string
+    - name: walk
+      label: 'The walk: one card per craft (in order)'
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Painting behind the card
+        type: image
+      - name: label
+        label: Small label (number · category)
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: subtitle
+        label: Subtitle (handwritten)
+        type: string
+      - name: text
+        label: Text
+        type: text
+      - name: rows
+        label: Price list (optional)
         type: object
         list: true
         fields:
-          - { name: image, label: "Image", type: image }
-          - { name: stage, label: "Label at the bottom", type: string }
-      - { name: song, label: "Song (mp3)", type: file }
-      - { name: song_button, label: "Music button text", type: string }
-      - { name: song_button_off, label: "Music button text while playing", type: string }
-      - name: welcome
-        label: "Welcome"
-        type: object
-        fields:
-          - { name: label, label: "Small label", type: string }
-          - { name: heading, label: "Heading", type: string }
-          - { name: text, label: "Text", type: text }
-          - { name: question, label: "Question underneath", type: string }
-      - name: walk
-        label: "The walk: one card per craft (in order)"
+        - name: name
+          label: Product
+          type: string
+        - name: detail
+          label: Extra info
+          type: string
+        - name: price
+          label: Price
+          type: string
+      - name: price
+        label: Price
+        type: string
+      - name: button
+        label: Button text (empty = no button)
+        type: string
+      - name: email_subject
+        label: E-mail subject
+        type: string
+      - name: page
+        label: Detail page
+        type: select
+        options:
+          values:
+          - ''
+          - leather
+          - charcoal
+          - cooking
+          - books
+          - tattoo
+          - business-plan
+          - consultancy
+          - marketing
+      - name: page_link
+        label: Link text to the detail page
+        type: string
+      - name: dark
+        label: Dark card
+        type: boolean
+    - name: quote
+      label: Closing by the fire
+      type: object
+      fields:
+      - name: image
+        label: Painting
+        type: image
+      - name: label
+        label: Small label
+        type: string
+      - name: text
+        label: Quote
+        type: text
+      - name: word
+        label: Last word
+        type: string
+    - name: contact
+      label: Contact
+      type: object
+      fields:
+      - name: label
+        label: Small label
+        type: string
+      - name: heading
+        label: Heading
+        type: string
+      - name: text
+        label: Text
+        type: text
+      - name: email
+        label: E-mail address
+        type: string
+      - name: whatsapp
+        label: WhatsApp number (with country code, e.g. +34 600 000 000)
+        type: string
+      - name: crypto
+        label: Crypto line
+        type: string
+    - name: footer
+      label: Footer line
+      type: string
+    - name: ui
+      label: Small texts (buttons, language)
+      type: object
+      fields:
+      - name: back
+        label: '"Back to the farm" link'
+        type: string
+      - name: scroll
+        label: '"Scroll" hint'
+        type: string
+      - name: photo
+        label: Word on empty photo boxes
+        type: string
+      - name: lang
+        label: Word "Language" (for screen readers)
+        type: string
+  - name: craft-leather-nl
+    label: 04 · Leather Works & Hats
+    type: file
+    path: content/nl/crafts/leather.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-charcoal-nl
+    label: 03 · Charcoal Drawings
+    type: file
+    path: content/nl/crafts/charcoal.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-cooking-nl
+    label: 02 · Cooking & Recipes
+    type: file
+    path: content/nl/crafts/cooking.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-books-nl
+    label: 05 · 06 · 07 · Books by Hand
+    type: file
+    path: content/nl/crafts/books.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-tattoo-nl
+    label: 08 · Tattooing
+    type: file
+    path: content/nl/crafts/tattoo.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-business-plan-nl
+    label: 01 · Business Plan
+    type: file
+    path: content/nl/crafts/business-plan.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-consultancy-nl
+    label: 10 · 11 · 12 · Consultancy & Coaching
+    type: file
+    path: content/nl/crafts/consultancy.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-marketing-nl
+    label: 09 · Corporate Marketing Package
+    type: file
+    path: content/nl/crafts/marketing.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+- name: lang-es
+  label: Español
+  type: group
+  items:
+  - name: site-es
+    label: Main page
+    type: file
+    path: content/es/site.json
+    format: json
+    fields:
+    - name: brand
+      label: Brand name
+      type: string
+    - name: slogan
+      label: Slogan lines
+      type: object
+      list: true
+      fields:
+      - name: big
+        label: Big word
+        type: string
+      - name: rest
+        label: Rest of the line
+        type: string
+    - name: hero_images
+      label: 'Opening: photo to oil painting (in order)'
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Image
+        type: image
+      - name: stage
+        label: Label at the bottom
+        type: string
+    - name: song
+      label: Song (mp3)
+      type: file
+    - name: song_button
+      label: Music button text
+      type: string
+    - name: song_button_off
+      label: Music button text while playing
+      type: string
+    - name: welcome
+      label: Welcome
+      type: object
+      fields:
+      - name: label
+        label: Small label
+        type: string
+      - name: heading
+        label: Heading
+        type: string
+      - name: text
+        label: Text
+        type: text
+      - name: question
+        label: Question underneath
+        type: string
+    - name: walk
+      label: 'The walk: one card per craft (in order)'
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Painting behind the card
+        type: image
+      - name: label
+        label: Small label (number · category)
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: subtitle
+        label: Subtitle (handwritten)
+        type: string
+      - name: text
+        label: Text
+        type: text
+      - name: rows
+        label: Price list (optional)
         type: object
         list: true
         fields:
-          - { name: image, label: "Painting behind the card", type: image }
-          - { name: label, label: "Small label (number · category)", type: string }
-          - { name: title, label: "Title", type: string }
-          - { name: subtitle, label: "Subtitle (handwritten)", type: string }
-          - { name: text, label: "Text", type: text }
-          - name: rows
-            label: "Price list (optional)"
-            type: object
-            list: true
-            fields:
-              - { name: name, label: "Product", type: string }
-              - { name: detail, label: "Extra info", type: string }
-              - { name: price, label: "Price", type: string }
-          - { name: price, label: "Price", type: string }
-          - { name: button, label: "Button text (empty = no button)", type: string }
-          - { name: email_subject, label: "E-mail subject", type: string }
-          - { name: page, label: "Detail page", type: select, options: { values: ["", leather, charcoal, cooking, books, tattoo, business-plan, consultancy, marketing] } }
-          - { name: page_link, label: "Link text to the detail page", type: string }
-          - { name: dark, label: "Dark card", type: boolean }
-      - name: quote
-        label: "Closing by the fire"
+        - name: name
+          label: Product
+          type: string
+        - name: detail
+          label: Extra info
+          type: string
+        - name: price
+          label: Price
+          type: string
+      - name: price
+        label: Price
+        type: string
+      - name: button
+        label: Button text (empty = no button)
+        type: string
+      - name: email_subject
+        label: E-mail subject
+        type: string
+      - name: page
+        label: Detail page
+        type: select
+        options:
+          values:
+          - ''
+          - leather
+          - charcoal
+          - cooking
+          - books
+          - tattoo
+          - business-plan
+          - consultancy
+          - marketing
+      - name: page_link
+        label: Link text to the detail page
+        type: string
+      - name: dark
+        label: Dark card
+        type: boolean
+    - name: quote
+      label: Closing by the fire
+      type: object
+      fields:
+      - name: image
+        label: Painting
+        type: image
+      - name: label
+        label: Small label
+        type: string
+      - name: text
+        label: Quote
+        type: text
+      - name: word
+        label: Last word
+        type: string
+    - name: contact
+      label: Contact
+      type: object
+      fields:
+      - name: label
+        label: Small label
+        type: string
+      - name: heading
+        label: Heading
+        type: string
+      - name: text
+        label: Text
+        type: text
+      - name: email
+        label: E-mail address
+        type: string
+      - name: whatsapp
+        label: WhatsApp number (with country code, e.g. +34 600 000 000)
+        type: string
+      - name: crypto
+        label: Crypto line
+        type: string
+    - name: footer
+      label: Footer line
+      type: string
+    - name: ui
+      label: Small texts (buttons, language)
+      type: object
+      fields:
+      - name: back
+        label: '"Back to the farm" link'
+        type: string
+      - name: scroll
+        label: '"Scroll" hint'
+        type: string
+      - name: photo
+        label: Word on empty photo boxes
+        type: string
+      - name: lang
+        label: Word "Language" (for screen readers)
+        type: string
+  - name: craft-leather-es
+    label: 04 · Leather Works & Hats
+    type: file
+    path: content/es/crafts/leather.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-charcoal-es
+    label: 03 · Charcoal Drawings
+    type: file
+    path: content/es/crafts/charcoal.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-cooking-es
+    label: 02 · Cooking & Recipes
+    type: file
+    path: content/es/crafts/cooking.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-books-es
+    label: 05 · 06 · 07 · Books by Hand
+    type: file
+    path: content/es/crafts/books.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-tattoo-es
+    label: 08 · Tattooing
+    type: file
+    path: content/es/crafts/tattoo.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-business-plan-es
+    label: 01 · Business Plan
+    type: file
+    path: content/es/crafts/business-plan.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-consultancy-es
+    label: 10 · 11 · 12 · Consultancy & Coaching
+    type: file
+    path: content/es/crafts/consultancy.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-marketing-es
+    label: 09 · Corporate Marketing Package
+    type: file
+    path: content/es/crafts/marketing.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+- name: lang-de
+  label: Deutsch
+  type: group
+  items:
+  - name: site-de
+    label: Main page
+    type: file
+    path: content/de/site.json
+    format: json
+    fields:
+    - name: brand
+      label: Brand name
+      type: string
+    - name: slogan
+      label: Slogan lines
+      type: object
+      list: true
+      fields:
+      - name: big
+        label: Big word
+        type: string
+      - name: rest
+        label: Rest of the line
+        type: string
+    - name: hero_images
+      label: 'Opening: photo to oil painting (in order)'
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Image
+        type: image
+      - name: stage
+        label: Label at the bottom
+        type: string
+    - name: song
+      label: Song (mp3)
+      type: file
+    - name: song_button
+      label: Music button text
+      type: string
+    - name: song_button_off
+      label: Music button text while playing
+      type: string
+    - name: welcome
+      label: Welcome
+      type: object
+      fields:
+      - name: label
+        label: Small label
+        type: string
+      - name: heading
+        label: Heading
+        type: string
+      - name: text
+        label: Text
+        type: text
+      - name: question
+        label: Question underneath
+        type: string
+    - name: walk
+      label: 'The walk: one card per craft (in order)'
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Painting behind the card
+        type: image
+      - name: label
+        label: Small label (number · category)
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: subtitle
+        label: Subtitle (handwritten)
+        type: string
+      - name: text
+        label: Text
+        type: text
+      - name: rows
+        label: Price list (optional)
         type: object
+        list: true
         fields:
-          - { name: image, label: "Painting", type: image }
-          - { name: label, label: "Small label", type: string }
-          - { name: text, label: "Quote", type: text }
-          - { name: word, label: "Last word", type: string }
-      - name: contact
-        label: "Contact"
+        - name: name
+          label: Product
+          type: string
+        - name: detail
+          label: Extra info
+          type: string
+        - name: price
+          label: Price
+          type: string
+      - name: price
+        label: Price
+        type: string
+      - name: button
+        label: Button text (empty = no button)
+        type: string
+      - name: email_subject
+        label: E-mail subject
+        type: string
+      - name: page
+        label: Detail page
+        type: select
+        options:
+          values:
+          - ''
+          - leather
+          - charcoal
+          - cooking
+          - books
+          - tattoo
+          - business-plan
+          - consultancy
+          - marketing
+      - name: page_link
+        label: Link text to the detail page
+        type: string
+      - name: dark
+        label: Dark card
+        type: boolean
+    - name: quote
+      label: Closing by the fire
+      type: object
+      fields:
+      - name: image
+        label: Painting
+        type: image
+      - name: label
+        label: Small label
+        type: string
+      - name: text
+        label: Quote
+        type: text
+      - name: word
+        label: Last word
+        type: string
+    - name: contact
+      label: Contact
+      type: object
+      fields:
+      - name: label
+        label: Small label
+        type: string
+      - name: heading
+        label: Heading
+        type: string
+      - name: text
+        label: Text
+        type: text
+      - name: email
+        label: E-mail address
+        type: string
+      - name: whatsapp
+        label: WhatsApp number (with country code, e.g. +34 600 000 000)
+        type: string
+      - name: crypto
+        label: Crypto line
+        type: string
+    - name: footer
+      label: Footer line
+      type: string
+    - name: ui
+      label: Small texts (buttons, language)
+      type: object
+      fields:
+      - name: back
+        label: '"Back to the farm" link'
+        type: string
+      - name: scroll
+        label: '"Scroll" hint'
+        type: string
+      - name: photo
+        label: Word on empty photo boxes
+        type: string
+      - name: lang
+        label: Word "Language" (for screen readers)
+        type: string
+  - name: craft-leather-de
+    label: 04 · Leather Works & Hats
+    type: file
+    path: content/de/crafts/leather.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-charcoal-de
+    label: 03 · Charcoal Drawings
+    type: file
+    path: content/de/crafts/charcoal.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-cooking-de
+    label: 02 · Cooking & Recipes
+    type: file
+    path: content/de/crafts/cooking.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-books-de
+    label: 05 · 06 · 07 · Books by Hand
+    type: file
+    path: content/de/crafts/books.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-tattoo-de
+    label: 08 · Tattooing
+    type: file
+    path: content/de/crafts/tattoo.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-business-plan-de
+    label: 01 · Business Plan
+    type: file
+    path: content/de/crafts/business-plan.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-consultancy-de
+    label: 10 · 11 · 12 · Consultancy & Coaching
+    type: file
+    path: content/de/crafts/consultancy.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-marketing-de
+    label: 09 · Corporate Marketing Package
+    type: file
+    path: content/de/crafts/marketing.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+- name: lang-fr
+  label: Français
+  type: group
+  items:
+  - name: site-fr
+    label: Main page
+    type: file
+    path: content/fr/site.json
+    format: json
+    fields:
+    - name: brand
+      label: Brand name
+      type: string
+    - name: slogan
+      label: Slogan lines
+      type: object
+      list: true
+      fields:
+      - name: big
+        label: Big word
+        type: string
+      - name: rest
+        label: Rest of the line
+        type: string
+    - name: hero_images
+      label: 'Opening: photo to oil painting (in order)'
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Image
+        type: image
+      - name: stage
+        label: Label at the bottom
+        type: string
+    - name: song
+      label: Song (mp3)
+      type: file
+    - name: song_button
+      label: Music button text
+      type: string
+    - name: song_button_off
+      label: Music button text while playing
+      type: string
+    - name: welcome
+      label: Welcome
+      type: object
+      fields:
+      - name: label
+        label: Small label
+        type: string
+      - name: heading
+        label: Heading
+        type: string
+      - name: text
+        label: Text
+        type: text
+      - name: question
+        label: Question underneath
+        type: string
+    - name: walk
+      label: 'The walk: one card per craft (in order)'
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Painting behind the card
+        type: image
+      - name: label
+        label: Small label (number · category)
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: subtitle
+        label: Subtitle (handwritten)
+        type: string
+      - name: text
+        label: Text
+        type: text
+      - name: rows
+        label: Price list (optional)
         type: object
+        list: true
         fields:
-          - { name: label, label: "Small label", type: string }
-          - { name: heading, label: "Heading", type: string }
-          - { name: text, label: "Text", type: text }
-          - { name: email, label: "E-mail address", type: string }
-          - { name: whatsapp, label: "WhatsApp number (with country code, e.g. +34 600 000 000)", type: string }
-          - { name: crypto, label: "Crypto line", type: string }
-      - { name: footer, label: "Footer line", type: string }
-
-  - name: crafts
-    label: "Craft pages"
-    type: group
-    items:
-      - name: craft-leather
-        label: "04 · Leather Works & Hats"
-        type: file
-        path: content/crafts/leather.json
-        format: json
-        fields:
-          - { name: theme, label: "Style of the page", type: select, options: { values: [rustic, charcoal, kitchen, office, tattoo, studio] } }
-          - { name: label, label: "Small label (number · category)", type: string }
-          - { name: title, label: "Title", type: string }
-          - { name: subtitle, label: "Subtitle (handwritten)", type: string }
-          - { name: image, label: "Big painting at the top", type: image }
-          - { name: image_alt, label: "Description of the painting (for the blind)", type: string }
-          - { name: intro, label: "Introduction", type: text }
-          - { name: more, label: "Second paragraph", type: text }
-          - { name: steps_heading, label: "Heading above the steps", type: string }
-          - name: steps
-            label: "Steps"
-            type: object
-            list: true
-            fields:
-              - { name: title, label: "Title", type: string }
-              - { name: text, label: "Text", type: text }
-          - { name: gallery_heading, label: "Heading above the photos", type: string }
-          - name: photos
-            label: "Photos of your work"
-            type: object
-            list: true
-            fields:
-              - { name: image, label: "Photo", type: image }
-              - { name: caption, label: "Caption", type: string }
-          - { name: prices_heading, label: "Heading above the prices", type: string }
-          - name: prices
-            label: "Prices"
-            type: object
-            list: true
-            fields:
-              - { name: name, label: "Product", type: string }
-              - { name: detail, label: "Extra info", type: string }
-              - { name: price, label: "Price", type: string }
-          - { name: note, label: "Small note under the prices", type: text }
-          - { name: cta_heading, label: "Closing heading", type: string }
-          - { name: cta_text, label: "Closing text", type: text }
-          - { name: cta_button, label: "Button text", type: string }
-          - { name: email_subject, label: "E-mail subject when someone taps the button", type: string }
-
-      - name: craft-charcoal
-        label: "03 · Charcoal Drawings"
-        type: file
-        path: content/crafts/charcoal.json
-        format: json
-        fields:
-          - { name: theme, label: "Style of the page", type: select, options: { values: [rustic, charcoal, kitchen, office, tattoo, studio] } }
-          - { name: label, label: "Small label (number · category)", type: string }
-          - { name: title, label: "Title", type: string }
-          - { name: subtitle, label: "Subtitle (handwritten)", type: string }
-          - { name: image, label: "Big painting at the top", type: image }
-          - { name: image_alt, label: "Description of the painting (for the blind)", type: string }
-          - { name: intro, label: "Introduction", type: text }
-          - { name: more, label: "Second paragraph", type: text }
-          - { name: steps_heading, label: "Heading above the steps", type: string }
-          - name: steps
-            label: "Steps"
-            type: object
-            list: true
-            fields:
-              - { name: title, label: "Title", type: string }
-              - { name: text, label: "Text", type: text }
-          - { name: gallery_heading, label: "Heading above the photos", type: string }
-          - name: photos
-            label: "Photos of your work"
-            type: object
-            list: true
-            fields:
-              - { name: image, label: "Photo", type: image }
-              - { name: caption, label: "Caption", type: string }
-          - { name: prices_heading, label: "Heading above the prices", type: string }
-          - name: prices
-            label: "Prices"
-            type: object
-            list: true
-            fields:
-              - { name: name, label: "Product", type: string }
-              - { name: detail, label: "Extra info", type: string }
-              - { name: price, label: "Price", type: string }
-          - { name: note, label: "Small note under the prices", type: text }
-          - { name: cta_heading, label: "Closing heading", type: string }
-          - { name: cta_text, label: "Closing text", type: text }
-          - { name: cta_button, label: "Button text", type: string }
-          - { name: email_subject, label: "E-mail subject when someone taps the button", type: string }
-
-      - name: craft-cooking
-        label: "02 · Cooking & Recipes"
-        type: file
-        path: content/crafts/cooking.json
-        format: json
-        fields:
-          - { name: theme, label: "Style of the page", type: select, options: { values: [rustic, charcoal, kitchen, office, tattoo, studio] } }
-          - { name: label, label: "Small label (number · category)", type: string }
-          - { name: title, label: "Title", type: string }
-          - { name: subtitle, label: "Subtitle (handwritten)", type: string }
-          - { name: image, label: "Big painting at the top", type: image }
-          - { name: image_alt, label: "Description of the painting (for the blind)", type: string }
-          - { name: intro, label: "Introduction", type: text }
-          - { name: more, label: "Second paragraph", type: text }
-          - { name: steps_heading, label: "Heading above the steps", type: string }
-          - name: steps
-            label: "Steps"
-            type: object
-            list: true
-            fields:
-              - { name: title, label: "Title", type: string }
-              - { name: text, label: "Text", type: text }
-          - { name: gallery_heading, label: "Heading above the photos", type: string }
-          - name: photos
-            label: "Photos of your work"
-            type: object
-            list: true
-            fields:
-              - { name: image, label: "Photo", type: image }
-              - { name: caption, label: "Caption", type: string }
-          - { name: prices_heading, label: "Heading above the prices", type: string }
-          - name: prices
-            label: "Prices"
-            type: object
-            list: true
-            fields:
-              - { name: name, label: "Product", type: string }
-              - { name: detail, label: "Extra info", type: string }
-              - { name: price, label: "Price", type: string }
-          - { name: note, label: "Small note under the prices", type: text }
-          - { name: cta_heading, label: "Closing heading", type: string }
-          - { name: cta_text, label: "Closing text", type: text }
-          - { name: cta_button, label: "Button text", type: string }
-          - { name: email_subject, label: "E-mail subject when someone taps the button", type: string }
-
-      - name: craft-books
-        label: "05 · 06 · 07 · Books by Hand"
-        type: file
-        path: content/crafts/books.json
-        format: json
-        fields:
-          - { name: theme, label: "Style of the page", type: select, options: { values: [rustic, charcoal, kitchen, office, tattoo, studio] } }
-          - { name: label, label: "Small label (number · category)", type: string }
-          - { name: title, label: "Title", type: string }
-          - { name: subtitle, label: "Subtitle (handwritten)", type: string }
-          - { name: image, label: "Big painting at the top", type: image }
-          - { name: image_alt, label: "Description of the painting (for the blind)", type: string }
-          - { name: intro, label: "Introduction", type: text }
-          - { name: more, label: "Second paragraph", type: text }
-          - { name: steps_heading, label: "Heading above the steps", type: string }
-          - name: steps
-            label: "Steps"
-            type: object
-            list: true
-            fields:
-              - { name: title, label: "Title", type: string }
-              - { name: text, label: "Text", type: text }
-          - { name: gallery_heading, label: "Heading above the photos", type: string }
-          - name: photos
-            label: "Photos of your work"
-            type: object
-            list: true
-            fields:
-              - { name: image, label: "Photo", type: image }
-              - { name: caption, label: "Caption", type: string }
-          - { name: prices_heading, label: "Heading above the prices", type: string }
-          - name: prices
-            label: "Prices"
-            type: object
-            list: true
-            fields:
-              - { name: name, label: "Product", type: string }
-              - { name: detail, label: "Extra info", type: string }
-              - { name: price, label: "Price", type: string }
-          - { name: note, label: "Small note under the prices", type: text }
-          - { name: cta_heading, label: "Closing heading", type: string }
-          - { name: cta_text, label: "Closing text", type: text }
-          - { name: cta_button, label: "Button text", type: string }
-          - { name: email_subject, label: "E-mail subject when someone taps the button", type: string }
-
-      - name: craft-tattoo
-        label: "08 · Tattooing"
-        type: file
-        path: content/crafts/tattoo.json
-        format: json
-        fields:
-          - { name: theme, label: "Style of the page", type: select, options: { values: [rustic, charcoal, kitchen, office, tattoo, studio] } }
-          - { name: label, label: "Small label (number · category)", type: string }
-          - { name: title, label: "Title", type: string }
-          - { name: subtitle, label: "Subtitle (handwritten)", type: string }
-          - { name: image, label: "Big painting at the top", type: image }
-          - { name: image_alt, label: "Description of the painting (for the blind)", type: string }
-          - { name: intro, label: "Introduction", type: text }
-          - { name: more, label: "Second paragraph", type: text }
-          - { name: steps_heading, label: "Heading above the steps", type: string }
-          - name: steps
-            label: "Steps"
-            type: object
-            list: true
-            fields:
-              - { name: title, label: "Title", type: string }
-              - { name: text, label: "Text", type: text }
-          - { name: gallery_heading, label: "Heading above the photos", type: string }
-          - name: photos
-            label: "Photos of your work"
-            type: object
-            list: true
-            fields:
-              - { name: image, label: "Photo", type: image }
-              - { name: caption, label: "Caption", type: string }
-          - { name: prices_heading, label: "Heading above the prices", type: string }
-          - name: prices
-            label: "Prices"
-            type: object
-            list: true
-            fields:
-              - { name: name, label: "Product", type: string }
-              - { name: detail, label: "Extra info", type: string }
-              - { name: price, label: "Price", type: string }
-          - { name: note, label: "Small note under the prices", type: text }
-          - { name: cta_heading, label: "Closing heading", type: string }
-          - { name: cta_text, label: "Closing text", type: text }
-          - { name: cta_button, label: "Button text", type: string }
-          - { name: email_subject, label: "E-mail subject when someone taps the button", type: string }
-
-      - name: craft-business-plan
-        label: "01 · Business Plan"
-        type: file
-        path: content/crafts/business-plan.json
-        format: json
-        fields:
-          - { name: theme, label: "Style of the page", type: select, options: { values: [rustic, charcoal, kitchen, office, tattoo, studio] } }
-          - { name: label, label: "Small label (number · category)", type: string }
-          - { name: title, label: "Title", type: string }
-          - { name: subtitle, label: "Subtitle (handwritten)", type: string }
-          - { name: image, label: "Big painting at the top", type: image }
-          - { name: image_alt, label: "Description of the painting (for the blind)", type: string }
-          - { name: intro, label: "Introduction", type: text }
-          - { name: more, label: "Second paragraph", type: text }
-          - { name: steps_heading, label: "Heading above the steps", type: string }
-          - name: steps
-            label: "Steps"
-            type: object
-            list: true
-            fields:
-              - { name: title, label: "Title", type: string }
-              - { name: text, label: "Text", type: text }
-          - { name: gallery_heading, label: "Heading above the photos", type: string }
-          - name: photos
-            label: "Photos of your work"
-            type: object
-            list: true
-            fields:
-              - { name: image, label: "Photo", type: image }
-              - { name: caption, label: "Caption", type: string }
-          - { name: prices_heading, label: "Heading above the prices", type: string }
-          - name: prices
-            label: "Prices"
-            type: object
-            list: true
-            fields:
-              - { name: name, label: "Product", type: string }
-              - { name: detail, label: "Extra info", type: string }
-              - { name: price, label: "Price", type: string }
-          - { name: note, label: "Small note under the prices", type: text }
-          - { name: cta_heading, label: "Closing heading", type: string }
-          - { name: cta_text, label: "Closing text", type: text }
-          - { name: cta_button, label: "Button text", type: string }
-          - { name: email_subject, label: "E-mail subject when someone taps the button", type: string }
-
-      - name: craft-consultancy
-        label: "10 · 11 · 12 · Consultancy & Coaching"
-        type: file
-        path: content/crafts/consultancy.json
-        format: json
-        fields:
-          - { name: theme, label: "Style of the page", type: select, options: { values: [rustic, charcoal, kitchen, office, tattoo, studio] } }
-          - { name: label, label: "Small label (number · category)", type: string }
-          - { name: title, label: "Title", type: string }
-          - { name: subtitle, label: "Subtitle (handwritten)", type: string }
-          - { name: image, label: "Big painting at the top", type: image }
-          - { name: image_alt, label: "Description of the painting (for the blind)", type: string }
-          - { name: intro, label: "Introduction", type: text }
-          - { name: more, label: "Second paragraph", type: text }
-          - { name: steps_heading, label: "Heading above the steps", type: string }
-          - name: steps
-            label: "Steps"
-            type: object
-            list: true
-            fields:
-              - { name: title, label: "Title", type: string }
-              - { name: text, label: "Text", type: text }
-          - { name: gallery_heading, label: "Heading above the photos", type: string }
-          - name: photos
-            label: "Photos of your work"
-            type: object
-            list: true
-            fields:
-              - { name: image, label: "Photo", type: image }
-              - { name: caption, label: "Caption", type: string }
-          - { name: prices_heading, label: "Heading above the prices", type: string }
-          - name: prices
-            label: "Prices"
-            type: object
-            list: true
-            fields:
-              - { name: name, label: "Product", type: string }
-              - { name: detail, label: "Extra info", type: string }
-              - { name: price, label: "Price", type: string }
-          - { name: note, label: "Small note under the prices", type: text }
-          - { name: cta_heading, label: "Closing heading", type: string }
-          - { name: cta_text, label: "Closing text", type: text }
-          - { name: cta_button, label: "Button text", type: string }
-          - { name: email_subject, label: "E-mail subject when someone taps the button", type: string }
-
-      - name: craft-marketing
-        label: "09 · Corporate Marketing Package"
-        type: file
-        path: content/crafts/marketing.json
-        format: json
-        fields:
-          - { name: theme, label: "Style of the page", type: select, options: { values: [rustic, charcoal, kitchen, office, tattoo, studio] } }
-          - { name: label, label: "Small label (number · category)", type: string }
-          - { name: title, label: "Title", type: string }
-          - { name: subtitle, label: "Subtitle (handwritten)", type: string }
-          - { name: image, label: "Big painting at the top", type: image }
-          - { name: image_alt, label: "Description of the painting (for the blind)", type: string }
-          - { name: intro, label: "Introduction", type: text }
-          - { name: more, label: "Second paragraph", type: text }
-          - { name: steps_heading, label: "Heading above the steps", type: string }
-          - name: steps
-            label: "Steps"
-            type: object
-            list: true
-            fields:
-              - { name: title, label: "Title", type: string }
-              - { name: text, label: "Text", type: text }
-          - { name: gallery_heading, label: "Heading above the photos", type: string }
-          - name: photos
-            label: "Photos of your work"
-            type: object
-            list: true
-            fields:
-              - { name: image, label: "Photo", type: image }
-              - { name: caption, label: "Caption", type: string }
-          - { name: prices_heading, label: "Heading above the prices", type: string }
-          - name: prices
-            label: "Prices"
-            type: object
-            list: true
-            fields:
-              - { name: name, label: "Product", type: string }
-              - { name: detail, label: "Extra info", type: string }
-              - { name: price, label: "Price", type: string }
-          - { name: note, label: "Small note under the prices", type: text }
-          - { name: cta_heading, label: "Closing heading", type: string }
-          - { name: cta_text, label: "Closing text", type: text }
-          - { name: cta_button, label: "Button text", type: string }
-          - { name: email_subject, label: "E-mail subject when someone taps the button", type: string }
-
+        - name: name
+          label: Product
+          type: string
+        - name: detail
+          label: Extra info
+          type: string
+        - name: price
+          label: Price
+          type: string
+      - name: price
+        label: Price
+        type: string
+      - name: button
+        label: Button text (empty = no button)
+        type: string
+      - name: email_subject
+        label: E-mail subject
+        type: string
+      - name: page
+        label: Detail page
+        type: select
+        options:
+          values:
+          - ''
+          - leather
+          - charcoal
+          - cooking
+          - books
+          - tattoo
+          - business-plan
+          - consultancy
+          - marketing
+      - name: page_link
+        label: Link text to the detail page
+        type: string
+      - name: dark
+        label: Dark card
+        type: boolean
+    - name: quote
+      label: Closing by the fire
+      type: object
+      fields:
+      - name: image
+        label: Painting
+        type: image
+      - name: label
+        label: Small label
+        type: string
+      - name: text
+        label: Quote
+        type: text
+      - name: word
+        label: Last word
+        type: string
+    - name: contact
+      label: Contact
+      type: object
+      fields:
+      - name: label
+        label: Small label
+        type: string
+      - name: heading
+        label: Heading
+        type: string
+      - name: text
+        label: Text
+        type: text
+      - name: email
+        label: E-mail address
+        type: string
+      - name: whatsapp
+        label: WhatsApp number (with country code, e.g. +34 600 000 000)
+        type: string
+      - name: crypto
+        label: Crypto line
+        type: string
+    - name: footer
+      label: Footer line
+      type: string
+    - name: ui
+      label: Small texts (buttons, language)
+      type: object
+      fields:
+      - name: back
+        label: '"Back to the farm" link'
+        type: string
+      - name: scroll
+        label: '"Scroll" hint'
+        type: string
+      - name: photo
+        label: Word on empty photo boxes
+        type: string
+      - name: lang
+        label: Word "Language" (for screen readers)
+        type: string
+  - name: craft-leather-fr
+    label: 04 · Leather Works & Hats
+    type: file
+    path: content/fr/crafts/leather.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-charcoal-fr
+    label: 03 · Charcoal Drawings
+    type: file
+    path: content/fr/crafts/charcoal.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-cooking-fr
+    label: 02 · Cooking & Recipes
+    type: file
+    path: content/fr/crafts/cooking.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-books-fr
+    label: 05 · 06 · 07 · Books by Hand
+    type: file
+    path: content/fr/crafts/books.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-tattoo-fr
+    label: 08 · Tattooing
+    type: file
+    path: content/fr/crafts/tattoo.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-business-plan-fr
+    label: 01 · Business Plan
+    type: file
+    path: content/fr/crafts/business-plan.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-consultancy-fr
+    label: 10 · 11 · 12 · Consultancy & Coaching
+    type: file
+    path: content/fr/crafts/consultancy.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
+  - name: craft-marketing-fr
+    label: 09 · Corporate Marketing Package
+    type: file
+    path: content/fr/crafts/marketing.json
+    format: json
+    fields:
+    - name: theme
+      label: Style of the page
+      type: select
+      options:
+        values:
+        - rustic
+        - charcoal
+        - kitchen
+        - office
+        - tattoo
+        - studio
+    - name: label
+      label: Small label (number · category)
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: subtitle
+      label: Subtitle (handwritten)
+      type: string
+    - name: image
+      label: Big painting at the top
+      type: image
+    - name: image_alt
+      label: Description of the painting (for the blind)
+      type: string
+    - name: intro
+      label: Introduction
+      type: text
+    - name: more
+      label: Second paragraph
+      type: text
+    - name: steps_heading
+      label: Heading above the steps
+      type: string
+    - name: steps
+      label: Steps
+      type: object
+      list: true
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: text
+        label: Text
+        type: text
+    - name: gallery_heading
+      label: Heading above the photos
+      type: string
+    - name: photos
+      label: Photos of your work
+      type: object
+      list: true
+      fields:
+      - name: image
+        label: Photo
+        type: image
+      - name: caption
+        label: Caption
+        type: string
+    - name: prices_heading
+      label: Heading above the prices
+      type: string
+    - name: prices
+      label: Prices
+      type: object
+      list: true
+      fields:
+      - name: name
+        label: Product
+        type: string
+      - name: detail
+        label: Extra info
+        type: string
+      - name: price
+        label: Price
+        type: string
+    - name: note
+      label: Small note under the prices
+      type: text
+    - name: cta_heading
+      label: Closing heading
+      type: string
+    - name: cta_text
+      label: Closing text
+      type: text
+    - name: cta_button
+      label: Button text
+      type: string
+    - name: email_subject
+      label: E-mail subject when someone taps the button
+      type: string
