@@ -85,7 +85,7 @@
       stage.textContent = d.hero_images[Math.min(hero.length - 1, Math.round(p))].stage;
       var top = walkEl.getBoundingClientRect().top + window.scrollY;
       var q = (window.scrollY - top) / vh;
-      for (var j = 1; j < walk.length; j++) walk[j].style.opacity = clamp((q - (j - 1)) * 1.6 + 1);
+      for (var j = 1; j < walk.length; j++) walk[j].style.opacity = clamp((q - j) * 1.6 + 1);
     }
     window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('resize', onScroll);
