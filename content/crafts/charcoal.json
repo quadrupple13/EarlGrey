@@ -1,0 +1,66 @@
+{
+  "theme": "charcoal",
+  "label": "No. 03 · Art",
+  "title": "The Art of… Charcoal Drawings",
+  "subtitle": "The old-fashioned way — in black, white and grey",
+  "image": "images/charcoal-studio.jpg",
+  "image_alt": "Oil painting of the artist drawing a horse in charcoal at an easel",
+  "intro": "A great passion: drawing. So why not share this art form? We draw portraits, still lifes, animals and nature — the mountains above all. Have an idea of your own? Let us hear it.",
+  "more": "Send us your photo, and we create the art in black, white and grey. Charcoal style.",
+  "steps_heading": "How your drawing is made",
+  "steps": [
+    {
+      "title": "Talk it through",
+      "text": "Always first a call, WhatsApp or video call to discuss your project."
+    },
+    {
+      "title": "Send your photo",
+      "text": "Send us the photo you want us to draw."
+    },
+    {
+      "title": "By hand, in charcoal",
+      "text": "We create the drawing in black, white and grey."
+    },
+    {
+      "title": "Your drawing",
+      "text": "[DELIVERY: how and how long — to confirm with the client]"
+    }
+  ],
+  "gallery_heading": "From the sketchbook",
+  "photos": [
+    {
+      "image": "",
+      "caption": "portrait"
+    },
+    {
+      "image": "",
+      "caption": "animal"
+    },
+    {
+      "image": "",
+      "caption": "mountains"
+    },
+    {
+      "image": "",
+      "caption": "still life"
+    }
+  ],
+  "prices_heading": "Sizes & prices",
+  "prices": [
+    {
+      "name": "A3",
+      "detail": "our normal size",
+      "price": "from €200 per hour"
+    },
+    {
+      "name": "A4 & other sizes",
+      "detail": "",
+      "price": "on request"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Tell us about your drawing",
+  "cta_text": "Portrait, pet, mountains or something else entirely? Send us your idea and your photo.",
+  "cta_button": "Discuss your drawing",
+  "email_subject": "Charcoal drawing"
+}

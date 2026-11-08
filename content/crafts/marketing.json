@@ -1,0 +1,61 @@
+{
+  "theme": "studio",
+  "label": "No. 09 · Marketing & Concept Creation",
+  "title": "The Art of… the Corporate Marketing Package",
+  "subtitle": "The whole 9 yards — yes, we give you all the stuff",
+  "image": "images/design-studio.jpg",
+  "image_alt": "Painting of a creative design studio with logos, brochures and printed t-shirts",
+  "intro": "A vast package for your company, from your first logo to the merchandise in your shop. You will be happy.",
+  "more": "",
+  "steps_heading": "What is in the package",
+  "steps": [
+    {
+      "title": "Corporate identity",
+      "text": "The look and feel of your company."
+    },
+    {
+      "title": "Logo development",
+      "text": "A logo that is truly yours."
+    },
+    {
+      "title": "Print",
+      "text": "Brochures, flyers, business cards — all the stuff you need."
+    },
+    {
+      "title": "Merchandise",
+      "text": "You name it, we create it."
+    }
+  ],
+  "gallery_heading": "From the studio",
+  "photos": [
+    {
+      "image": "",
+      "caption": "logo"
+    },
+    {
+      "image": "",
+      "caption": "business cards"
+    },
+    {
+      "image": "",
+      "caption": "brochure"
+    },
+    {
+      "image": "",
+      "caption": "merchandise"
+    }
+  ],
+  "prices_heading": "Price",
+  "prices": [
+    {
+      "name": "Corporate Marketing Package",
+      "detail": "the whole 9 yards",
+      "price": "€3,500"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Let us make it happen",
+  "cta_text": "Tell us about your company, and we will start creating.",
+  "cta_button": "Request the package",
+  "email_subject": "Corporate Marketing Package"
+}

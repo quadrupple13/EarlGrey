@@ -1,0 +1,76 @@
+{
+  "theme": "rustic",
+  "label": "No. 04 · Craftsmanship",
+  "title": "The Art of… Leather Works",
+  "subtitle": "Cowboy hats, the old-fashioned way",
+  "image": "images/leather-workshop.jpg",
+  "image_alt": "Oil painting of the leather workshop in the stone barn, a young cowboy shaping a leather hat",
+  "intro": "Every hat starts as a conversation. We craft cowboy hats in felt and straw by hand, tailor-made — no two the same. Before we begin, we sit down with you in an intake talk to find the style that's truly yours.",
+  "more": "Besides hats, the workshop makes chaps, belts, wallets, holsters and other cowboy leather works. Contact us for the possibilities.",
+  "steps_heading": "How your hat is made",
+  "steps": [
+    {
+      "title": "The intake talk",
+      "text": "Every order starts on request with a conversation, to determine the style of your hat."
+    },
+    {
+      "title": "Felt or straw",
+      "text": "Together we choose the material, the shape of the crown, the brim and the finishing touches."
+    },
+    {
+      "title": "Made by hand",
+      "text": "Shaped and finished in our workshop, the old-fashioned way. A craft takes patience."
+    },
+    {
+      "title": "Your hat",
+      "text": "[DELIVERY: how and how long — to confirm with the client]"
+    }
+  ],
+  "gallery_heading": "From our workshop",
+  "photos": [
+    {
+      "image": "",
+      "caption": "felt hat"
+    },
+    {
+      "image": "",
+      "caption": "straw hat"
+    },
+    {
+      "image": "",
+      "caption": "chaps or belt"
+    },
+    {
+      "image": "",
+      "caption": "in the workshop"
+    }
+  ],
+  "prices_heading": "What we make",
+  "prices": [
+    {
+      "name": "Cowboy hats",
+      "detail": "felt or straw, tailor-made",
+      "price": "€350 – €800"
+    },
+    {
+      "name": "Chaps",
+      "detail": "",
+      "price": "on request"
+    },
+    {
+      "name": "Belts & wallets",
+      "detail": "",
+      "price": "on request"
+    },
+    {
+      "name": "Holsters & other cowboy leather works",
+      "detail": "",
+      "price": "on request"
+    }
+  ],
+  "note": "Prices for leather works range from €350 to €800, depending on the piece. [Client: confirm which price belongs to what.]",
+  "cta_heading": "Let's talk about your hat",
+  "cta_text": "Tell us what you have in mind. We'll set up the intake talk and take it from there — paso a paso.",
+  "cta_button": "Book your intake talk",
+  "email_subject": "Cowboy hat intake"
+}

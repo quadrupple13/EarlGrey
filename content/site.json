@@ -1,0 +1,219 @@
+{
+  "brand": "QUADRUPPLE",
+  "slogan": [
+    {
+      "big": "ONE",
+      "rest": "brand"
+    },
+    {
+      "big": "FOUR",
+      "rest": "souls"
+    },
+    {
+      "big": "THIRTEEN",
+      "rest": "expressions of ART"
+    }
+  ],
+  "hero_images": [
+    {
+      "image": "images/hero-1-photo.jpg",
+      "stage": "Real life"
+    },
+    {
+      "image": "images/hero-2-charcoal.jpg",
+      "stage": "Charcoal"
+    },
+    {
+      "image": "images/hero-3-watercolor.jpg",
+      "stage": "Watercolor"
+    },
+    {
+      "image": "images/hero-4-oil.jpg",
+      "stage": "Oil paint"
+    }
+  ],
+  "song": "images/quadrupple-family-farm.mp3",
+  "song_button": "Play our song",
+  "song_button_off": "Music off",
+  "welcome": {
+    "label": "Welcome to the Quadrupple Family Farm",
+    "heading": "Four souls, living together in the middle of nature",
+    "text": "Surrounded by animals, wildlife and mountains. No riches, just the basics. With the world around them as canvas, as inspiration and as provider of… Art.",
+    "question": "Curious what we do?"
+  },
+  "walk": [
+    {
+      "image": "images/leather-workshop.jpg",
+      "label": "No. 04 · Craftsmanship",
+      "title": "The Art of… Leather Works",
+      "subtitle": "The old-fashioned way",
+      "text": "Handmade cowboy hats in felt and straw, tailor-made after a short intake to find your style. Also chaps, belts, wallets, holsters and other cowboy leather works.",
+      "rows": [],
+      "price": "From €350 – €800",
+      "button": "Request",
+      "email_subject": "Leather Works",
+      "page": "leather",
+      "page_link": "Step into the hat workshop",
+      "dark": false
+    },
+    {
+      "image": "images/charcoal-studio.jpg",
+      "label": "No. 03 · Art",
+      "title": "The Art of… Charcoal Drawings",
+      "subtitle": "The old-fashioned way",
+      "text": "Portraits, still lifes, animals and mountains in black, white and grey. Send us your photo and we create the art, charcoal style. A3 as standard, A4 and other sizes on request. We always talk it through first by phone, WhatsApp or video call.",
+      "rows": [],
+      "price": "From €200 per hour",
+      "button": "Request",
+      "email_subject": "Charcoal Drawing",
+      "page": "charcoal",
+      "page_link": "Step into the studio",
+      "dark": false
+    },
+    {
+      "image": "images/kitchen.jpg",
+      "label": "No. 02 · Art",
+      "title": "The Art of… Cooking",
+      "subtitle": "Recipes from 30 years behind the stove",
+      "text": "A chef and business owner for 30 years — time to share all those recipes. Indonesian, Dutch, French, Belgian, Italian & Mediterranean, Surinamese and Thai. Always with photos, ingredient list and method. Video tutorial on request.",
+      "rows": [],
+      "price": "From €99 – €333",
+      "button": "Order",
+      "email_subject": "Recipes",
+      "page": "cooking",
+      "page_link": "Step into the kitchen",
+      "dark": false
+    },
+    {
+      "image": "images/book-workshop.jpg",
+      "label": "No. 05 · 06 · 07 · Craftsmanship",
+      "title": "The Art of… Books, by Hand",
+      "subtitle": "Made with the elements of nature — to keep and to last",
+      "text": "",
+      "rows": [
+        {
+          "name": "Bookbinding & Repair",
+          "detail": "old Bibles, recipe books, history books. Sent back by express with track & trace.",
+          "price": "€80 / hour"
+        },
+        {
+          "name": "Handcrafted Diaries",
+          "detail": "tailor-made, a diary to pass on for generations.",
+          "price": "€100 – €300"
+        },
+        {
+          "name": "Handcrafted Wedding Books",
+          "detail": "share your ideas and photos.",
+          "price": "€700 – €1,300"
+        }
+      ],
+      "price": "",
+      "button": "Request",
+      "email_subject": "Books by hand",
+      "page": "books",
+      "page_link": "Step into the book workshop",
+      "dark": false
+    },
+    {
+      "image": "images/tattoo-studio.jpg",
+      "label": "No. 08 · Art",
+      "title": "The Art of… Tattooing",
+      "subtitle": "On request only",
+      "text": "Right now we are in our tattoo apprenticeship. Soon this extremely beautiful form of art joins our ever-growing list.",
+      "rows": [],
+      "price": "€120 per hour",
+      "button": "Request",
+      "email_subject": "Tattoo",
+      "page": "tattoo",
+      "page_link": "Step into the tattoo studio",
+      "dark": false
+    },
+    {
+      "image": "images/office.jpg",
+      "label": "No. 01 · Consult & Guidance",
+      "title": "The Art of… Business Plan Writing & Co-Creating",
+      "subtitle": "20+ years of experience — concept creation, gastronomy, agriculture and more",
+      "text": "Complete: general section, marketing, financials, market research, pitch deck and business summary. Delivered as hardcopy, PDF and working file, with ownership rights. Online by phone and video. 4 – 12 weeks. In a hurry? Complete in 1 week, on request: €9,990.",
+      "rows": [],
+      "price": "€7,790",
+      "button": "Request",
+      "email_subject": "Business Plan",
+      "page": "business-plan",
+      "page_link": "Step into the office",
+      "dark": false
+    },
+    {
+      "image": "images/meeting.jpg",
+      "label": "No. 10 · 11 · 12 · Consult & Guidance",
+      "title": "The Art of… Consultancy & Start-Up Coaching",
+      "subtitle": "Concept creation and co-creating — the whole family thinks along",
+      "text": "20 years of experience. We coach start-ups, support small entrepreneurs and develop your business plan and investor pitch deck, online by phone or video. Average 3 months (90 – 120 hours), large projects 6 months (160 – 240 hours).",
+      "rows": [
+        {
+          "name": "Classic",
+          "detail": "",
+          "price": "€90 / hour"
+        },
+        {
+          "name": "Partner",
+          "detail": "",
+          "price": "€60 / hour + 3 – 10% share"
+        },
+        {
+          "name": "Co-founder",
+          "detail": "",
+          "price": "Free + 15 – 49% share"
+        }
+      ],
+      "price": "",
+      "button": "Share your idea",
+      "email_subject": "Consultancy",
+      "page": "consultancy",
+      "page_link": "Join us at the table",
+      "dark": false
+    },
+    {
+      "image": "images/design-studio.jpg",
+      "label": "No. 09 · Marketing & Concept Creation",
+      "title": "The Art of… the Corporate Marketing Package",
+      "subtitle": "The whole 9 yards — yes, we give you all the stuff",
+      "text": "Corporate identity, logo development, brochures, flyers, business cards and merchandise. You name it, we create it. It's a vast package — you'll be happy.",
+      "rows": [],
+      "price": "€3,500",
+      "button": "Request",
+      "email_subject": "Corporate Marketing Package",
+      "page": "marketing",
+      "page_link": "Step into the design studio",
+      "dark": false
+    },
+    {
+      "image": "images/secret-pack.jpg",
+      "label": "No. 13 · Our lucky number",
+      "title": "The Art of… Quadrupple: Our Secret Pack",
+      "subtitle": "",
+      "text": "Nobody knows yet. Coming soon — stay tuned.",
+      "rows": [],
+      "price": "Price: … ?! (nobody knows)",
+      "button": "",
+      "email_subject": "",
+      "page": "",
+      "page_link": "",
+      "dark": true
+    }
+  ],
+  "quote": {
+    "image": "images/fireplace.jpg",
+    "label": "Art… what it means to us",
+    "text": "Something you love to do. Straight from the heart, created by your hands — spirit working through you.",
+    "word": "Art."
+  },
+  "contact": {
+    "label": "Marketing & Concept Creation",
+    "heading": "Got an idea, but not the whole picture?",
+    "text": "Recognize this? An idea in your head that you just can't get onto paper. Wherever you're stuck, just give it a shot. Call, e-mail or app us and share your ideas. We fill in the blanks — by simply listening — and get you to the next level. Paso a paso, as they say in Spain.",
+    "email": "quadruppleart@protonmail.com",
+    "whatsapp": "",
+    "crypto": "Pay the classic way — or with crypto."
+  },
+  "footer": "One brand – four souls – thirteen expressions of art"
+}

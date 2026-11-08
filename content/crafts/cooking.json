@@ -1,0 +1,66 @@
+{
+  "theme": "kitchen",
+  "label": "No. 02 · Art",
+  "title": "The Art of… Cooking",
+  "subtitle": "Thirty years of recipes, now shared",
+  "image": "images/kitchen.jpg",
+  "image_alt": "Oil painting of the farmhouse kitchen with dishes from around the world",
+  "intro": "Thirty years as a chef and business owner — time to share all those recipes! From Indonesian to Thai, every recipe is written to be cooked at home.",
+  "more": "",
+  "steps_heading": "What you get",
+  "steps": [
+    {
+      "title": "Pick your kitchen",
+      "text": "Indonesian, Dutch, French, Belgian, Italian & Mediterranean, Surinamese or Thai."
+    },
+    {
+      "title": "Always with pictures",
+      "text": "Every recipe comes with pictures of the dish."
+    },
+    {
+      "title": "Ingredients & method",
+      "text": "A complete ingredient list and the full preparation method."
+    },
+    {
+      "title": "Video tutorial",
+      "text": "Possible, on request."
+    }
+  ],
+  "gallery_heading": "From our kitchen",
+  "photos": [
+    {
+      "image": "",
+      "caption": "rice table"
+    },
+    {
+      "image": "",
+      "caption": "French classic"
+    },
+    {
+      "image": "",
+      "caption": "pasta"
+    },
+    {
+      "image": "",
+      "caption": "Thai curry"
+    }
+  ],
+  "prices_heading": "Recipes & prices",
+  "prices": [
+    {
+      "name": "Recipes",
+      "detail": "with pictures, ingredients and method",
+      "price": "€99 – €333"
+    },
+    {
+      "name": "Video tutorial",
+      "detail": "",
+      "price": "on request"
+    }
+  ],
+  "note": "[Client: what do you get for €99 and what for €333?]",
+  "cta_heading": "Hungry for more?",
+  "cta_text": "Tell us which kitchen you love, and we will help you pick your recipes.",
+  "cta_button": "Order your recipes",
+  "email_subject": "Recipes"
+}

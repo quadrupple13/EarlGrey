@@ -1,0 +1,66 @@
+{
+  "theme": "office",
+  "label": "No. 01 · Consult & Guidance",
+  "title": "The Art of… Business Plan Writing & Co-Creating",
+  "subtitle": "20+ years of experience",
+  "image": "images/office.jpg",
+  "image_alt": "Painting of an elegant office in the farmhouse with a business plan and pitch deck on the desk",
+  "intro": "Our specialty is concept creation, gastronomy, agriculture and more. We write your complete business plan — and it is yours: you get the ownership rights.",
+  "more": "",
+  "steps_heading": "What is included",
+  "steps": [
+    {
+      "title": "Consult",
+      "text": "Online, by phone and by video call."
+    },
+    {
+      "title": "The complete plan",
+      "text": "General section, marketing, financials, market research, pitch deck and business summary."
+    },
+    {
+      "title": "Delivered",
+      "text": "As hardcopy, PDF and working file — including ownership rights."
+    },
+    {
+      "title": "Timeline",
+      "text": "4 to 12 weeks. In a hurry? A complete plan in 1 week, on request."
+    }
+  ],
+  "gallery_heading": "Examples",
+  "photos": [
+    {
+      "image": "",
+      "caption": "business plan cover"
+    },
+    {
+      "image": "",
+      "caption": "pitch deck"
+    },
+    {
+      "image": "",
+      "caption": "financial overview"
+    },
+    {
+      "image": "",
+      "caption": "business summary"
+    }
+  ],
+  "prices_heading": "Investment",
+  "prices": [
+    {
+      "name": "Business plan",
+      "detail": "complete",
+      "price": "€7,790"
+    },
+    {
+      "name": "Rush",
+      "detail": "complete in 1 week, on request",
+      "price": "€9,990"
+    }
+  ],
+  "note": "Rush requests are accepted on a 1 in 25 basis.",
+  "cta_heading": "Request your business plan",
+  "cta_text": "Tell us about your plans. We will set up a first call.",
+  "cta_button": "Request a first call",
+  "email_subject": "Business plan"
+}

@@ -1,0 +1,61 @@
+{
+  "theme": "tattoo",
+  "label": "No. 08 · Art",
+  "title": "The Art of… Tattooing",
+  "subtitle": "On request only",
+  "image": "images/tattoo-studio.jpg",
+  "image_alt": "Painting of a clean, bright tattoo studio with a view of the olive trees",
+  "intro": "Right now we are in our tattoo apprenticeship. But soon we will add this extremely beautiful form of art to our constantly evolving list of art.",
+  "more": "",
+  "steps_heading": "How it works",
+  "steps": [
+    {
+      "title": "On request",
+      "text": "Our tattoo service is on request only. Send us a message."
+    },
+    {
+      "title": "Your design",
+      "text": "[To confirm with the client: how a design is made]"
+    },
+    {
+      "title": "Clean & safe",
+      "text": "[To confirm with the client: hygiene and certification]"
+    },
+    {
+      "title": "Aftercare",
+      "text": "[To confirm with the client: appointments and aftercare]"
+    }
+  ],
+  "gallery_heading": "Designs",
+  "photos": [
+    {
+      "image": "",
+      "caption": "tattoo design"
+    },
+    {
+      "image": "",
+      "caption": "tattoo design"
+    },
+    {
+      "image": "",
+      "caption": "healed tattoo"
+    },
+    {
+      "image": "",
+      "caption": "the studio"
+    }
+  ],
+  "prices_heading": "Price",
+  "prices": [
+    {
+      "name": "Tattoo",
+      "detail": "on request only",
+      "price": "€120 per hour"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Ask about a tattoo",
+  "cta_text": "Tell us your idea. We will let you know what is possible.",
+  "cta_button": "Send your request",
+  "email_subject": "Tattoo"
+}

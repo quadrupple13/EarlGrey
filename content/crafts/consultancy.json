@@ -1,0 +1,71 @@
+{
+  "theme": "office",
+  "label": "No. 10 · 11 · 12 · Consult & Guidance",
+  "title": "The Art of… Consultancy & Start-Up Coaching",
+  "subtitle": "Concept creation & co-creating",
+  "image": "images/meeting.jpg",
+  "image_alt": "Painting of a business meeting with the whole family and a client in the farmhouse",
+  "intro": "Twenty years of experience in concept creation, gastronomy, agriculture and more. We coach start-ups, support small entrepreneurs as they grow, and develop your business plan and investor pitch deck.",
+  "more": "Online, by phone or by video call — and the whole family thinks along.",
+  "steps_heading": "How we work",
+  "steps": [
+    {
+      "title": "Share your idea",
+      "text": "Call, e-mail or app us. It does not matter where you are stuck."
+    },
+    {
+      "title": "We listen",
+      "text": "We fill in the blanks — by simply listening to you."
+    },
+    {
+      "title": "Build it together",
+      "text": "Concept, business plan and investor pitch deck."
+    },
+    {
+      "title": "Next level",
+      "text": "On average 3 months (90 – 120 hours). Large projects 6 months (160 – 240 hours)."
+    }
+  ],
+  "gallery_heading": "At the table",
+  "photos": [
+    {
+      "image": "",
+      "caption": "coaching session"
+    },
+    {
+      "image": "",
+      "caption": "pitch deck"
+    },
+    {
+      "image": "",
+      "caption": "workshop"
+    },
+    {
+      "image": "",
+      "caption": "client project"
+    }
+  ],
+  "prices_heading": "Three ways to work together",
+  "prices": [
+    {
+      "name": "Classic",
+      "detail": "",
+      "price": "€90 per hour"
+    },
+    {
+      "name": "Partner",
+      "detail": "plus a 3 – 10% share in your company",
+      "price": "€60 per hour"
+    },
+    {
+      "name": "Co-founder",
+      "detail": "plus a 15 – 49% share in your company",
+      "price": "free of charge"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Got an idea? Just give it a shot.",
+  "cta_text": "We get you to the next level — paso a paso, as they say in Spain.",
+  "cta_button": "Share your idea",
+  "email_subject": "Consultancy"
+}

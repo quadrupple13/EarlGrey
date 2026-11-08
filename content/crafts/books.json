@@ -1,0 +1,71 @@
+{
+  "theme": "rustic",
+  "label": "No. 05 · 06 · 07 · Craftsmanship",
+  "title": "The Art of… Books, by Hand",
+  "subtitle": "To keep, and to last for generations",
+  "image": "images/book-workshop.jpg",
+  "image_alt": "Oil painting of the bookbinding workshop with an old Bible, a diary and a wedding book",
+  "intro": "Old books you would love to preserve? Old Bibles, recipe books, history books, or just old books you love — in need of a new cover or binding? We repair them.",
+  "more": "And for those who love to own one, we craft diaries and wedding books with the elements of nature. Not just a book: an expression of art, for you to keep and to last.",
+  "steps_heading": "How it works",
+  "steps": [
+    {
+      "title": "Send your request",
+      "text": "Share your ideas — or pictures and video of the book that needs repair."
+    },
+    {
+      "title": "We take a look",
+      "text": "From the pictures or video we determine if we can help you."
+    },
+    {
+      "title": "Give us some time",
+      "text": "It is a craft. Craft takes patience."
+    },
+    {
+      "title": "Back to you",
+      "text": "Your book comes back by express, with track & trace."
+    }
+  ],
+  "gallery_heading": "From the workbench",
+  "photos": [
+    {
+      "image": "",
+      "caption": "restored Bible"
+    },
+    {
+      "image": "",
+      "caption": "nature diary"
+    },
+    {
+      "image": "",
+      "caption": "wedding book"
+    },
+    {
+      "image": "",
+      "caption": "at the workbench"
+    }
+  ],
+  "prices_heading": "What we make",
+  "prices": [
+    {
+      "name": "Bookbinding & repair",
+      "detail": "",
+      "price": "€80 per hour"
+    },
+    {
+      "name": "Handcrafted diary",
+      "detail": "with the elements of nature",
+      "price": "€100 – €300"
+    },
+    {
+      "name": "Handcrafted wedding book",
+      "detail": "with your photos",
+      "price": "€700 – €1,300"
+    }
+  ],
+  "note": "",
+  "cta_heading": "Share your book idea",
+  "cta_text": "Give us the opportunity to create something that lasts for generations.",
+  "cta_button": "Start your book",
+  "email_subject": "Books by hand"
+}
