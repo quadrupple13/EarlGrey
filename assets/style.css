@@ -136,16 +136,16 @@ footer.site .f-brand{font-size:24px;color:#F2EBDD}
 
 /* language switch */
 .langbar{position:fixed;top:16px;left:16px;z-index:30}
-.langs{display:flex;gap:2px;padding:3px;border-radius:255px 15px 225px 15px/15px 225px 15px 255px;background:rgba(243,231,207,.95);border:1px solid rgba(46,42,36,.35)}
-.langs a{display:inline-flex;align-items:center;justify-content:center;min-width:38px;min-height:38px;padding:0 6px;border-radius:999px;font-family:"Special Elite",monospace;font-size:13px;color:#2E2A24;text-decoration:none}
-.langs a.on{background:#3B2A1E;color:#FBEFD9}
-.cp nav .langs{background:transparent;border-color:rgba(255,255,255,.35)}
-.cp nav .langs a{min-height:36px;color:var(--navink);font-size:13px}
-.cp nav .langs a.on{background:var(--navink);color:var(--nav)}
-@media (max-width:520px){.langs a{min-width:34px;padding:0 4px;font-size:12px}.music span{display:none}}
+.langs{display:flex;gap:10px;align-items:center;padding:0;background:none;border:0}
+.langs a{display:block;width:30px;height:20px;border-radius:3px;overflow:hidden;opacity:.55;box-shadow:0 1px 4px rgba(0,0,0,.35);transition:opacity .2s,transform .2s;text-decoration:none}
+.langs a svg{display:block;width:100%;height:100%}
+.langs a:hover{opacity:.9}
+.langs a.on{opacity:1;transform:scale(1.15);box-shadow:0 0 0 2px rgba(251,239,217,.9),0 2px 6px rgba(0,0,0,.4)}
+@media (max-width:520px){.langs{gap:8px}.langs a{width:27px;height:18px}.music span{display:none}}
 .t-charcoal .photo{aspect-ratio:auto;height:auto;object-fit:contain;background:#fff}
 .photo.pj{aspect-ratio:auto;height:auto;object-fit:contain}
 .project{margin:0 0 44px}.project h3{margin:0 0 8px;font-size:26px}.project>p{margin:0 0 18px;max-width:720px}
 @media (max-width:600px){.project .grid{grid-template-columns:1fr 1fr!important;gap:10px!important}.project figcaption{font-size:16px!important}}
 .t-studio .photo{aspect-ratio:auto;height:auto;object-fit:contain}
 .sublabel{margin:-4px 0 14px;font-size:22px;color:#5E554A}
+.cp nav .langs a{display:block;min-height:0;width:27px;height:18px;padding:0}
