@@ -60,4 +60,14 @@
     app.innerHTML = o;
     window.scrollTo(0, 0);
   }
+  // Opened on top of the farm page: the back link closes this layer, the music keeps playing.
+  if (window.parent !== window) {
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest ? e.target.closest('a') : null;
+      if (!a) return;
+      if (a.closest('.langs')) { e.preventDefault(); location.replace(a.href); }
+      else if (a.closest('nav')) { e.preventDefault(); window.parent.postMessage('closeCraft', location.origin); }
+      else if (a.href.indexOf('mailto:') === 0) { a.target = '_top'; }
+    });
+  }
 })();

@@ -103,5 +103,43 @@
       if (song.paused) { song.volume = 0.6; song.play().then(function () { txt.textContent = d.song_button_off; btn.setAttribute('aria-label', 'Pause the song'); }).catch(function () {}); }
       else { song.pause(); txt.textContent = d.song_button; btn.setAttribute('aria-label', 'Play our song'); }
     });
+
+    // Craft pages open on top of this page (in a frame), so the music keeps playing.
+    var frame = null, fadeT = null;
+    function fadeTo(v) {
+      clearInterval(fadeT);
+      fadeT = setInterval(function () {
+        var c = song.volume, step = 0.03;
+        if (Math.abs(c - v) <= step) { song.volume = v; clearInterval(fadeT); }
+        else song.volume = c + (v > c ? step : -step);
+      }, 50);
+    }
+    function openCraft(url, push) {
+      if (frame) frame.remove();
+      frame = document.createElement('iframe'); frame.className = 'craft-frame'; frame.title = d.brand;
+      frame.src = url; frame.style.display = 'block'; document.body.appendChild(frame);
+      document.documentElement.classList.add('craft-open');
+      if (!song.paused) fadeTo(0.2);
+      if (push) history.pushState({ craft: url }, '', url);
+    }
+    function closeCraft() {
+      if (frame) { frame.remove(); frame = null; }
+      document.documentElement.classList.remove('craft-open');
+      if (!song.paused) fadeTo(0.6);
+      var now = null; try { now = localStorage.getItem('qlang'); } catch (e) {}
+      if (now && now !== QLANG.lang) location.replace('index.html?lang=' + now);
+    }
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest ? e.target.closest('a.more') : null;
+      if (!a || e.metaKey || e.ctrlKey || e.shiftKey) return;
+      e.preventDefault(); openCraft(a.getAttribute('href'), true);
+    });
+    window.addEventListener('popstate', function (e) {
+      if (e.state && e.state.craft) openCraft(e.state.craft, false); else closeCraft();
+    });
+    window.addEventListener('message', function (e) {
+      if (e.origin !== location.origin || e.data !== 'closeCraft') return;
+      if (history.state && history.state.craft) history.back(); else closeCraft();
+    });
   }
 })();
