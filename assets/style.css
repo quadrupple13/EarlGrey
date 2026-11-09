@@ -223,3 +223,7 @@ footer.site .f-brand{font-size:24px;color:#F2EBDD}
 .c-marketing .card{box-shadow:inset 0 0 26px rgba(90,55,20,.35),0 16px 24px rgba(20,12,6,.4)}
 .c-marketing .card{background:url(../images/tex-kraft.jpg) center/cover;box-shadow:inset 0 0 22px rgba(90,55,20,.3),0 16px 24px rgba(20,12,6,.45)}
 .c-marketing .card.tilt-2{background-position:20% 30%}.c-marketing .card.tilt-3{background-position:80% 70%}.c-marketing .card.tilt-4{background-position:40% 95%}
+.brands{padding-bottom:8px}
+.brandrow{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.brandrow figure{margin:0;width:min(260px,41vw)}
+.brandrow img{display:block;width:100%;height:auto;border-radius:6px;box-shadow:0 10px 22px rgba(30,15,5,.3)}

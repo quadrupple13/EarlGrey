@@ -23,6 +23,11 @@
     o += '<nav><a href="' + QLANG.link('index.html') + '">' + BACK + h(ui.back || 'Back to the farm') + '</a>' + QLANG.switcher(ui.lang) + '<span class="f-brand">' + h(site.brand) + '</span></nav>';
     o += '<header><img src="' + h(c.image) + '" alt="' + h(c.image_alt) + '"><div class="shade"></div><div class="t"><p class="f-label" style="margin:0">' + h(c.label) + '</p><h1 class="f-head">' + h(c.title) + '</h1>' + (c.subtitle ? '<p class="f-hand s">' + h(c.subtitle) + '</p>' : '') + '</div></header>';
     o += '<section class="intro"><p>' + br(c.intro) + '</p>' + (c.more ? '<p>' + br(c.more) + '</p>' : '') + '</section>';
+    if (c.brands && c.brands.length) {
+      o += '<section class="brands"><h2 class="f-head">' + h(c.brands_heading) + '</h2><div class="brandrow">';
+      c.brands.forEach(function (b) { o += '<figure><img src="' + h(b.image) + '" alt="' + h(b.caption) + '" loading="lazy"></figure>'; });
+      o += '</div></section>';
+    }
     if (c.steps && c.steps.length) {
       o += '<section class="steps"><h2 class="f-head">' + h(c.steps_heading) + '</h2><div class="grid">';
       c.steps.forEach(function (s, i) { o += '<div class="card tilt-' + ((i % 4) + 1) + '"><span class="f-hand n">' + (i + 1) + '</span><h3 class="f-head">' + h(s.title) + '</h3><p>' + br(s.text) + '</p></div>'; });

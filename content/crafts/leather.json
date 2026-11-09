@@ -76,5 +76,16 @@
   "cta_heading": "Let's talk about your hat",
   "cta_text": "Tell us what you have in mind. We'll set up the intake talk and take it from there — paso a paso.",
   "cta_button": "Book your intake talk",
-  "email_subject": "Cowboy hat intake"
+  "email_subject": "Cowboy hat intake",
+  "brands_heading": "Owen's brands",
+  "brands": [
+    {
+      "image": "images/logo-hatmaken-cowboy.jpg",
+      "caption": "The hatmake'n Cowboy"
+    },
+    {
+      "image": "images/logo-wandern-cowboy.jpg",
+      "caption": "The wander'n Cowboy"
+    }
+  ]
 }

@@ -76,5 +76,16 @@
   "cta_heading": "Laten we het over je hoed hebben",
   "cta_text": "Vertel ons wat je in gedachten hebt. Wij plannen het intakegesprek en gaan van daaruit verder — paso a paso.",
   "cta_button": "Plan je intakegesprek",
-  "email_subject": "Intake cowboyhoed"
+  "email_subject": "Intake cowboyhoed",
+  "brands_heading": "De merken van Owen",
+  "brands": [
+    {
+      "image": "images/logo-hatmaken-cowboy.jpg",
+      "caption": "The hatmake'n Cowboy"
+    },
+    {
+      "image": "images/logo-wandern-cowboy.jpg",
+      "caption": "The wander'n Cowboy"
+    }
+  ]
 }

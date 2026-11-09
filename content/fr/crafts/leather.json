@@ -76,5 +76,16 @@
   "cta_heading": "Parlons de votre chapeau",
   "cta_text": "Dites-nous ce que vous avez en tête. Nous organisons l'entretien et avançons ensuite, paso a paso.",
   "cta_button": "Réservez votre entretien",
-  "email_subject": "Entretien chapeau de cowboy"
+  "email_subject": "Entretien chapeau de cowboy",
+  "brands_heading": "Les marques d’Owen",
+  "brands": [
+    {
+      "image": "images/logo-hatmaken-cowboy.jpg",
+      "caption": "The hatmake'n Cowboy"
+    },
+    {
+      "image": "images/logo-wandern-cowboy.jpg",
+      "caption": "The wander'n Cowboy"
+    }
+  ]
 }

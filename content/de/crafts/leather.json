@@ -76,5 +76,16 @@
   "cta_heading": "Lass uns über deinen Hut sprechen",
   "cta_text": "Erzähl uns, was dir vorschwebt. Wir vereinbaren das Vorgespräch und machen von dort aus weiter – paso a paso.",
   "cta_button": "Vorgespräch buchen",
-  "email_subject": "Vorgespräch Cowboyhut"
+  "email_subject": "Vorgespräch Cowboyhut",
+  "brands_heading": "Owens Marken",
+  "brands": [
+    {
+      "image": "images/logo-hatmaken-cowboy.jpg",
+      "caption": "The hatmake'n Cowboy"
+    },
+    {
+      "image": "images/logo-wandern-cowboy.jpg",
+      "caption": "The wander'n Cowboy"
+    }
+  ]
 }

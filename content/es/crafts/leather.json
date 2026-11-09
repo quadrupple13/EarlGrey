@@ -76,5 +76,16 @@
   "cta_heading": "Hablemos de tu sombrero",
   "cta_text": "Cuéntanos lo que tienes en mente. Organizamos la entrevista y seguimos desde ahí, paso a paso.",
   "cta_button": "Reserva tu entrevista",
-  "email_subject": "Entrevista sombrero vaquero"
+  "email_subject": "Entrevista sombrero vaquero",
+  "brands_heading": "Las marcas de Owen",
+  "brands": [
+    {
+      "image": "images/logo-hatmaken-cowboy.jpg",
+      "caption": "The hatmake'n Cowboy"
+    },
+    {
+      "image": "images/logo-wandern-cowboy.jpg",
+      "caption": "The wander'n Cowboy"
+    }
+  ]
 }
