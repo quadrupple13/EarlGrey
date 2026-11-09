@@ -37,9 +37,10 @@
   "song_button_off": "Music off",
   "welcome": {
     "label": "Welcome to the Quadrupple Family Farm",
-    "heading": "Four souls — the Grey family — living together in the middle of nature",
+    "heading": "Four souls, living together in the middle of nature",
     "text": "Surrounded by animals, wildlife and mountains. No riches, just the basics. With the world around them as canvas, as inspiration and as provider of… Art.",
-    "question": "Curious what we do?"
+    "question": "Curious what we do?",
+    "sublabel": "home of the Grey family"
   },
   "walk": [
     {

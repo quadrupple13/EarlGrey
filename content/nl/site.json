@@ -37,9 +37,10 @@
   "song_button_off": "Muziek uit",
   "welcome": {
     "label": "Welkom op de Quadrupple Family Farm",
-    "heading": "Vier zielen — de familie Grey — samen midden in de natuur",
+    "heading": "Vier zielen, samen midden in de natuur",
     "text": "Omringd door dieren, wild en bergen. Geen rijkdom, alleen het hoognodige. Met de wereld om ons heen als doek, als inspiratie en als bron van… Kunst.",
-    "question": "Benieuwd wat we doen?"
+    "question": "Benieuwd wat we doen?",
+    "sublabel": "thuis van de familie Grey"
   },
   "walk": [
     {

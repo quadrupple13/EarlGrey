@@ -148,3 +148,4 @@ footer.site .f-brand{font-size:24px;color:#F2EBDD}
 .project{margin:0 0 44px}.project h3{margin:0 0 8px;font-size:26px}.project>p{margin:0 0 18px;max-width:720px}
 @media (max-width:600px){.project .grid{grid-template-columns:1fr 1fr!important;gap:10px!important}.project figcaption{font-size:16px!important}}
 .t-studio .photo{aspect-ratio:auto;height:auto;object-fit:contain}
+.sublabel{margin:-4px 0 14px;font-size:22px;color:#5E554A}

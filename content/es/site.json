@@ -37,9 +37,10 @@
   "song_button_off": "Apagar música",
   "welcome": {
     "label": "Bienvenidos a la Quadrupple Family Farm",
-    "heading": "Cuatro almas — la familia Grey — que viven juntas en plena naturaleza",
+    "heading": "Cuatro almas que viven juntas en plena naturaleza",
     "text": "Rodeados de animales, fauna salvaje y montañas. Sin riquezas, solo lo esencial. Con el mundo a nuestro alrededor como lienzo, como inspiración y como fuente de… Arte.",
-    "question": "¿Quieres saber lo que hacemos?"
+    "question": "¿Quieres saber lo que hacemos?",
+    "sublabel": "hogar de la familia Grey"
   },
   "walk": [
     {

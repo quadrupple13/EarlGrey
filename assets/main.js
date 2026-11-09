@@ -30,7 +30,7 @@
 
     // welcome
     var w = d.welcome;
-    out += '<div class="band"><div class="band-inner"><p class="f-label accent">' + h(w.label) + '</p><h2 class="f-head">' + h(w.heading) + '</h2><p class="lead">' + br(w.text) + '</p><p style="font-size:15px;color:#5E554A">' + h(w.question) + '</p></div></div>';
+    out += '<div class="band"><div class="band-inner"><p class="f-label accent">' + h(w.label) + '</p>' + (w.sublabel ? '<p class="f-hand sublabel">' + h(w.sublabel) + '</p>' : '') + '<h2 class="f-head">' + h(w.heading) + '</h2><p class="lead">' + br(w.text) + '</p><p style="font-size:15px;color:#5E554A">' + h(w.question) + '</p></div></div>';
 
     // walk
     var scenes = d.walk.slice();
