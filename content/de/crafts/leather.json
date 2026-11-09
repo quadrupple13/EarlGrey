@@ -5,7 +5,7 @@
   "subtitle": "Cowboyhüte, auf die altmodische Art",
   "image": "images/leather-workshop.jpg",
   "image_alt": "Ölgemälde der Lederwerkstatt in der Steinscheune, ein junger Cowboy formt einen Lederhut",
-  "intro": "Jeder Hut beginnt mit einem Gespräch. Wir fertigen Cowboyhüte aus Filz und Stroh von Hand, maßgefertigt – keiner wie der andere. Bevor wir beginnen, setzen wir uns mit dir zu einem Vorgespräch zusammen, um den Stil zu finden, der wirklich zu dir passt.",
+  "intro": "Jeder Hut beginnt mit einem Gespräch. Wir fertigen Cowboyhüte aus Leder, Filz und Stroh von Hand, maßgefertigt – keiner wie der andere. Bevor wir beginnen, setzen wir uns mit dir zu einem Vorgespräch zusammen, um den Stil zu finden, der wirklich zu dir passt.",
   "more": "Neben Hüten fertigt die Werkstatt Chaps, Gürtel, Geldbörsen, Holster und andere Cowboy-Lederarbeiten. Frag uns nach den Möglichkeiten.",
   "steps_heading": "So entsteht dein Hut",
   "steps": [
@@ -14,7 +14,7 @@
       "text": "Jede Bestellung beginnt auf Anfrage mit einem Gespräch, um den Stil deines Hutes festzulegen."
     },
     {
-      "title": "Filz oder Stroh",
+      "title": "Leder, Filz oder Stroh",
       "text": "Gemeinsam wählen wir das Material, die Form der Krone, die Krempe und die Details."
     },
     {
@@ -28,6 +28,10 @@
   ],
   "gallery_heading": "Aus unserer Werkstatt",
   "photos": [
+    {
+      "image": "",
+      "caption": "Lederhut"
+    },
     {
       "image": "",
       "caption": "Filzhut"
@@ -49,7 +53,7 @@
   "prices": [
     {
       "name": "Cowboyhüte",
-      "detail": "Filz oder Stroh, maßgefertigt",
+      "detail": "Leder, Filz oder Stroh, maßgefertigt",
       "price": "350 € – 800 €"
     },
     {

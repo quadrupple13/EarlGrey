@@ -5,7 +5,7 @@
   "subtitle": "Cowboy hats, the old-fashioned way",
   "image": "images/leather-workshop.jpg",
   "image_alt": "Oil painting of the leather workshop in the stone barn, a young cowboy shaping a leather hat",
-  "intro": "Every hat starts as a conversation. We craft cowboy hats in felt and straw by hand, tailor-made — no two the same. Before we begin, we sit down with you in an intake talk to find the style that's truly yours.",
+  "intro": "Every hat starts as a conversation. We craft cowboy hats in leather, felt and straw by hand, tailor-made — no two the same. Before we begin, we sit down with you in an intake talk to find the style that's truly yours.",
   "more": "Besides hats, the workshop makes chaps, belts, wallets, holsters and other cowboy leather works. Contact us for the possibilities.",
   "steps_heading": "How your hat is made",
   "steps": [
@@ -14,7 +14,7 @@
       "text": "Every order starts on request with a conversation, to determine the style of your hat."
     },
     {
-      "title": "Felt or straw",
+      "title": "Leather, leather, felt or straw",
       "text": "Together we choose the material, the shape of the crown, the brim and the finishing touches."
     },
     {
@@ -28,6 +28,10 @@
   ],
   "gallery_heading": "From our workshop",
   "photos": [
+    {
+      "image": "",
+      "caption": "leather hat"
+    },
     {
       "image": "",
       "caption": "felt hat"
@@ -49,7 +53,7 @@
   "prices": [
     {
       "name": "Cowboy hats",
-      "detail": "felt or straw, tailor-made",
+      "detail": "leather, felt or straw, tailor-made",
       "price": "€350 – €800"
     },
     {

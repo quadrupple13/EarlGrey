@@ -5,7 +5,7 @@
   "subtitle": "Sombreros vaqueros, a la antigua usanza",
   "image": "images/leather-workshop.jpg",
   "image_alt": "Óleo del taller de cuero en el granero de piedra, un joven vaquero dando forma a un sombrero de cuero",
-  "intro": "Cada sombrero empieza con una conversación. Hacemos sombreros vaqueros de fieltro y paja a mano, a medida: no hay dos iguales. Antes de empezar, nos sentamos contigo en una entrevista para encontrar el estilo que de verdad es tuyo.",
+  "intro": "Cada sombrero empieza con una conversación. Hacemos sombreros vaqueros de cuero, fieltro y paja a mano, a medida: no hay dos iguales. Antes de empezar, nos sentamos contigo en una entrevista para encontrar el estilo que de verdad es tuyo.",
   "more": "Además de sombreros, el taller hace zahones, cinturones, carteras, fundas y otros trabajos de cuero vaquero. Consúltanos las posibilidades.",
   "steps_heading": "Así se hace tu sombrero",
   "steps": [
@@ -14,7 +14,7 @@
       "text": "Cada pedido empieza bajo petición con una conversación, para definir el estilo de tu sombrero."
     },
     {
-      "title": "Fieltro o paja",
+      "title": "Cuero, cuero, fieltro o paja",
       "text": "Juntos elegimos el material, la forma de la copa, el ala y los acabados."
     },
     {
@@ -28,6 +28,10 @@
   ],
   "gallery_heading": "De nuestro taller",
   "photos": [
+    {
+      "image": "",
+      "caption": "sombrero de cuero"
+    },
     {
       "image": "",
       "caption": "sombrero de fieltro"
@@ -49,7 +53,7 @@
   "prices": [
     {
       "name": "Sombreros vaqueros",
-      "detail": "fieltro o paja, a medida",
+      "detail": "cuero, fieltro o paja, a medida",
       "price": "350 € – 800 €"
     },
     {

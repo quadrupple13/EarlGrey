@@ -5,7 +5,7 @@
   "subtitle": "Cowboyhoeden, op de ouderwetse manier",
   "image": "images/leather-workshop.jpg",
   "image_alt": "Olieverfschilderij van de leerwerkplaats in de stenen schuur, een jonge cowboy die een leren hoed vormt",
-  "intro": "Elke hoed begint met een gesprek. We maken cowboyhoeden van vilt en stro met de hand, op maat — geen twee hetzelfde. Voordat we beginnen, gaan we met je zitten voor een intakegesprek om de stijl te vinden die echt bij jou past.",
+  "intro": "Elke hoed begint met een gesprek. We maken cowboyhoeden van leer, vilt en stro met de hand, op maat — geen twee hetzelfde. Voordat we beginnen, gaan we met je zitten voor een intakegesprek om de stijl te vinden die echt bij jou past.",
   "more": "Naast hoeden maakt de werkplaats chaps, riemen, portemonnees, holsters en ander cowboyleerwerk. Neem contact op voor de mogelijkheden.",
   "steps_heading": "Zo wordt je hoed gemaakt",
   "steps": [
@@ -14,7 +14,7 @@
       "text": "Elke bestelling begint op aanvraag met een gesprek, om de stijl van je hoed te bepalen."
     },
     {
-      "title": "Vilt of stro",
+      "title": "Leer, leer, vilt of stro",
       "text": "Samen kiezen we het materiaal, de vorm van de bol, de rand en de afwerking."
     },
     {
@@ -28,6 +28,10 @@
   ],
   "gallery_heading": "Uit onze werkplaats",
   "photos": [
+    {
+      "image": "",
+      "caption": "leren hoed"
+    },
     {
       "image": "",
       "caption": "vilten hoed"
@@ -49,7 +53,7 @@
   "prices": [
     {
       "name": "Cowboyhoeden",
-      "detail": "vilt of stro, op maat",
+      "detail": "leer, vilt of stro, op maat",
       "price": "€350 – €800"
     },
     {

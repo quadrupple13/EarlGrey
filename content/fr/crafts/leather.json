@@ -5,7 +5,7 @@
   "subtitle": "Chapeaux de cowboy, à l'ancienne",
   "image": "images/leather-workshop.jpg",
   "image_alt": "Peinture à l'huile de l'atelier du cuir dans la grange en pierre, un jeune cowboy façonnant un chapeau en cuir",
-  "intro": "Chaque chapeau commence par une conversation. Nous fabriquons à la main des chapeaux de cowboy en feutre et en paille, sur mesure : aucun n'est identique. Avant de commencer, nous prenons le temps d'un entretien avec vous pour trouver le style qui vous ressemble vraiment.",
+  "intro": "Chaque chapeau commence par une conversation. Nous fabriquons à la main des chapeaux de cowboy en cuir, en feutre et en paille, sur mesure : aucun n'est identique. Avant de commencer, nous prenons le temps d'un entretien avec vous pour trouver le style qui vous ressemble vraiment.",
   "more": "En plus des chapeaux, l'atelier fabrique des chaps, ceintures, portefeuilles, holsters et autres travaux en cuir western. Contactez-nous pour les possibilités.",
   "steps_heading": "Comment est fait votre chapeau",
   "steps": [
@@ -14,7 +14,7 @@
       "text": "Chaque commande commence sur demande par une conversation, pour définir le style de votre chapeau."
     },
     {
-      "title": "Feutre ou paille",
+      "title": "Cuir, cuir, feutre ou paille",
       "text": "Ensemble, nous choisissons la matière, la forme de la calotte, le bord et les finitions."
     },
     {
@@ -28,6 +28,10 @@
   ],
   "gallery_heading": "De notre atelier",
   "photos": [
+    {
+      "image": "",
+      "caption": "chapeau en cuir"
+    },
     {
       "image": "",
       "caption": "chapeau en feutre"
@@ -49,7 +53,7 @@
   "prices": [
     {
       "name": "Chapeaux de cowboy",
-      "detail": "feutre ou paille, sur mesure",
+      "detail": "cuir, feutre ou paille, sur mesure",
       "price": "350 € – 800 €"
     },
     {
