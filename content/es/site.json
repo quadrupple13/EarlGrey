@@ -44,6 +44,20 @@
   },
   "walk": [
     {
+      "image": "images/farmyard.jpg",
+      "label": "El patio",
+      "title": "Bienvenido a la granja",
+      "subtitle": "Primero, sal afuera.",
+      "text": "Caballos en el prado, polvo en las botas, las montañas velando por nosotros. Aquí empieza cada día, antes de llevarte por la casa y sus salas de arte.",
+      "rows": [],
+      "price": "",
+      "button": "",
+      "email_subject": "",
+      "page": "",
+      "page_link": "",
+      "dark": false
+    },
+    {
       "image": "images/leather-workshop.jpg",
       "label": "N.º 04 · Artesanía",
       "title": "El arte del… Trabajo en cuero",

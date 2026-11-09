@@ -44,6 +44,20 @@
   },
   "walk": [
     {
+      "image": "images/farmyard.jpg",
+      "label": "The Yard",
+      "title": "Welcome to the farm",
+      "subtitle": "First, step outside.",
+      "text": "Horses in the paddock, dust on the boots, the mountains watching over us. This is where every day begins — before we walk you through the house and its rooms of art.",
+      "rows": [],
+      "price": "",
+      "button": "",
+      "email_subject": "",
+      "page": "",
+      "page_link": "",
+      "dark": false
+    },
+    {
       "image": "images/leather-workshop.jpg",
       "label": "No. 04 · Craftsmanship",
       "title": "The Art of… Leather Works",

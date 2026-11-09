@@ -44,6 +44,20 @@
   },
   "walk": [
     {
+      "image": "images/farmyard.jpg",
+      "label": "La cour",
+      "title": "Bienvenue à la ferme",
+      "subtitle": "D’abord, un pas dehors.",
+      "text": "Des chevaux au pré, de la poussière sur les bottes, les montagnes qui veillent sur nous. C’est ici que commence chaque journée, avant de vous faire visiter la maison et ses pièces pleines d’art.",
+      "rows": [],
+      "price": "",
+      "button": "",
+      "email_subject": "",
+      "page": "",
+      "page_link": "",
+      "dark": false
+    },
+    {
       "image": "images/leather-workshop.jpg",
       "label": "N° 04 · Artisanat",
       "title": "L'art du… travail du cuir",

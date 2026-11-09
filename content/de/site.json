@@ -44,6 +44,20 @@
   },
   "walk": [
     {
+      "image": "images/farmyard.jpg",
+      "label": "Der Hof",
+      "title": "Willkommen auf der Farm",
+      "subtitle": "Zuerst nach draußen.",
+      "text": "Pferde auf der Koppel, Staub auf den Stiefeln, die Berge, die über uns wachen. Hier beginnt jeder Tag – bevor wir dich durch das Haus und seine Räume voller Kunst führen.",
+      "rows": [],
+      "price": "",
+      "button": "",
+      "email_subject": "",
+      "page": "",
+      "page_link": "",
+      "dark": false
+    },
+    {
       "image": "images/leather-workshop.jpg",
       "label": "Nr. 04 · Handwerk",
       "title": "Die Kunst der… Lederarbeit",

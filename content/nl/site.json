@@ -44,6 +44,20 @@
   },
   "walk": [
     {
+      "image": "images/farmyard.jpg",
+      "label": "Het erf",
+      "title": "Welkom op de boerderij",
+      "subtitle": "Eerst even naar buiten.",
+      "text": "Paarden in de wei, stof op de laarzen, de bergen die over ons waken. Hier begint elke dag — voordat we je meenemen door het huis en de kamers vol kunst.",
+      "rows": [],
+      "price": "",
+      "button": "",
+      "email_subject": "",
+      "page": "",
+      "page_link": "",
+      "dark": false
+    },
+    {
       "image": "images/leather-workshop.jpg",
       "label": "Nr. 04 · Ambacht",
       "title": "De kunst van… Leerwerk",
