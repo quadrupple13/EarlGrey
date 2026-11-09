@@ -33,20 +33,20 @@
       "caption": "chapeaux en cuir"
     },
     {
-      "image": "",
+      "image": "images/hat-felt.jpg",
       "caption": "chapeau en feutre"
     },
     {
-      "image": "",
-      "caption": "chapeau de paille"
+      "image": "images/hat-felt-side.jpg",
+      "caption": "chapeau en feutre avec plume"
     },
     {
-      "image": "",
-      "caption": "chaps ou ceinture"
+      "image": "images/hat-straw-mountains.jpg",
+      "caption": "chapeau de paille à la montagne"
     },
     {
-      "image": "",
-      "caption": "dans l'atelier"
+      "image": "images/farm-pickup.jpg",
+      "caption": "à la ferme"
     }
   ],
   "prices_heading": "Ce que nous faisons",

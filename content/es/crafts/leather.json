@@ -33,20 +33,20 @@
       "caption": "sombreros de cuero"
     },
     {
-      "image": "",
+      "image": "images/hat-felt.jpg",
       "caption": "sombrero de fieltro"
     },
     {
-      "image": "",
-      "caption": "sombrero de paja"
+      "image": "images/hat-felt-side.jpg",
+      "caption": "sombrero de fieltro con pluma"
     },
     {
-      "image": "",
-      "caption": "zahones o cinturón"
+      "image": "images/hat-straw-mountains.jpg",
+      "caption": "sombrero de paja en la montaña"
     },
     {
-      "image": "",
-      "caption": "en el taller"
+      "image": "images/farm-pickup.jpg",
+      "caption": "en la granja"
     }
   ],
   "prices_heading": "Lo que hacemos",

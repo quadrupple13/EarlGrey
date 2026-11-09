@@ -33,20 +33,20 @@
       "caption": "leather hats"
     },
     {
-      "image": "",
+      "image": "images/hat-felt.jpg",
       "caption": "felt hat"
     },
     {
-      "image": "",
-      "caption": "straw hat"
+      "image": "images/hat-felt-side.jpg",
+      "caption": "felt hat with feather"
     },
     {
-      "image": "",
-      "caption": "chaps or belt"
+      "image": "images/hat-straw-mountains.jpg",
+      "caption": "straw hat in the mountains"
     },
     {
-      "image": "",
-      "caption": "in the workshop"
+      "image": "images/farm-pickup.jpg",
+      "caption": "on the farm"
     }
   ],
   "prices_heading": "What we make",

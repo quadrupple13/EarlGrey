@@ -33,20 +33,20 @@
       "caption": "leren hoeden"
     },
     {
-      "image": "",
+      "image": "images/hat-felt.jpg",
       "caption": "vilten hoed"
     },
     {
-      "image": "",
-      "caption": "strohoed"
+      "image": "images/hat-felt-side.jpg",
+      "caption": "vilten hoed met veer"
     },
     {
-      "image": "",
-      "caption": "chaps of riem"
+      "image": "images/hat-straw-mountains.jpg",
+      "caption": "strohoed in de bergen"
     },
     {
-      "image": "",
-      "caption": "in de werkplaats"
+      "image": "images/farm-pickup.jpg",
+      "caption": "op de boerderij"
     }
   ],
   "prices_heading": "Wat we maken",

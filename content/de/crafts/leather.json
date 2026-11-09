@@ -33,20 +33,20 @@
       "caption": "Lederhüte"
     },
     {
-      "image": "",
+      "image": "images/hat-felt.jpg",
       "caption": "Filzhut"
     },
     {
-      "image": "",
-      "caption": "Strohhut"
+      "image": "images/hat-felt-side.jpg",
+      "caption": "Filzhut mit Feder"
     },
     {
-      "image": "",
-      "caption": "Chaps oder Gürtel"
+      "image": "images/hat-straw-mountains.jpg",
+      "caption": "Strohhut in den Bergen"
     },
     {
-      "image": "",
-      "caption": "in der Werkstatt"
+      "image": "images/farm-pickup.jpg",
+      "caption": "auf der Farm"
     }
   ],
   "prices_heading": "Was wir machen",
