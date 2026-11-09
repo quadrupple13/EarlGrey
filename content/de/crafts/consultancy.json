@@ -78,40 +78,8 @@
           "caption": "Food is your medicine"
         },
         {
-          "image": "images/bluzone-website.jpg",
-          "caption": "Website"
-        },
-        {
-          "image": "images/bluzone-menu.jpg",
-          "caption": "Menüplakat"
-        },
-        {
-          "image": "images/bluzone-bowl.jpg",
-          "caption": "Bowl"
-        },
-        {
           "image": "images/bluzone-avocado-burger.jpg",
           "caption": "Avocado-Burger"
-        },
-        {
-          "image": "images/bluzone-squash-burger.jpg",
-          "caption": "Kürbis-Burger"
-        },
-        {
-          "image": "images/bluzone-wrap.jpg",
-          "caption": "Wrap"
-        },
-        {
-          "image": "images/bluzone-sardines.jpg",
-          "caption": "Sardinen"
-        },
-        {
-          "image": "images/bluzone-salad.jpg",
-          "caption": "Salat"
-        },
-        {
-          "image": "images/bluzone-juice-counter.jpg",
-          "caption": "Saftbar"
         }
       ]
     },
