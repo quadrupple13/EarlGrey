@@ -39,15 +39,14 @@
     "label": "Welkom op de Quadrupple Family Farm",
     "heading": "Vier zielen, samen midden in de natuur",
     "text": "Omringd door dieren, wild en bergen. Geen rijkdom, alleen het hoognodige. Met de wereld om ons heen als doek, als inspiratie en als bron van… Kunst.",
-    "question": "Benieuwd wat we doen?",
-    "sublabel": "thuis van de familie Grey"
+    "question": "Benieuwd wat we doen?"
   },
   "walk": [
     {
       "image": "images/farmyard.jpg",
       "label": "Het erf",
-      "title": "Welkom op de boerderij",
-      "subtitle": "Eerst even naar buiten.",
+      "title": "“Quadrupple Family Farm”",
+      "subtitle": "home of the Grey family",
       "text": "Paarden in de wei, stof op de laarzen, de bergen die over ons waken. Hier begint elke dag — voordat we je meenemen door het huis en de kamers vol kunst.",
       "rows": [],
       "price": "",

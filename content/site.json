@@ -39,15 +39,14 @@
     "label": "Welcome to the Quadrupple Family Farm",
     "heading": "Four souls, living together in the middle of nature",
     "text": "Surrounded by animals, wildlife and mountains. No riches, just the basics. With the world around them as canvas, as inspiration and as provider of… Art.",
-    "question": "Curious what we do?",
-    "sublabel": "home of the Grey family"
+    "question": "Curious what we do?"
   },
   "walk": [
     {
       "image": "images/farmyard.jpg",
       "label": "The Yard",
-      "title": "Welcome to the farm",
-      "subtitle": "First, step outside.",
+      "title": "“Quadrupple Family Farm”",
+      "subtitle": "home of the Grey family",
       "text": "Horses in the paddock, dust on the boots, the mountains watching over us. This is where every day begins — before we walk you through the house and its rooms of art.",
       "rows": [],
       "price": "",

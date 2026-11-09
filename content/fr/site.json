@@ -39,15 +39,14 @@
     "label": "Bienvenue à la Quadrupple Family Farm",
     "heading": "Quatre âmes qui vivent ensemble en pleine nature",
     "text": "Entourés d'animaux, de faune sauvage et de montagnes. Pas de richesses, juste l'essentiel. Avec le monde qui nous entoure comme toile, comme inspiration et comme source… d'Art.",
-    "question": "Curieux de savoir ce que nous faisons ?",
-    "sublabel": "chez la famille Grey"
+    "question": "Curieux de savoir ce que nous faisons ?"
   },
   "walk": [
     {
       "image": "images/farmyard.jpg",
       "label": "La cour",
-      "title": "Bienvenue à la ferme",
-      "subtitle": "D’abord, un pas dehors.",
+      "title": "“Quadrupple Family Farm”",
+      "subtitle": "home of the Grey family",
       "text": "Des chevaux au pré, de la poussière sur les bottes, les montagnes qui veillent sur nous. C’est ici que commence chaque journée, avant de vous faire visiter la maison et ses pièces pleines d’art.",
       "rows": [],
       "price": "",
