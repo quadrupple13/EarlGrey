@@ -153,3 +153,73 @@ footer.site .f-brand{font-size:24px;color:#F2EBDD}
 .craft-open,.craft-open body{overflow:hidden}
 .craft-open .music{z-index:50;top:auto;bottom:16px}
 .craft-open .langbar{display:none}
+
+/* ---- materials per room: step cards ---- */
+:root{
+  --noise:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .28 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --sandwall:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='130'%3E%3Cg stroke='%23CDB48A' stroke-width='3'%3E%3Crect x='0' y='0' width='120' height='65' rx='6' fill='%23E9D7B4'/%3E%3Crect x='120' y='0' width='140' height='65' rx='6' fill='%23E3CDA4'/%3E%3Crect x='-60' y='65' width='130' height='65' rx='6' fill='%23E6D1AB'/%3E%3Crect x='70' y='65' width='120' height='65' rx='6' fill='%23EBDABA'/%3E%3Crect x='190' y='65' width='130' height='65' rx='6' fill='%23E1CA9F'/%3E%3C/g%3E%3C/svg%3E");
+}
+/* sandstone wall, very soft, behind the steps on the farm rooms */
+.cp .steps{isolation:isolate}
+
+/* leather workshop: a piece of stitched leather */
+.c-leather .card{background:var(--noise),radial-gradient(ellipse at 25% 15%,#9A6236,transparent 60%),radial-gradient(ellipse at 80% 90%,#4E2A14,transparent 55%),#734222;border-radius:18px 26px 16px 22px;box-shadow:inset 0 0 30px rgba(0,0,0,.45),0 12px 20px rgba(30,15,5,.35);outline:2px dashed rgba(240,214,170,.55);outline-offset:-11px;padding:30px 26px}
+.c-leather .card h3{color:#F7E6C6;text-shadow:0 1px 0 rgba(0,0,0,.55)}
+.c-leather .card p{color:#EBD4AE;text-shadow:0 1px 0 rgba(0,0,0,.4)}
+.c-leather .card .n{color:#E7B866;text-shadow:0 2px 0 rgba(0,0,0,.45)}
+
+/* book workshop: old parchment page */
+.c-books .card{background:var(--noise),radial-gradient(ellipse at 50% 45%,#F6E7C4 35%,#E2C48E 80%,#B98C52 110%);border-radius:3px;box-shadow:inset 0 0 40px rgba(120,70,20,.45),0 10px 18px rgba(40,20,5,.28)}
+.c-books .card h3,.c-books .card p{color:#3E2A16}
+
+/* charcoal studio: drawing paper with a strip of tape */
+.c-charcoal .card{position:relative;background:radial-gradient(ellipse at 85% 85%,rgba(0,0,0,.09),transparent 50%),#F8F6F1;border-radius:1px;box-shadow:0 1px 2px rgba(0,0,0,.2),0 12px 18px rgba(0,0,0,.18);overflow:visible}
+.c-charcoal .card::before{content:"";position:absolute;top:-10px;left:50%;width:84px;height:22px;transform:translateX(-50%) rotate(-3deg);background:rgba(232,222,196,.85);box-shadow:0 1px 2px rgba(0,0,0,.15)}
+.c-charcoal .card .n{color:#222;text-shadow:1px 1px 3px rgba(0,0,0,.35)}
+
+/* kitchen: recipe card pinned up, on a soft stone wall */
+.c-cooking .card{background-image:repeating-linear-gradient(180deg,transparent 0 27px,rgba(70,110,150,.22) 27px 28px),linear-gradient(90deg,transparent 38px,rgba(190,60,40,.35) 38px 39px,transparent 39px);position:relative}
+.c-cooking .card::before{content:"";position:absolute;top:10px;left:50%;width:14px;height:14px;margin-left:-7px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#E8735A,#9C3D1E);box-shadow:0 2px 3px rgba(0,0,0,.35)}
+
+/* marketing studio: kraft paper */
+.c-marketing .card{background:var(--noise),radial-gradient(ellipse at 30% 20%,#D9B98E,transparent 60%),#C6A06F;border-top:0;border-radius:4px;box-shadow:inset 0 0 26px rgba(90,55,20,.35),0 12px 20px rgba(42,36,32,.2)}
+.c-marketing .card h3,.c-marketing .card p{color:#2E2216}
+.c-marketing .card .n{color:#B23F14}
+
+/* leather room: real workbench photo behind the steps */
+.c-leather .steps{max-width:none;padding:56px 20px 48px;background:linear-gradient(rgba(20,12,6,.25),rgba(20,12,6,.25)),url(../images/bg-leather-bench.jpg) center/cover}
+.c-leather .steps>*{max-width:1000px;margin-left:auto;margin-right:auto}
+.c-leather .steps h2{color:#F7E6C6;text-shadow:0 2px 6px rgba(0,0,0,.7)}
+.c-leather .card{background:linear-gradient(rgba(40,20,8,.35),rgba(40,20,8,.35)),url(../images/tex-leather.jpg) center/cover;box-shadow:inset 0 0 22px 6px rgba(35,15,4,.65),0 14px 22px rgba(10,5,2,.5)}
+.c-leather .card.tilt-2{background-position:0 0,20% 70%}.c-leather .card.tilt-3{background-position:0 0,80% 20%}.c-leather .card.tilt-4{background-position:0 0,60% 90%}
+
+/* kitchen: real countertop photo + recipe paper cards */
+.c-cooking .steps{max-width:none;padding:56px 20px 48px;background:linear-gradient(rgba(30,18,8,.18),rgba(30,18,8,.18)),url(../images/bg-kitchen-counter.jpg) center/cover}
+.c-cooking .steps>*{max-width:1000px;margin-left:auto;margin-right:auto}
+.c-cooking .steps h2{color:#FFF6E6;text-shadow:0 2px 8px rgba(0,0,0,.75)}
+.c-cooking .card{background:linear-gradient(90deg,transparent 38px,rgba(190,60,40,.4) 38px 39px,transparent 39px),url(../images/tex-recipe-paper.jpg) center/cover;box-shadow:0 2px 3px rgba(0,0,0,.2),0 14px 22px rgba(30,15,5,.35)}
+.c-cooking .card.tilt-2{background-position:0 0,30% 70%}.c-cooking .card.tilt-3{background-position:0 0,70% 30%}.c-cooking .card.tilt-4{background-position:0 0,50% 95%}
+.c-cooking .card{background-image:linear-gradient(90deg,transparent 38px,rgba(190,60,40,.4) 38px 39px,transparent 39px),linear-gradient(rgba(196,150,84,.22),rgba(196,150,84,.22)),url(../images/tex-recipe-paper.jpg);background-size:auto,auto,cover;box-shadow:inset 0 0 26px rgba(130,85,30,.35),0 2px 3px rgba(0,0,0,.2),0 14px 22px rgba(30,15,5,.35)}
+.c-cooking .card.tilt-2{background-position:0 0,0 0,30% 70%}.c-cooking .card.tilt-3{background-position:0 0,0 0,70% 30%}.c-cooking .card.tilt-4{background-position:0 0,0 0,50% 95%}
+.c-cooking .steps{background:linear-gradient(rgba(35,20,8,.48),rgba(35,20,8,.48)),url(../images/bg-kitchen-counter.jpg) center/cover}
+.c-cooking .card{background-image:linear-gradient(90deg,transparent 38px,rgba(190,60,40,.4) 38px 39px,transparent 39px),linear-gradient(rgba(255,252,244,.25),rgba(255,252,244,.25)),url(../images/tex-recipe-paper.jpg);box-shadow:inset 0 0 18px rgba(130,85,30,.22),0 2px 3px rgba(0,0,0,.3),0 16px 26px rgba(10,5,2,.5)}
+/* charcoal studio: real drawing table + drawing paper */
+.c-charcoal .steps{max-width:none;padding:56px 20px 48px;background:linear-gradient(rgba(25,20,15,.38),rgba(25,20,15,.38)),url(../images/bg-drawing-table.jpg) center/cover}
+.c-charcoal .steps>*{max-width:1000px;margin-left:auto;margin-right:auto}
+.c-charcoal .steps h2{color:#FAF7F0;text-shadow:0 2px 8px rgba(0,0,0,.75)}
+.c-charcoal .card{background:url(../images/tex-drawing-paper.jpg) center/cover;box-shadow:0 1px 2px rgba(0,0,0,.3),0 16px 24px rgba(10,6,2,.45)}
+.c-charcoal .card.tilt-2{background-position:20% 20%}.c-charcoal .card.tilt-3{background-position:80% 85%}.c-charcoal .card.tilt-4{background-position:30% 60%}
+.c-books .card{background:url(../images/tex-parchment.jpg) center/cover;box-shadow:inset 0 0 20px rgba(110,60,15,.35),0 14px 22px rgba(40,20,5,.35)}
+.c-books .card.tilt-2{background-position:15% 25%}.c-books .card.tilt-3{background-position:85% 80%}.c-books .card.tilt-4{background-position:40% 95%}
+
+/* book workshop: real bookbinder's bench + parchment */
+.c-books .steps{max-width:none;padding:56px 20px 48px;background:linear-gradient(rgba(20,12,6,.2),rgba(20,12,6,.2)),url(../images/bg-bookbinder-bench.jpg) center/cover}
+.c-books .steps>*{max-width:1000px;margin-left:auto;margin-right:auto}
+.c-books .steps h2{color:#F6E7C6;text-shadow:0 2px 8px rgba(0,0,0,.75)}
+/* marketing studio: real designer's desk + kraft cards */
+.c-marketing .steps{max-width:none;padding:56px 20px 48px;background:linear-gradient(rgba(40,28,18,.3),rgba(40,28,18,.3)),url(../images/bg-design-desk.jpg) center/cover}
+.c-marketing .steps>*{max-width:1000px;margin-left:auto;margin-right:auto}
+.c-marketing .steps h2{color:#FFF8EE;text-shadow:0 2px 8px rgba(0,0,0,.7)}
+.c-marketing .card{box-shadow:inset 0 0 26px rgba(90,55,20,.35),0 16px 24px rgba(20,12,6,.4)}
+.c-marketing .card{background:url(../images/tex-kraft.jpg) center/cover;box-shadow:inset 0 0 22px rgba(90,55,20,.3),0 16px 24px rgba(20,12,6,.45)}
+.c-marketing .card.tilt-2{background-position:20% 30%}.c-marketing .card.tilt-3{background-position:80% 70%}.c-marketing .card.tilt-4{background-position:40% 95%}

@@ -16,7 +16,7 @@
   function render(c, site) {
     document.title = 'Quadrupple – ' + c.title.replace(/^[^…]*…\s*/, '');
     var root = document.getElementById('page');
-    root.className = 'cp t-' + (c.theme || 'rustic');
+    root.className = 'cp t-' + (c.theme || 'rustic') + ' c-' + name;
     var email = site.contact.email;
     var o = '';
     var ui = site.ui || {};
@@ -24,7 +24,7 @@
     o += '<header><img src="' + h(c.image) + '" alt="' + h(c.image_alt) + '"><div class="shade"></div><div class="t"><p class="f-label" style="margin:0">' + h(c.label) + '</p><h1 class="f-head">' + h(c.title) + '</h1>' + (c.subtitle ? '<p class="f-hand s">' + h(c.subtitle) + '</p>' : '') + '</div></header>';
     o += '<section class="intro"><p>' + br(c.intro) + '</p>' + (c.more ? '<p>' + br(c.more) + '</p>' : '') + '</section>';
     if (c.steps && c.steps.length) {
-      o += '<section><h2 class="f-head">' + h(c.steps_heading) + '</h2><div class="grid">';
+      o += '<section class="steps"><h2 class="f-head">' + h(c.steps_heading) + '</h2><div class="grid">';
       c.steps.forEach(function (s, i) { o += '<div class="card tilt-' + ((i % 4) + 1) + '"><span class="f-hand n">' + (i + 1) + '</span><h3 class="f-head">' + h(s.title) + '</h3><p>' + br(s.text) + '</p></div>'; });
       o += '</div></section>';
     }
