@@ -88,6 +88,30 @@
         {
           "image": "images/bluzone-bowl.jpg",
           "caption": "bowl"
+        },
+        {
+          "image": "images/bluzone-avocado-burger.jpg",
+          "caption": "burger à l’avocat"
+        },
+        {
+          "image": "images/bluzone-squash-burger.jpg",
+          "caption": "burger à la courge"
+        },
+        {
+          "image": "images/bluzone-wrap.jpg",
+          "caption": "wrap"
+        },
+        {
+          "image": "images/bluzone-sardines.jpg",
+          "caption": "sardines"
+        },
+        {
+          "image": "images/bluzone-salad.jpg",
+          "caption": "salade"
+        },
+        {
+          "image": "images/bluzone-juice-counter.jpg",
+          "caption": "bar à jus"
         }
       ]
     },

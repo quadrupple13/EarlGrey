@@ -88,6 +88,30 @@
         {
           "image": "images/bluzone-bowl.jpg",
           "caption": "bowl"
+        },
+        {
+          "image": "images/bluzone-avocado-burger.jpg",
+          "caption": "hamburguesa de aguacate"
+        },
+        {
+          "image": "images/bluzone-squash-burger.jpg",
+          "caption": "hamburguesa de calabaza"
+        },
+        {
+          "image": "images/bluzone-wrap.jpg",
+          "caption": "wrap"
+        },
+        {
+          "image": "images/bluzone-sardines.jpg",
+          "caption": "sardinas"
+        },
+        {
+          "image": "images/bluzone-salad.jpg",
+          "caption": "ensalada"
+        },
+        {
+          "image": "images/bluzone-juice-counter.jpg",
+          "caption": "barra de zumos"
         }
       ]
     },

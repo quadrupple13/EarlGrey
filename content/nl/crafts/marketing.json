@@ -29,20 +29,36 @@
   "gallery_heading": "Uit de studio",
   "photos": [
     {
-      "image": "",
+      "image": "images/bluzone-logo.jpg",
       "caption": "logo"
     },
     {
-      "image": "",
-      "caption": "visitekaartjes"
+      "image": "images/bluzone-post-fitburger.jpg",
+      "caption": "social-mediapost"
     },
     {
-      "image": "",
-      "caption": "brochure"
+      "image": "images/bluzone-post-quarterback.jpg",
+      "caption": "social-mediapost"
     },
     {
-      "image": "",
-      "caption": "merchandise"
+      "image": "images/bluzone-post-berried.jpg",
+      "caption": "social-mediapost"
+    },
+    {
+      "image": "images/bluzone-menu.jpg",
+      "caption": "menuposter"
+    },
+    {
+      "image": "images/bluzone-board.jpg",
+      "caption": "stoepbord"
+    },
+    {
+      "image": "images/bluzone-website.jpg",
+      "caption": "website"
+    },
+    {
+      "image": "images/bluzone-tasting.jpg",
+      "caption": "evenement & verpakking"
     }
   ],
   "prices_heading": "Prijs",

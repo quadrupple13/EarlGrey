@@ -29,20 +29,36 @@
   "gallery_heading": "Aus dem Studio",
   "photos": [
     {
-      "image": "",
+      "image": "images/bluzone-logo.jpg",
       "caption": "Logo"
     },
     {
-      "image": "",
-      "caption": "Visitenkarten"
+      "image": "images/bluzone-post-fitburger.jpg",
+      "caption": "Social-Media-Post"
     },
     {
-      "image": "",
-      "caption": "Broschüre"
+      "image": "images/bluzone-post-quarterback.jpg",
+      "caption": "Social-Media-Post"
     },
     {
-      "image": "",
-      "caption": "Merchandise"
+      "image": "images/bluzone-post-berried.jpg",
+      "caption": "Social-Media-Post"
+    },
+    {
+      "image": "images/bluzone-menu.jpg",
+      "caption": "Menüplakat"
+    },
+    {
+      "image": "images/bluzone-board.jpg",
+      "caption": "Kundenstopper"
+    },
+    {
+      "image": "images/bluzone-website.jpg",
+      "caption": "Website"
+    },
+    {
+      "image": "images/bluzone-tasting.jpg",
+      "caption": "Event & Verpackung"
     }
   ],
   "prices_heading": "Preis",
