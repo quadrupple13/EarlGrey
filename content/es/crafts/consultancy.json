@@ -27,24 +27,7 @@
     }
   ],
   "gallery_heading": "En la mesa",
-  "photos": [
-    {
-      "image": "",
-      "caption": "sesión de coaching"
-    },
-    {
-      "image": "",
-      "caption": "pitch deck"
-    },
-    {
-      "image": "",
-      "caption": "taller"
-    },
-    {
-      "image": "",
-      "caption": "proyecto de cliente"
-    }
-  ],
+  "photos": [],
   "prices_heading": "Tres formas de trabajar juntos",
   "prices": [
     {
@@ -67,5 +50,72 @@
   "cta_heading": "¿Tienes una idea? Inténtalo.",
   "cta_text": "Te llevamos al siguiente nivel, paso a paso.",
   "cta_button": "Comparte tu idea",
-  "email_subject": "Consultoría"
+  "email_subject": "Consultoría",
+  "projects_heading": "Nuestros proyectos",
+  "projects": [
+    {
+      "title": "The Bluzone 2GO — Utrecht",
+      "text": "Fitfood, zumos y espresso, inspirados en las Zonas Azules, donde la gente vive más años. Concepto, marca, carta y web creados desde cero — como copropietarios llegamos a dos locales.",
+      "photos": [
+        {
+          "image": "images/bluzone-logo.jpg",
+          "caption": "logo y marca"
+        },
+        {
+          "image": "images/bluzone-map.jpg",
+          "caption": "mapa de las Zonas Azules"
+        },
+        {
+          "image": "images/bluzone-shop.jpg",
+          "caption": "la tienda"
+        },
+        {
+          "image": "images/bluzone-board.jpg",
+          "caption": "pizarra"
+        },
+        {
+          "image": "images/bluzone-tasting.jpg",
+          "caption": "Food is your medicine"
+        },
+        {
+          "image": "images/bluzone-website.jpg",
+          "caption": "web"
+        },
+        {
+          "image": "images/bluzone-menu.jpg",
+          "caption": "póster del menú"
+        },
+        {
+          "image": "images/bluzone-bowl.jpg",
+          "caption": "bowl"
+        }
+      ]
+    },
+    {
+      "title": "Mojito Bay — Calpe, 2023",
+      "text": "Una metamorfosis completa en tres meses: de un bar oscuro y negro a un local luminoso y fresco. Nueva fachada, nuevo interior, nueva carta.",
+      "photos": [
+        {
+          "image": "images/mojito-before-facade.jpg",
+          "caption": "antes — fachada"
+        },
+        {
+          "image": "images/mojito-after-facade.jpg",
+          "caption": "después — fachada"
+        },
+        {
+          "image": "images/mojito-before-bar.jpg",
+          "caption": "antes — barra"
+        },
+        {
+          "image": "images/mojito-after-bar.jpg",
+          "caption": "después — barra"
+        },
+        {
+          "image": "images/mojito-after-terrace.jpg",
+          "caption": "después — terraza"
+        }
+      ]
+    }
+  ]
 }

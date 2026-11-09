@@ -27,24 +27,7 @@
     }
   ],
   "gallery_heading": "Aan tafel",
-  "photos": [
-    {
-      "image": "",
-      "caption": "coachingsessie"
-    },
-    {
-      "image": "",
-      "caption": "pitch deck"
-    },
-    {
-      "image": "",
-      "caption": "workshop"
-    },
-    {
-      "image": "",
-      "caption": "klantproject"
-    }
-  ],
+  "photos": [],
   "prices_heading": "Drie manieren om samen te werken",
   "prices": [
     {
@@ -67,5 +50,72 @@
   "cta_heading": "Een idee? Probeer het gewoon.",
   "cta_text": "We brengen je naar het volgende niveau — paso a paso, zoals ze in Spanje zeggen.",
   "cta_button": "Deel je idee",
-  "email_subject": "Advies"
+  "email_subject": "Advies",
+  "projects_heading": "Onze projecten",
+  "projects": [
+    {
+      "title": "The Bluzone 2GO — Utrecht",
+      "text": "Fitfood, sappen & espresso, geïnspireerd op de Blue Zones waar mensen het langst leven. Concept, merk, menu en website vanaf nul opgebouwd — als mede-eigenaar uitgegroeid tot twee filialen.",
+      "photos": [
+        {
+          "image": "images/bluzone-logo.jpg",
+          "caption": "logo & merk"
+        },
+        {
+          "image": "images/bluzone-map.jpg",
+          "caption": "Blue Zones-wereldkaart"
+        },
+        {
+          "image": "images/bluzone-shop.jpg",
+          "caption": "de winkel"
+        },
+        {
+          "image": "images/bluzone-board.jpg",
+          "caption": "stoepbord"
+        },
+        {
+          "image": "images/bluzone-tasting.jpg",
+          "caption": "Food is your medicine"
+        },
+        {
+          "image": "images/bluzone-website.jpg",
+          "caption": "website"
+        },
+        {
+          "image": "images/bluzone-menu.jpg",
+          "caption": "menuposter"
+        },
+        {
+          "image": "images/bluzone-bowl.jpg",
+          "caption": "bowl"
+        }
+      ]
+    },
+    {
+      "title": "Mojito Bay — Calpe, 2023",
+      "text": "Een complete metamorfose in drie maanden: van een donkere, zwarte bar naar een lichte, frisse zaak. Nieuwe gevel, nieuw interieur, nieuwe menukaart.",
+      "photos": [
+        {
+          "image": "images/mojito-before-facade.jpg",
+          "caption": "voor — gevel"
+        },
+        {
+          "image": "images/mojito-after-facade.jpg",
+          "caption": "na — gevel"
+        },
+        {
+          "image": "images/mojito-before-bar.jpg",
+          "caption": "voor — bar"
+        },
+        {
+          "image": "images/mojito-after-bar.jpg",
+          "caption": "na — bar"
+        },
+        {
+          "image": "images/mojito-after-terrace.jpg",
+          "caption": "na — terras"
+        }
+      ]
+    }
+  ]
 }

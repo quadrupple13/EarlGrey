@@ -36,6 +36,17 @@
       });
       o += '</div></section>';
     }
+    if (c.projects && c.projects.length) {
+      o += '<section class="projects"><h2 class="f-head">' + h(c.projects_heading) + '</h2>';
+      c.projects.forEach(function (pj) {
+        o += '<div class="project"><h3 class="f-head">' + h(pj.title) + '</h3><p>' + br(pj.text) + '</p><div class="grid" style="gap:16px">';
+        (pj.photos || []).forEach(function (p) {
+          if (p.image) o += '<figure style="margin:0"><img class="photo pj" src="' + h(p.image) + '" alt="' + h(p.caption) + '" loading="lazy"><figcaption class="f-hand" style="font-size:20px;margin-top:6px">' + h(p.caption) + '</figcaption></figure>';
+        });
+        o += '</div></div>';
+      });
+      o += '</section>';
+    }
     if (c.prices && c.prices.length) {
       o += '<section><h2 class="f-head">' + h(c.prices_heading) + '</h2><div class="pricebox tilt-3">';
       c.prices.forEach(function (p) { o += '<div class="prow"><span><b>' + h(p.name) + '</b>' + (p.detail ? ' — ' + h(p.detail) : '') + '</span><span class="f-hand pp">' + h(p.price) + '</span></div>'; });

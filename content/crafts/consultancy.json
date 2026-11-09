@@ -27,24 +27,7 @@
     }
   ],
   "gallery_heading": "At the table",
-  "photos": [
-    {
-      "image": "",
-      "caption": "coaching session"
-    },
-    {
-      "image": "",
-      "caption": "pitch deck"
-    },
-    {
-      "image": "",
-      "caption": "workshop"
-    },
-    {
-      "image": "",
-      "caption": "client project"
-    }
-  ],
+  "photos": [],
   "prices_heading": "Three ways to work together",
   "prices": [
     {
@@ -67,5 +50,72 @@
   "cta_heading": "Got an idea? Just give it a shot.",
   "cta_text": "We get you to the next level — paso a paso, as they say in Spain.",
   "cta_button": "Share your idea",
-  "email_subject": "Consultancy"
+  "email_subject": "Consultancy",
+  "projects_heading": "Our projects",
+  "projects": [
+    {
+      "title": "The Bluzone 2GO — Utrecht",
+      "text": "Fitfood, juices & espresso, inspired by the Blue Zones where people live the longest. Concept, brand, menu and website built from scratch — as co-owner we grew it to two branches.",
+      "photos": [
+        {
+          "image": "images/bluzone-logo.jpg",
+          "caption": "logo & brand"
+        },
+        {
+          "image": "images/bluzone-map.jpg",
+          "caption": "Blue Zones world map"
+        },
+        {
+          "image": "images/bluzone-shop.jpg",
+          "caption": "the shop"
+        },
+        {
+          "image": "images/bluzone-board.jpg",
+          "caption": "street board"
+        },
+        {
+          "image": "images/bluzone-tasting.jpg",
+          "caption": "Food is your medicine"
+        },
+        {
+          "image": "images/bluzone-website.jpg",
+          "caption": "website"
+        },
+        {
+          "image": "images/bluzone-menu.jpg",
+          "caption": "menu poster"
+        },
+        {
+          "image": "images/bluzone-bowl.jpg",
+          "caption": "bowl"
+        }
+      ]
+    },
+    {
+      "title": "Mojito Bay — Calpe, 2023",
+      "text": "A complete metamorphosis in three months: from a dark, black bar to a light, fresh place. New facade, new interior, new menu.",
+      "photos": [
+        {
+          "image": "images/mojito-before-facade.jpg",
+          "caption": "before — facade"
+        },
+        {
+          "image": "images/mojito-after-facade.jpg",
+          "caption": "after — facade"
+        },
+        {
+          "image": "images/mojito-before-bar.jpg",
+          "caption": "before — bar"
+        },
+        {
+          "image": "images/mojito-after-bar.jpg",
+          "caption": "after — bar"
+        },
+        {
+          "image": "images/mojito-after-terrace.jpg",
+          "caption": "after — terrace"
+        }
+      ]
+    }
+  ]
 }

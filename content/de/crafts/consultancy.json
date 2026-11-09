@@ -27,24 +27,7 @@
     }
   ],
   "gallery_heading": "Am Tisch",
-  "photos": [
-    {
-      "image": "",
-      "caption": "Coaching-Sitzung"
-    },
-    {
-      "image": "",
-      "caption": "pitch deck"
-    },
-    {
-      "image": "",
-      "caption": "Workshop"
-    },
-    {
-      "image": "",
-      "caption": "Kundenprojekt"
-    }
-  ],
+  "photos": [],
   "prices_heading": "Drei Wege der Zusammenarbeit",
   "prices": [
     {
@@ -67,5 +50,72 @@
   "cta_heading": "Eine Idee? Versuch es einfach.",
   "cta_text": "Wir bringen dich aufs nächste Level – paso a paso, wie man in Spanien sagt.",
   "cta_button": "Teile deine Idee",
-  "email_subject": "Beratung"
+  "email_subject": "Beratung",
+  "projects_heading": "Unsere Projekte",
+  "projects": [
+    {
+      "title": "The Bluzone 2GO — Utrecht",
+      "text": "Fitfood, Säfte & Espresso, inspiriert von den Blue Zones, wo Menschen am längsten leben. Konzept, Marke, Speisekarte und Website von Grund auf entwickelt — als Mitinhaber auf zwei Filialen gewachsen.",
+      "photos": [
+        {
+          "image": "images/bluzone-logo.jpg",
+          "caption": "Logo & Marke"
+        },
+        {
+          "image": "images/bluzone-map.jpg",
+          "caption": "Blue-Zones-Weltkarte"
+        },
+        {
+          "image": "images/bluzone-shop.jpg",
+          "caption": "der Laden"
+        },
+        {
+          "image": "images/bluzone-board.jpg",
+          "caption": "Kundenstopper"
+        },
+        {
+          "image": "images/bluzone-tasting.jpg",
+          "caption": "Food is your medicine"
+        },
+        {
+          "image": "images/bluzone-website.jpg",
+          "caption": "Website"
+        },
+        {
+          "image": "images/bluzone-menu.jpg",
+          "caption": "Menüplakat"
+        },
+        {
+          "image": "images/bluzone-bowl.jpg",
+          "caption": "Bowl"
+        }
+      ]
+    },
+    {
+      "title": "Mojito Bay — Calpe, 2023",
+      "text": "Eine komplette Verwandlung in drei Monaten: von einer dunklen, schwarzen Bar zu einem hellen, frischen Lokal. Neue Fassade, neues Interieur, neue Speisekarte.",
+      "photos": [
+        {
+          "image": "images/mojito-before-facade.jpg",
+          "caption": "vorher — Fassade"
+        },
+        {
+          "image": "images/mojito-after-facade.jpg",
+          "caption": "nachher — Fassade"
+        },
+        {
+          "image": "images/mojito-before-bar.jpg",
+          "caption": "vorher — Bar"
+        },
+        {
+          "image": "images/mojito-after-bar.jpg",
+          "caption": "nachher — Bar"
+        },
+        {
+          "image": "images/mojito-after-terrace.jpg",
+          "caption": "nachher — Terrasse"
+        }
+      ]
+    }
+  ]
 }

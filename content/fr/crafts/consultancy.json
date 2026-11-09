@@ -27,24 +27,7 @@
     }
   ],
   "gallery_heading": "À table",
-  "photos": [
-    {
-      "image": "",
-      "caption": "séance de coaching"
-    },
-    {
-      "image": "",
-      "caption": "pitch deck"
-    },
-    {
-      "image": "",
-      "caption": "atelier"
-    },
-    {
-      "image": "",
-      "caption": "projet client"
-    }
-  ],
+  "photos": [],
   "prices_heading": "Trois façons de travailler ensemble",
   "prices": [
     {
@@ -67,5 +50,72 @@
   "cta_heading": "Une idée ? Lancez-vous.",
   "cta_text": "Nous vous menons au niveau supérieur, paso a paso, comme on dit en Espagne.",
   "cta_button": "Partagez votre idée",
-  "email_subject": "Conseil"
+  "email_subject": "Conseil",
+  "projects_heading": "Nos projets",
+  "projects": [
+    {
+      "title": "The Bluzone 2GO — Utrecht",
+      "text": "Fitfood, jus et espresso, inspirés des Zones Bleues où l’on vit le plus longtemps. Concept, marque, carte et site web créés de zéro — en tant que copropriétaires, nous l’avons développé jusqu’à deux établissements.",
+      "photos": [
+        {
+          "image": "images/bluzone-logo.jpg",
+          "caption": "logo et marque"
+        },
+        {
+          "image": "images/bluzone-map.jpg",
+          "caption": "carte des Zones Bleues"
+        },
+        {
+          "image": "images/bluzone-shop.jpg",
+          "caption": "la boutique"
+        },
+        {
+          "image": "images/bluzone-board.jpg",
+          "caption": "ardoise"
+        },
+        {
+          "image": "images/bluzone-tasting.jpg",
+          "caption": "Food is your medicine"
+        },
+        {
+          "image": "images/bluzone-website.jpg",
+          "caption": "site web"
+        },
+        {
+          "image": "images/bluzone-menu.jpg",
+          "caption": "affiche du menu"
+        },
+        {
+          "image": "images/bluzone-bowl.jpg",
+          "caption": "bowl"
+        }
+      ]
+    },
+    {
+      "title": "Mojito Bay — Calpe, 2023",
+      "text": "Une métamorphose complète en trois mois : d’un bar sombre et noir à un lieu clair et frais. Nouvelle façade, nouvel intérieur, nouvelle carte.",
+      "photos": [
+        {
+          "image": "images/mojito-before-facade.jpg",
+          "caption": "avant — façade"
+        },
+        {
+          "image": "images/mojito-after-facade.jpg",
+          "caption": "après — façade"
+        },
+        {
+          "image": "images/mojito-before-bar.jpg",
+          "caption": "avant — bar"
+        },
+        {
+          "image": "images/mojito-after-bar.jpg",
+          "caption": "après — bar"
+        },
+        {
+          "image": "images/mojito-after-terrace.jpg",
+          "caption": "après — terrasse"
+        }
+      ]
+    }
+  ]
 }

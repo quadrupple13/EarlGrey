@@ -144,3 +144,5 @@ footer.site .f-brand{font-size:24px;color:#F2EBDD}
 .cp nav .langs a.on{background:var(--navink);color:var(--nav)}
 @media (max-width:520px){.langs a{min-width:34px;padding:0 4px;font-size:12px}.music span{display:none}}
 .t-charcoal .photo{aspect-ratio:auto;height:auto;object-fit:contain;background:#fff}
+.photo.pj{aspect-ratio:auto;height:auto;object-fit:contain}
+.project{margin:0 0 44px}.project h3{margin:0 0 8px;font-size:26px}.project>p{margin:0 0 18px;max-width:720px}
