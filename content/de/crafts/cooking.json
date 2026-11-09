@@ -29,20 +29,36 @@
   "gallery_heading": "Aus unserer Küche",
   "photos": [
     {
-      "image": "",
+      "image": "images/food-rice-table.jpg",
       "caption": "Reistafel"
     },
     {
-      "image": "",
-      "caption": "französischer Klassiker"
+      "image": "images/food-satay.jpg",
+      "caption": "Saté"
     },
     {
-      "image": "",
-      "caption": "Pasta"
+      "image": "images/food-flatbread.jpg",
+      "caption": "Pulled Meat auf Fladenbrot"
     },
     {
-      "image": "",
-      "caption": "Thai-Curry"
+      "image": "images/food-burrata.jpg",
+      "caption": "Burrata"
+    },
+    {
+      "image": "images/food-steak.jpg",
+      "caption": "Steak mit Spargel"
+    },
+    {
+      "image": "images/food-prawn.jpg",
+      "caption": "Riesengarnele"
+    },
+    {
+      "image": "images/food-oysters.jpg",
+      "caption": "Austern"
+    },
+    {
+      "image": "images/food-chocolate.jpg",
+      "caption": "Schokoladendessert"
     }
   ],
   "prices_heading": "Rezepte & Preise",

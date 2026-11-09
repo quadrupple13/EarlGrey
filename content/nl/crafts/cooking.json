@@ -29,20 +29,36 @@
   "gallery_heading": "Uit onze keuken",
   "photos": [
     {
-      "image": "",
+      "image": "images/food-rice-table.jpg",
       "caption": "rijsttafel"
     },
     {
-      "image": "",
-      "caption": "Franse klassieker"
+      "image": "images/food-satay.jpg",
+      "caption": "saté"
     },
     {
-      "image": "",
-      "caption": "pasta"
+      "image": "images/food-flatbread.jpg",
+      "caption": "pulled meat op flatbread"
     },
     {
-      "image": "",
-      "caption": "Thaise curry"
+      "image": "images/food-burrata.jpg",
+      "caption": "burrata"
+    },
+    {
+      "image": "images/food-steak.jpg",
+      "caption": "biefstuk met asperges"
+    },
+    {
+      "image": "images/food-prawn.jpg",
+      "caption": "gamba"
+    },
+    {
+      "image": "images/food-oysters.jpg",
+      "caption": "oesters"
+    },
+    {
+      "image": "images/food-chocolate.jpg",
+      "caption": "chocoladedessert"
     }
   ],
   "prices_heading": "Recepten & prijzen",

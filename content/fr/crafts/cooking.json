@@ -29,20 +29,36 @@
   "gallery_heading": "De notre cuisine",
   "photos": [
     {
-      "image": "",
+      "image": "images/food-rice-table.jpg",
       "caption": "table de riz indonésienne"
     },
     {
-      "image": "",
-      "caption": "classique français"
+      "image": "images/food-satay.jpg",
+      "caption": "saté"
     },
     {
-      "image": "",
-      "caption": "pasta"
+      "image": "images/food-flatbread.jpg",
+      "caption": "effiloché sur pain plat"
     },
     {
-      "image": "",
-      "caption": "curry thaï"
+      "image": "images/food-burrata.jpg",
+      "caption": "burrata"
+    },
+    {
+      "image": "images/food-steak.jpg",
+      "caption": "steak aux asperges"
+    },
+    {
+      "image": "images/food-prawn.jpg",
+      "caption": "gambas"
+    },
+    {
+      "image": "images/food-oysters.jpg",
+      "caption": "huîtres"
+    },
+    {
+      "image": "images/food-chocolate.jpg",
+      "caption": "dessert au chocolat"
     }
   ],
   "prices_heading": "Recettes et prix",

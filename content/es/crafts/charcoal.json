@@ -29,20 +29,20 @@
   "gallery_heading": "Del cuaderno de bocetos",
   "photos": [
     {
-      "image": "",
-      "caption": "retrato"
+      "image": "images/drawing-wolf.jpg",
+      "caption": "lobo"
     },
     {
-      "image": "",
-      "caption": "animal"
+      "image": "images/drawing-cowboy.jpg",
+      "caption": "el vaquero"
     },
     {
-      "image": "",
-      "caption": "montañas"
+      "image": "images/drawing-tree.jpg",
+      "caption": "el viejo árbol"
     },
     {
-      "image": "",
-      "caption": "bodegón"
+      "image": "images/drawing-lettering.jpg",
+      "caption": "letras Old School"
     }
   ],
   "prices_heading": "Tamaños y precios",

@@ -29,20 +29,20 @@
   "gallery_heading": "Du carnet de croquis",
   "photos": [
     {
-      "image": "",
-      "caption": "portrait"
+      "image": "images/drawing-wolf.jpg",
+      "caption": "loup"
     },
     {
-      "image": "",
-      "caption": "animal"
+      "image": "images/drawing-cowboy.jpg",
+      "caption": "le cowboy"
     },
     {
-      "image": "",
-      "caption": "montagnes"
+      "image": "images/drawing-tree.jpg",
+      "caption": "le vieil arbre"
     },
     {
-      "image": "",
-      "caption": "nature morte"
+      "image": "images/drawing-lettering.jpg",
+      "caption": "lettrage Old School"
     }
   ],
   "prices_heading": "Formats et prix",

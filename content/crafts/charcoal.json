@@ -29,20 +29,20 @@
   "gallery_heading": "From the sketchbook",
   "photos": [
     {
-      "image": "",
-      "caption": "portrait"
+      "image": "images/drawing-wolf.jpg",
+      "caption": "wolf"
     },
     {
-      "image": "",
-      "caption": "animal"
+      "image": "images/drawing-cowboy.jpg",
+      "caption": "the cowboy"
     },
     {
-      "image": "",
-      "caption": "mountains"
+      "image": "images/drawing-tree.jpg",
+      "caption": "the old tree"
     },
     {
-      "image": "",
-      "caption": "still life"
+      "image": "images/drawing-lettering.jpg",
+      "caption": "Old School lettering"
     }
   ],
   "prices_heading": "Sizes & prices",

@@ -29,20 +29,36 @@
   "gallery_heading": "De nuestra cocina",
   "photos": [
     {
-      "image": "",
+      "image": "images/food-rice-table.jpg",
       "caption": "rijsttafel indonesia"
     },
     {
-      "image": "",
-      "caption": "clásico francés"
+      "image": "images/food-satay.jpg",
+      "caption": "satay"
     },
     {
-      "image": "",
-      "caption": "pasta"
+      "image": "images/food-flatbread.jpg",
+      "caption": "carne desmechada sobre pan plano"
     },
     {
-      "image": "",
-      "caption": "curry tailandés"
+      "image": "images/food-burrata.jpg",
+      "caption": "burrata"
+    },
+    {
+      "image": "images/food-steak.jpg",
+      "caption": "filete con espárragos"
+    },
+    {
+      "image": "images/food-prawn.jpg",
+      "caption": "gamba"
+    },
+    {
+      "image": "images/food-oysters.jpg",
+      "caption": "ostras"
+    },
+    {
+      "image": "images/food-chocolate.jpg",
+      "caption": "postre de chocolate"
     }
   ],
   "prices_heading": "Recetas y precios",

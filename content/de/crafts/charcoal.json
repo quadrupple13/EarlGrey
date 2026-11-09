@@ -29,20 +29,20 @@
   "gallery_heading": "Aus dem Skizzenbuch",
   "photos": [
     {
-      "image": "",
-      "caption": "Porträt"
+      "image": "images/drawing-wolf.jpg",
+      "caption": "Wolf"
     },
     {
-      "image": "",
-      "caption": "Tier"
+      "image": "images/drawing-cowboy.jpg",
+      "caption": "der Cowboy"
     },
     {
-      "image": "",
-      "caption": "Berge"
+      "image": "images/drawing-tree.jpg",
+      "caption": "der alte Baum"
     },
     {
-      "image": "",
-      "caption": "Stillleben"
+      "image": "images/drawing-lettering.jpg",
+      "caption": "Old-School-Schrift"
     }
   ],
   "prices_heading": "Formate & Preise",

@@ -29,20 +29,36 @@
   "gallery_heading": "From our kitchen",
   "photos": [
     {
-      "image": "",
+      "image": "images/food-rice-table.jpg",
       "caption": "rice table"
     },
     {
-      "image": "",
-      "caption": "French classic"
+      "image": "images/food-satay.jpg",
+      "caption": "satay"
     },
     {
-      "image": "",
-      "caption": "pasta"
+      "image": "images/food-flatbread.jpg",
+      "caption": "pulled meat on flatbread"
     },
     {
-      "image": "",
-      "caption": "Thai curry"
+      "image": "images/food-burrata.jpg",
+      "caption": "burrata"
+    },
+    {
+      "image": "images/food-steak.jpg",
+      "caption": "steak with asparagus"
+    },
+    {
+      "image": "images/food-prawn.jpg",
+      "caption": "king prawn"
+    },
+    {
+      "image": "images/food-oysters.jpg",
+      "caption": "oysters"
+    },
+    {
+      "image": "images/food-chocolate.jpg",
+      "caption": "chocolate dessert"
     }
   ],
   "prices_heading": "Recipes & prices",

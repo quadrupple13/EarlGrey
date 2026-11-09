@@ -29,20 +29,20 @@
   "gallery_heading": "Uit het schetsboek",
   "photos": [
     {
-      "image": "",
-      "caption": "portret"
+      "image": "images/drawing-wolf.jpg",
+      "caption": "wolf"
     },
     {
-      "image": "",
-      "caption": "dier"
+      "image": "images/drawing-cowboy.jpg",
+      "caption": "de cowboy"
     },
     {
-      "image": "",
-      "caption": "bergen"
+      "image": "images/drawing-tree.jpg",
+      "caption": "de oude boom"
     },
     {
-      "image": "",
-      "caption": "stilleven"
+      "image": "images/drawing-lettering.jpg",
+      "caption": "Old School-letters"
     }
   ],
   "prices_heading": "Formaten & prijzen",
