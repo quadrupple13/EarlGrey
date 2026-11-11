@@ -60,6 +60,15 @@
     out += '<div class="slot"><blockquote class="paper dark quote" style="transform:rotate(-0.5deg)">' + noise(99) + '<p class="f-label">' + h(q.label) + '</p><p class="q">' + br(q.text) + '</p><p class="f-brand w">' + h(q.word) + '</p></blockquote></div>';
     out += '</div></div>';
 
+    // playlist
+    var pl = d.playlist;
+    if (pl && pl.spotify_id) {
+      out += '<section class="playlist"><p class="f-label accent">' + h(pl.label) + '</p><h2 class="f-head">' + h(pl.title) + '</h2>';
+      if (pl.by) out += '<p class="f-hand sub">' + h(pl.by) + '</p>';
+      if (pl.text) out += '<p class="pl-text">' + h(pl.text) + '</p>';
+      out += '<iframe class="spotify" title="Spotify: ' + h(pl.title) + '" src="https://open.spotify.com/embed/playlist/' + encodeURIComponent(pl.spotify_id) + '?utm_source=generator&theme=0" width="100%" height="380" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></section>';
+    }
+
     // contact
     var ct = d.contact;
     out += '<div class="band" style="padding-bottom:72px"><div class="band-inner"><p class="f-label accent">' + h(ct.label) + '</p><h2 class="f-head">' + h(ct.heading) + '</h2><p class="lead">' + br(ct.text) + '</p>';
@@ -105,6 +114,12 @@
     });
 
     // Craft pages open on top of this page (in a frame), so the music keeps playing.
+    window.addEventListener('blur', function () {
+      setTimeout(function () {
+        var a = document.activeElement;
+        if (a && a.classList && a.classList.contains('spotify') && !song.paused) { song.pause(); txt.textContent = d.song_button; btn.setAttribute('aria-label', 'Play our song'); }
+      }, 0);
+    });
     var frame = null, fadeT = null;
     function fadeTo(v) {
       clearInterval(fadeT);

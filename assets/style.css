@@ -227,3 +227,8 @@ footer.site .f-brand{font-size:24px;color:#F2EBDD}
 .brandrow{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
 .brandrow figure{margin:0;width:min(260px,41vw)}
 .brandrow img{display:block;width:100%;height:auto;border-radius:6px;box-shadow:0 10px 22px rgba(30,15,5,.3)}
+.playlist{max-width:720px;margin:0 auto;padding:64px 20px 24px;text-align:center}
+.playlist h2{margin:6px 0 4px}
+.playlist .sub{font-size:24px;margin:0 0 6px}
+.playlist .pl-text{margin:0 0 20px}
+.playlist .spotify{display:block;border:0;border-radius:14px;box-shadow:0 14px 30px rgba(30,15,5,.3);background:#2b1e16}

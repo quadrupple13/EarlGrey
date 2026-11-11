@@ -235,5 +235,12 @@
     "scroll": "Scroll",
     "photo": "PHOTO",
     "lang": "Language"
+  },
+  "playlist": {
+    "label": "Our playlist",
+    "title": "“Cowboys on the road”",
+    "by": "by Chloe",
+    "text": "Put it on and hit the road.",
+    "spotify_id": "6LkR8jw6H0F4ZPA5dW7s0D"
   }
 }

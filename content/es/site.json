@@ -235,5 +235,12 @@
     "scroll": "Desliza",
     "photo": "FOTO",
     "lang": "Idioma"
+  },
+  "playlist": {
+    "label": "Nuestra lista",
+    "title": "“Cowboys on the road”",
+    "by": "seleccionada por Chloe",
+    "text": "Ponla y sal a la carretera.",
+    "spotify_id": "6LkR8jw6H0F4ZPA5dW7s0D"
   }
 }

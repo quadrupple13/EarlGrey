@@ -235,5 +235,12 @@
     "scroll": "Scroll",
     "photo": "FOTO",
     "lang": "Taal"
+  },
+  "playlist": {
+    "label": "Onze afspeellijst",
+    "title": "“Cowboys on the road”",
+    "by": "samengesteld door Chloe",
+    "text": "Zet hem op en ga op pad.",
+    "spotify_id": "6LkR8jw6H0F4ZPA5dW7s0D"
   }
 }
