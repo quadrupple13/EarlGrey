@@ -29,20 +29,20 @@
   "gallery_heading": "Von der Werkbank",
   "photos": [
     {
-      "image": "",
-      "caption": "restaurierte Bibel"
+      "image": "images/books-gold-tooling.jpg",
+      "caption": "Handvergoldung an der Werkbank"
     },
     {
-      "image": "",
+      "image": "images/books-half-leather.jpg",
+      "caption": "Halbleder mit Marmorpapier"
+    },
+    {
+      "image": "images/books-leather-journals.jpg",
+      "caption": "Reisetagebücher aus Leder"
+    },
+    {
+      "image": "images/books-nature-diary.jpg",
       "caption": "Naturtagebuch"
-    },
-    {
-      "image": "",
-      "caption": "Hochzeitsbuch"
-    },
-    {
-      "image": "",
-      "caption": "an der Werkbank"
     }
   ],
   "prices_heading": "Was wir machen",

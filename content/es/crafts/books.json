@@ -29,20 +29,20 @@
   "gallery_heading": "Desde el banco de trabajo",
   "photos": [
     {
-      "image": "",
-      "caption": "Biblia restaurada"
+      "image": "images/books-gold-tooling.jpg",
+      "caption": "dorado a mano en el banco de trabajo"
     },
     {
-      "image": "",
-      "caption": "diario de naturaleza"
+      "image": "images/books-half-leather.jpg",
+      "caption": "media piel con papel marmoleado"
     },
     {
-      "image": "",
-      "caption": "libro de boda"
+      "image": "images/books-leather-journals.jpg",
+      "caption": "diarios de viaje de cuero"
     },
     {
-      "image": "",
-      "caption": "en el banco de trabajo"
+      "image": "images/books-nature-diary.jpg",
+      "caption": "diario de la naturaleza"
     }
   ],
   "prices_heading": "Lo que hacemos",

@@ -29,20 +29,20 @@
   "gallery_heading": "De l'établi",
   "photos": [
     {
-      "image": "",
-      "caption": "Bible restaurée"
+      "image": "images/books-gold-tooling.jpg",
+      "caption": "dorure à l'atelier"
     },
     {
-      "image": "",
-      "caption": "journal nature"
+      "image": "images/books-half-leather.jpg",
+      "caption": "demi-cuir et papier marbré"
     },
     {
-      "image": "",
-      "caption": "livre de mariage"
+      "image": "images/books-leather-journals.jpg",
+      "caption": "carnets de voyage en cuir"
     },
     {
-      "image": "",
-      "caption": "à l'établi"
+      "image": "images/books-nature-diary.jpg",
+      "caption": "carnet nature"
     }
   ],
   "prices_heading": "Ce que nous faisons",

@@ -29,20 +29,20 @@
   "gallery_heading": "Van de werkbank",
   "photos": [
     {
-      "image": "",
-      "caption": "gerestaureerde Bijbel"
+      "image": "images/books-gold-tooling.jpg",
+      "caption": "goud op leer aan de werkbank"
     },
     {
-      "image": "",
+      "image": "images/books-half-leather.jpg",
+      "caption": "half leer met marmerpapier"
+    },
+    {
+      "image": "images/books-leather-journals.jpg",
+      "caption": "leren reisdagboeken"
+    },
+    {
+      "image": "images/books-nature-diary.jpg",
       "caption": "natuurdagboek"
-    },
-    {
-      "image": "",
-      "caption": "trouwboek"
-    },
-    {
-      "image": "",
-      "caption": "aan de werkbank"
     }
   ],
   "prices_heading": "Wat we maken",

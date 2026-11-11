@@ -29,20 +29,20 @@
   "gallery_heading": "From the workbench",
   "photos": [
     {
-      "image": "",
-      "caption": "restored Bible"
+      "image": "images/books-gold-tooling.jpg",
+      "caption": "gold tooling at the workbench"
     },
     {
-      "image": "",
+      "image": "images/books-half-leather.jpg",
+      "caption": "half leather with marbled paper"
+    },
+    {
+      "image": "images/books-leather-journals.jpg",
+      "caption": "leather travel journals"
+    },
+    {
+      "image": "images/books-nature-diary.jpg",
       "caption": "nature diary"
-    },
-    {
-      "image": "",
-      "caption": "wedding book"
-    },
-    {
-      "image": "",
-      "caption": "at the workbench"
     }
   ],
   "prices_heading": "What we make",
